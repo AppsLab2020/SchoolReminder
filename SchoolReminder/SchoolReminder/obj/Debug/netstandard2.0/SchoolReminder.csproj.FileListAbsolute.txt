@@ -5,7 +5,6 @@ C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\bin\Deb
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\SchoolReminder.csprojAssemblyReference.cache
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
-C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
@@ -17,3 +16,4 @@ C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Deb
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\SchoolReminder.dll
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\ref\SchoolReminder.dll
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\SchoolReminder.pdb
+C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\TimeTablePage.xaml.g.cs

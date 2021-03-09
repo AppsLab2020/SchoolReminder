@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder.Android\\SchoolReminder.Android.csproj": {}
+    "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder.Android\\SchoolReminder.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder.Android\\SchoolReminder.Android.csproj": {
+    "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder.Android\\SchoolReminder.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder.Android\\SchoolReminder.Android.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder.Android\\SchoolReminder.Android.csproj",
         "projectName": "SchoolReminder.Android",
-        "projectPath": "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder.Android\\SchoolReminder.Android.csproj",
+        "projectPath": "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder.Android\\SchoolReminder.Android.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder.Android\\obj\\",
+        "outputPath": "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj": {
-                "projectPath": "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj"
+              "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj": {
+                "projectPath": "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj": {
+    "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
         "projectName": "SchoolReminder",
-        "projectPath": "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
+        "projectPath": "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder\\obj\\",
+        "outputPath": "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

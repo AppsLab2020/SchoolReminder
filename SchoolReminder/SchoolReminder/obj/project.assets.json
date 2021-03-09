@@ -637,11 +637,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\Source\\Repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
       "projectName": "SchoolReminder",
-      "projectPath": "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
+      "projectPath": "C:\\Users\\micha\\Source\\Repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder\\obj\\",
+      "outputPath": "C:\\Users\\micha\\Source\\Repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

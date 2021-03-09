@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lpch7ifst3EJpnjRepq2kvQ9wgf8pTX10HvebHYA2xZ7Co8zy6U2I0CaHUzCGBIY1HisL0b2MP0F1YtnC2207w==",
+  "dgSpecHash": "V+sLAiKiUFGEk2YFqQcL54wbmXqCWGuJ0LpH4QhfW38BNcdI17LJasLh6E54SK75g8iH4T9nXtK5CVQDYlAvhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\micha\\Source\\Repos\\AppsLab2020\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
+  "projectFilePath": "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

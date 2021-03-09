@@ -493,3 +493,4 @@ C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder.Android
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder.Android\obj\Debug\90\res\drawable\icon_rozvrh.png
