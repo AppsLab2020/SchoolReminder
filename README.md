@@ -19,3 +19,10 @@ Budú v ňom prekliky na Rozvrhy, kalendár, prehľad notifikácií a nastavenia
 
 ![Snímka obrazovky 2021-03-07 190315](https://user-images.githubusercontent.com/71751291/110250172-3e20b280-7f7a-11eb-97c2-94f9affba8a7.png)
 
+# 7.3.2021 Exitbox
+Pracovali sme na vytvorení funkcie exitbox, ktorá nám pred opustením aplikácie vyšle vyskakovacie okno, ktoré sa opýta či chceme appku naozaj opustiť
+8.3.2021 [Martin] Našiel som bugy takže ich budeme musieť opraviť. Funkcia sa spúšťa na pagoch na ktorých nemá.
+
+9.![158615557_898242674327325_6461151142585880440_n](https://user-images.githubusercontent.com/71751291/110286645-9214b100-7fe5-11eb-97c2-882a021b7c1d.jpg)
+
+
