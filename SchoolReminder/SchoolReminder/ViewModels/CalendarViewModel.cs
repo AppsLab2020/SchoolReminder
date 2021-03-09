@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace SchoolReminder.ViewModels
 {
-    public class ItemsViewModel : BaseViewModel
+    public class CalendarViewModel : BaseViewModel
     {
         private Item _selectedItem;
 
@@ -17,7 +17,7 @@ namespace SchoolReminder.ViewModels
         public Command AddItemCommand { get; }
         public Command<Item> ItemTapped { get; }
 
-        public ItemsViewModel()
+        public CalendarViewModel()
         {
             Title = "Browse";
             Items = new ObservableCollection<Item>();

@@ -12,15 +12,15 @@ using Xamarin.Forms.Xaml;
 
 namespace SchoolReminder.Views
 {
-    public partial class ItemsPage : ContentPage
+    public partial class CalendarPage : ContentPage
     {
-        ItemsViewModel _viewModel;
+        CalendarViewModel _viewModel;
 
-        public ItemsPage()
+        public CalendarPage()
         {
             InitializeComponent();
 
-            BindingContext = _viewModel = new ItemsViewModel();
+            BindingContext = _viewModel = new CalendarViewModel();
         }
 
         protected override void OnAppearing()
