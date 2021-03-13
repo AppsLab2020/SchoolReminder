@@ -515,3 +515,4 @@ C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder.Android
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder.Android\obj\Debug\90\android\src\crc640f9a3bf7250ef269\ScheduledAlarmHandler.java
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder.Android\obj\Debug\90\res\drawable\icon_notification.png
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder.Android\obj\Debug\90\android\src\crc640e13d43c406d292b\SplashActivity.java
+C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder.Android\obj\Debug\90\res\drawable\icon_appv.png

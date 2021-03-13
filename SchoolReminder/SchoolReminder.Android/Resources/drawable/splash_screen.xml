@@ -5,7 +5,7 @@
 	</item>
 	<item>
 		<bitmap
-            android:src="@drawable/icon_app"
+            android:src="@drawable/icon_appv"
             android:tileMode="disabled"
             android:gravity="fill"
 			android:width="10dp"

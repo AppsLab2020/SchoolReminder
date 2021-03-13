@@ -6,7 +6,7 @@
 
 	<style name="Theme.Splash"
            parent="android:Theme">
-		<item name="android:windowBackground">@drawable/icon_app</item>
+		<item name="android:windowBackground">@drawable/icon_appv</item>
 		<item name="android:windowNoTitle">true</item>
 	</style>
 
