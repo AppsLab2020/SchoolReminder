@@ -2,6 +2,7 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:SchoolReminder.Views"
+       xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar"
        Title="SchoolReminder"
        x:Class="SchoolReminder.AppShell">
 
@@ -84,11 +85,13 @@
         <ShellContent Route="TimeTablePage" ContentTemplate="{DataTemplate local:TimeTablePage}" />
     </FlyoutItem>
     <FlyoutItem Title="Kalendár" Icon="icon_calendar.png">
-        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:CalendarPage}" />
+        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" />
     </FlyoutItem>
-
+    <FlyoutItem Title="Notifikácie" Icon="icon_notification.png">
+        <ShellContent Route="NotificationPage" ContentTemplate="{DataTemplate local:NotificationPage}" />
+    </FlyoutItem>
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
-    <MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    <MenuItem>
     </MenuItem>
 
     <!--
@@ -99,7 +102,7 @@
         await Shell.Current.GoToAsync("//LoginPage");
     -->
     <TabBar>
-        <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
+        
     </TabBar>
 
     <!-- Optional Templates 

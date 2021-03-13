@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -6,13 +6,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />  
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <None Remove="Views\SplashPage.xml" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Views\CalendarPage.xaml.cs">
-      <DependentUpon>CalendarPage.xaml</DependentUpon>
+    <PackageReference Include="Xam.Plugins.Notifier" Version="3.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />  
+    <PackageReference Include="XamForms.Controls.Calendar" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\ItemsPage.xaml.cs">
+      <DependentUpon>ItemsPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\TimeTablePage.xaml.cs">
       <DependentUpon>TimeTablePage.xaml</DependentUpon>

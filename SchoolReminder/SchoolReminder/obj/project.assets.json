@@ -35,6 +35,17 @@
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
         }
       },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.LocalNotifications.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
@@ -62,6 +73,18 @@
         "build": {
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "XamForms.Controls.Calendar/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/XamForms.Controls.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/XamForms.Controls.Calendar.dll": {}
         }
       }
     }
@@ -256,6 +279,41 @@
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Xam.Plugins.Notifier/3.0.1": {
+      "sha512": "QH/+zX9w/hMg1AOAj+a62cIJIqd4tSOSBnGGprHIhfJWHG+v+P6VvIqZSTr9z1dZDd2JfhA7Iz2KGBr4MJ2lOQ==",
+      "type": "package",
+      "path": "xam.plugins.notifier/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.XML",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.dll",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.pdb",
+        "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/UAP10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/UAP10/Plugin.LocalNotifications.XML",
+        "lib/UAP10/Plugin.LocalNotifications.dll",
+        "lib/UAP10/Plugin.LocalNotifications.pdb",
+        "lib/UAP10/Plugin.LocalNotifications.pri",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.dll",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.xml",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.XML",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.LocalNotifications.deps.json",
+        "lib/netstandard1.0/Plugin.LocalNotifications.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.xml",
+        "xam.plugins.notifier.3.0.1.nupkg.sha512",
+        "xam.plugins.notifier.nuspec"
       ]
     },
     "Xamarin.Essentials/1.5.3.2": {
@@ -621,11 +679,37 @@
         "xamarin.forms.4.8.0.1451.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "XamForms.Controls.Calendar/1.1.1": {
+      "sha512": "GCydwm9HO+8V4iGVsGJZtnHJaqIpjas40BSRU+T7lIM7E4nZ7pOn2Ifzu0Y6MLrZJuqCHFeroOWjJSfOjZIyyw==",
+      "type": "package",
+      "path": "xamforms.controls.calendar/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/XamForms.Controls.Calendar.Droid.dll",
+        "lib/MonoAndroid10/XamForms.Controls.Calendar.dll",
+        "lib/MonoTouch10/XamForms.Controls.Calendar.dll",
+        "lib/MonoTouch10/XamForms.Controls.Calendar.iOS.dll",
+        "lib/UAP10/XamForms.Controls.Calendar.UWP.dll",
+        "lib/UAP10/XamForms.Controls.Calendar.dll",
+        "lib/Xamarin.iOS10/XamForms.Controls.Calendar.dll",
+        "lib/Xamarin.iOS10/XamForms.Controls.Calendar.iOS.dll",
+        "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/XamForms.Controls.Calendar.dll",
+        "lib/win81/XamForms.Controls.Calendar.Windows.dll",
+        "lib/win81/XamForms.Controls.Calendar.dll",
+        "lib/wpa81/XamForms.Controls.Calendar.WinPhone.dll",
+        "lib/wpa81/XamForms.Controls.Calendar.dll",
+        "xamforms.controls.calendar.1.1.1.nupkg.sha512",
+        "xamforms.controls.calendar.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "Xam.Plugins.Notifier >= 3.0.1",
+      "XamForms.Controls.Calendar >= 1.1.1",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.8.0.1451"
     ]
@@ -637,11 +721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\Source\\Repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
       "projectName": "SchoolReminder",
-      "projectPath": "C:\\Users\\micha\\Source\\Repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
+      "projectPath": "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\SchoolReminder.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\Source\\Repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\obj\\",
+      "outputPath": "C:\\Users\\micha\\source\\repos\\SchoolReminder\\SchoolReminder\\SchoolReminder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -680,6 +764,14 @@
             "version": "[2.0.3, )",
             "autoReferenced": true
           },
+          "Xam.Plugins.Notifier": {
+            "target": "Package",
+            "version": "[3.0.1, )"
+          },
+          "XamForms.Controls.Calendar": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.5.3.2, )"
@@ -702,5 +794,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'XamForms.Controls.Calendar 1.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "XamForms.Controls.Calendar",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

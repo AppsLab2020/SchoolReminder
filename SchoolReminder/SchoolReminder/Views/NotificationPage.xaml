@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SchoolReminder.Views.NotificationPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label x:Name="nadpisntf" Text="Nadpis Notifikácie"></Label>
+            <Entry x:Name="nadpis"/>
+                <Label x:Name="obsahntf" Text="Obsah Notifikácie"></Label>
+               <Entry x:Name="obsah"/>
+            <Button x:Name="notifiCreate" Text="Vytvor Notifikáciu" Clicked="Button_Clicked" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

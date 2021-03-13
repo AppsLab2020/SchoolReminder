@@ -4,6 +4,8 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "SchoolReminder.Android.dll" comes first in this list. */
 		"SchoolReminder.Android.dll",
 		"FormsViewGroup.dll",
+		"Plugin.LocalNotifications.Abstractions.dll",
+		"Plugin.LocalNotifications.dll",
 		"SchoolReminder.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
@@ -47,6 +49,8 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"XamForms.Controls.Calendar.dll",
+		"XamForms.Controls.Calendar.Droid.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};
