@@ -9,8 +9,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/AppsLab2020/SchoolReminder/SchoolReminder/SchoolReminder.Android/Resources/drawable/icon_app.png>
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/AppsLab2020/SchoolReminder/SchoolReminder>
+    <img src="SchoolReminder.Android/Resources/drawable/icon_app.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">SchoolReminder</h3>
