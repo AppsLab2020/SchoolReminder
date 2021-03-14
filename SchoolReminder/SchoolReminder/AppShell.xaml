@@ -90,7 +90,11 @@
     <FlyoutItem Title="Notifikácie" Icon="icon_notification.png">
         <ShellContent Route="NotificationPage" ContentTemplate="{DataTemplate local:NotificationPage}" />
     </FlyoutItem>
-    <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
+    <FlyoutItem Title="Poznámky" Icon="icon_notes.png">
+        <ShellContent Route="NotesPage" ContentTemplate="{DataTemplate local:NotesPage}" />
+    </FlyoutItem>
+    <!-- When the Flyo
+    ut is visible this will be a menu item you can tie a click behavior to  -->
     <MenuItem>
     </MenuItem>
 
@@ -102,7 +106,6 @@
         await Shell.Current.GoToAsync("//LoginPage");
     -->
     <TabBar>
-        
     </TabBar>
 
     <!-- Optional Templates 
