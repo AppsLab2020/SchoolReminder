@@ -3,6 +3,9 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
+
+
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -10,7 +13,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">SchoolReminder
+  <h3 align="center">SchoolReminder</h3>
 
   <p align="center">
     project_description
