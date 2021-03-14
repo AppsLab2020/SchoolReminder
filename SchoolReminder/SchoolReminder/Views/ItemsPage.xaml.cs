@@ -28,5 +28,16 @@ namespace SchoolReminder.Views
             base.OnAppearing();
             _viewModel.OnAppearing();
         }
+
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var result = await this.DisplayAlert("Alert!", "Určite chceš ukončiť aplikáciu?", "Áno", "Nie");
+                if (result) await this.Navigation.PopAsync();
+            });
+
+            return true;
+        }
     }
 }

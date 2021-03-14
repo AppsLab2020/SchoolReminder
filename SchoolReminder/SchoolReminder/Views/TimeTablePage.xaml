@@ -4,5 +4,532 @@
              x:Class="SchoolReminder.Views.TimeTablePage"
              xmlns:vm="clr-namespace:SchoolReminder.ViewModels"
              Title="{Binding Title}">
-   
+
+    <Grid RowSpacing="1"
+          ColumnSpacing="1" FlowDirection="LeftToRight" HeightRequest="-1" HorizontalOptions="Fill" Margin="10,30,10,300" BackgroundColor="#330670">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <!--DNI-->
+        <BoxView Color="#69369e" />
+        <Label Text="Pon"
+               TextColor="#191919"
+               FontAttributes="Bold"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="1"  
+               Color="#69369e" />
+        <Label Grid.Row="1"
+               Text="Utr"
+               TextColor="#191919"
+               FontAttributes="Bold"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="2"
+                 Color="#69369e" />
+        <Label Grid.Row="2"
+               Text="Str"
+               TextColor="#191919"
+               FontAttributes="Bold"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="3"
+                 Color="#69369e" />
+        <Label Grid.Row="3"
+               Text="Štv"
+               TextColor="#191919"
+               FontAttributes="Bold"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="4"
+                 Color="#69369e" />
+        <Label Grid.Row="4"
+               Text="Pia"
+               TextColor="#191919"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+
+
+        <!--1.hodina-->
+
+        <BoxView Grid.Column="1"
+                 Color="#656565" />
+        <Label  Grid.Column="1"
+               Text="SJL"
+                TextColor="white"
+                FontAttributes="Bold"
+                FontSize="Medium"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="1"
+                 Grid.Column="1"
+                 Color="#656565" />
+        <Label Grid.Row="1"
+               Grid.Column="1"
+               Text="SJL"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="1"
+                 Color="#656565" />
+        <Label Grid.Row="2"
+               Grid.Column="1"
+               Text="SJL"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="1"
+                 Color="#656565" />
+        <Label Grid.Row="3"
+               Grid.Column="1"
+               Text="SJL"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="4"
+                 Grid.Column="1"
+                 Color="#656565" />
+        <Label Grid.Row="4"
+               Grid.Column="1"
+               Text="SJL"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <!--2.hodina-->
+
+        <BoxView Grid.Column="2"
+                 Color="#656565" />
+        <Label Grid.Column="2"
+               Text="MAT"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="1"
+                 Grid.Column="2"
+                 Color="#656565" />
+        <Label Grid.Row="1"
+               Grid.Column="2"
+               Text="MAT"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="2"
+                 Color="#656565" />
+        <Label Grid.Row="2"
+               Grid.Column="2"
+               Text="MAT"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="2"
+                 Color="#656565" />
+        <Label Grid.Row="3"
+               Grid.Column="2"
+               Text="MAT"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <BoxView Grid.Row="4"
+                 Grid.Column="2"
+                 Color="#656565" />
+        <Label Grid.Row="4"
+               Grid.Column="2"
+               Text="MAT"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <!--3.hodina-->
+
+        <BoxView
+                 Grid.Column="3"
+                 Color="#656565" />
+        <Label
+               Grid.Column="3"
+               Text="ANJ"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <BoxView Grid.Row="1"
+                 Grid.Column="3"
+                 Color="#656565" />
+        <Label Grid.Row="1"
+               Grid.Column="3"
+               Text="ANJ"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="3"
+                 Color="#656565" />
+        <Label Grid.Row="2"
+               Grid.Column="3"
+               Text="ANJ"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="3"
+                 Color="#656565" />
+        <Label Grid.Row="3"
+               Grid.Column="3"
+               Text="ANJ"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <BoxView Grid.Row="4"
+                 Grid.Column="3"
+                 Color="#656565" />
+        <Label Grid.Row="4"
+               Grid.Column="3"
+               Text="ANJ"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <!--4.hodina-->
+
+        <BoxView 
+                 Grid.Column="4"
+                 Color="#656565" />
+        <Label 
+               Grid.Column="4"
+               Text="DEJ"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <BoxView Grid.Row="1"
+                 Grid.Column="4"
+                 Color="#656565" />
+        <Label Grid.Row="1"
+               Grid.Column="4"
+               Text="DEJ"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="4"
+                 Color="#656565" />
+        <Label Grid.Row="2"
+               Grid.Column="4"
+               Text="DEJ"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="4"
+                 Color="#656565" />
+        <Label Grid.Row="3"
+               Grid.Column="4"
+               Text="DEJ"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <BoxView Grid.Row="4"
+                 Grid.Column="4"
+                 Color="#656565" />
+        <Label Grid.Row="4"
+               Grid.Column="4"
+               Text="DEJ"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <!--5.hodina-->
+        <BoxView 
+                 Grid.Column="5"
+                 Color="#656565" />
+        <Label 
+               Grid.Column="5"
+               Text="PRO"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="1"
+                 Grid.Column="5"
+                 Color="#656565" />
+        <Label Grid.Row="1"
+               Grid.Column="5"
+               Text="PRO"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="5"
+                 Color="#656565" />
+        <Label Grid.Row="2"
+               Grid.Column="5"
+               Text="PRO"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="5"
+                 Color="#656565" />
+        <Label Grid.Row="3"
+               Grid.Column="5"
+               Text="PRO"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <BoxView Grid.Row="4"
+                 Grid.Column="5"
+                 Color="#656565" />
+        <Label Grid.Row="4"
+               Grid.Column="5"
+               Text="PRO"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <!--6.hodina-->
+
+
+        <BoxView 
+                 Grid.Column="6"
+                 Color="#656565" />
+        <Label 
+               Grid.Column="6"
+               Text="SWE"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="1"
+                 Grid.Column="6"
+                 Color="#656565" />
+        <Label Grid.Row="1"
+               Grid.Column="6"
+               Text="SWE"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="6"
+                 Color="#656565" />
+        <Label Grid.Row="2"
+               Grid.Column="6"
+               Text="SWE"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="6"
+                 Color="#656565" />
+        <Label Grid.Row="3"
+               Grid.Column="6"
+               Text="SWE"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="4"
+                 Grid.Column="6"
+                 Color="#656565" />
+        <Label Grid.Row="4"
+               Grid.Column="6"
+               Text="SWE"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+        <!--7.hodina-->
+
+
+        <BoxView 
+                 Grid.Column="7"
+                 Color="#656565" />
+        <Label 
+               Grid.Column="7"
+               Text="COW"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="1"
+                 Grid.Column="7"
+                 Color="#656565" />
+        <Label Grid.Row="1"
+               Grid.Column="7"
+               Text="COW"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="7"
+                 Color="#656565" />
+        <Label Grid.Row="2"
+               Grid.Column="7"
+               Text="COW"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="7"
+                 Color="#656565" />
+        <Label Grid.Row="3"
+               Grid.Column="7"
+               Text="COW"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+        <BoxView Grid.Row="4"
+                 Grid.Column="7"
+                 Color="#656565" />
+        <Label Grid.Row="4"
+               Grid.Column="7"
+               Text="COW"
+               TextColor="white"
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+    </Grid>
+
 </ContentPage>
