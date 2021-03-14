@@ -14,6 +14,7 @@
   <li><a href="#poznamky">Poznámky</a></li>
   <li><a href="#nastavenia">Nastavenia</a></li>
   <li><a href="#exitbox">ExitBox</a></li>
+  <li><a href="#beta">Beta info</a></li>
  </ul>
 </nav>
 
@@ -63,3 +64,21 @@
 <p></p>
 <img src="https://github.com/AppsLab2020/SchoolReminder/blob/main/images/exitbox.png"></img>
  </section>
+ <section id="beta">
+<h2 align="center">Beta Version 1.0.0<h2>
+ <p>Chceli sme stihnúť:</p>
+ <ul>
+  <li>Počiatočný vzhľad na rozvrh</li>
+  <li>Kalendár</li>
+  <li>Funkčné menu</li>
+  <li>Funkcia ExitBox</li>
+  <li>Vytvoriť databázy</li>
+  <li>Urobiť začiatočné notifikácie</li>
+  <li>Rozmyslieť si dizajn aplikácie</li>
+ </ul>
+ <h3 align="center">Ako sa nám darilo?</h3>
+ <p align="center">
+  Z bodov vyššie sa nám podarilo dosiahnúť tak 80%. Podcenili sme určité funkcie, ale nahradili ich inými. Do budúceho dema, chceme doplniť zvyšné body, ktoré sme nespravili a 
+  pridať ďalšie. Pridať by sme chceli nastavenia, zlepšiť notifikácie, pridať k notifikáciam databázu. Tak isto chceme pridať viac možností rozvrhu.
+  </section
+ </p>
