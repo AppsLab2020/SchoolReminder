@@ -1,28 +1,181 @@
-# SchoolReminder
+<!--
 
-Appka bude mať za úlohu pripomínať veci do školy. Po nainštalovaní aplikácie si vytvoríme svoj školský rozvrh a doňho budeme môcť vkladať notifikácie ktoré sa nám zobrazia v nami určený deň a čas. Taktiež sa nemusíme fixovať na rozvrh ale môžeme si značiť napríklad mimoškolské aktivity do kalendára, ktorý bude appka obsahovať. V aplikácii sa bude nachádzať prehľad rozvrhu, najbližších udalostí, ktoré prídu a taktiež možnosť mať viac rozvrhov medzi ktorými sa bude dať prepínať.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-# Rozvrh
-
-bude sa skladať z:
--rozbaľovacieho okienka, v ktorom sa budú nachádzať všetky rozvrhy, ktoré vytvoríme(napr. jeden na dištančné, jeden na prezenčné vyučovanie)
--samotného rozvrhu, ktorý bude v danom okienku zaznačený
--tabuľka najbližších notifikácii, ktoré boli nastavené
-
-
-![Snímka obrazovky 2021-03-07 190334](https://user-images.githubusercontent.com/71751291/110249866-a2db0d80-7f78-11eb-8a82-6cc2f869ca40.png)
-
-# Menu
-
-Menu bude flyout-ové, čiže sa bude dať hocikedy otvoriť z boku appky
-Budú v ňom prekliky na Rozvrhy, kalendár, prehľad notifikácií a nastavenia
-
-![Snímka obrazovky 2021-03-07 190315](https://user-images.githubusercontent.com/71751291/110250172-3e20b280-7f7a-11eb-97c2-94f9affba8a7.png)
-
-# 7.3.2021 Exitbox
-Pracovali sme na vytvorení funkcie exitbox, ktorá nám pred opustením aplikácie vyšle vyskakovacie okno, ktoré sa opýta či chceme appku naozaj opustiť
-8.3.2021 [Martin] Našiel som bugy takže ich budeme musieť opraviť. Funkcia sa spúšťa na pagoch na ktorých nemá.
-
-9.![158615557_898242674327325_6461151142585880440_n](https://user-images.githubusercontent.com/71751291/110286645-9214b100-7fe5-11eb-97c2-882a021b7c1d.jpg)
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/AppsLab2020/schoolreminder/schoolreminder/schoolreminder/schoolreminder.android/resources/drawable/icon_app.png>
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">project_title</h3>
+
+  <p align="center">
+    project_description
+    <br />
+    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+  </p>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+Here's a blank template to get started:
+**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
+`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+
+
+### Built With
+
+* []()
+* []()
+* []()
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+
+Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+* []()
+* []()
+* []()
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/github_username/repo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/github_username/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/github_username/repo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/github_username/repo/issues
+[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
+[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/github_username
