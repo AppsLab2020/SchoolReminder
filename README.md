@@ -79,6 +79,6 @@
  <h3 align="center">Ako sa nám darilo?</h3>
  <p align="center">
   Z bodov vyššie sa nám podarilo dosiahnúť tak 80%. Podcenili sme určité funkcie, ale nahradili ich inými. Do budúceho dema, chceme doplniť zvyšné body, ktoré sme nespravili a 
-  pridať ďalšie. Pridať by sme chceli nastavenia, zlepšiť notifikácie, pridať k notifikáciam databázu. Tak isto chceme pridať viac možností rozvrhu.
+  pridať ďalšie. Pridať by sme chceli nastavenia, zlepšiť notifikácie, pridať k notifikáciam databázu. Tak isto chceme pridať viac možností rozvrhu...
   </section
  </p>
