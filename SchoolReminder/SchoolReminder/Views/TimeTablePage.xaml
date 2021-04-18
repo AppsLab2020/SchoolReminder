@@ -84,7 +84,8 @@
 
         <BoxView Grid.Column="1"
                  Color="#656565" />
-        <Label  Grid.Column="1"
+        <Label x:Name="Pondelok1"
+            Grid.Column="1"
                Text="SJL"
                 TextColor="white"
                 FontAttributes="Bold"

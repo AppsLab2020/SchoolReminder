@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SchoolReminder.Views.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Uložiť"
+                    x:Name="SaveButton"
+                    Clicked="SaveButton_Clicked"/>
+            <Entry x:Name="Pon1"
+                  Placeholder="Pon1"/>
+
+            <Entry x:Name="Pon2"
+                  Placeholder="Pon2"/>
+
+            <Entry x:Name="Pon3"
+                  Placeholder="Pon3"/>
+
+            <Entry x:Name="Pon4"
+                  Placeholder="Pon4"/>
+
+            <Entry x:Name="Pon5"
+                  Placeholder="Pon5"/>
+
+            <Entry x:Name="Pon6"
+                  Placeholder="Pon6"/>
+
+            <Entry x:Name="Pon7"
+                  Placeholder="Pon7"/>
+
+            <Entry x:Name="Ut1"
+                  Placeholder="Ut1"/>
+
+            <Entry x:Name="Ut2"
+                  Placeholder="Ut2"/>
+
+            <Entry x:Name="Ut3"
+                  Placeholder="Ut3"/>
+
+            <Entry x:Name="Ut4"
+                  Placeholder="Ut4"/>
+
+            <Entry x:Name="Ut5"
+                  Placeholder="Ut5"/>
+
+            <Entry x:Name="Ut6"
+                  Placeholder="Ut6"/>
+
+            <Entry x:Name="Ut7"
+                  Placeholder="Ut7"/>
+
+            <Entry x:Name="Str1"
+                  Placeholder="Str1"/>
+
+            <Entry x:Name="Str2"
+                  Placeholder="Str2"/>
+
+            <Entry x:Name="Str3"
+                  Placeholder="Str3"/>
+
+            <Entry x:Name="Str4"
+                  Placeholder="Str4"/>
+
+            <Entry x:Name="Str5"
+                  Placeholder="Str5"/>
+
+            <Entry x:Name="Str6"
+                  Placeholder="Str6"/>
+
+            <Entry x:Name="Str7"
+                  Placeholder="Str7"/>
+
+            <Entry x:Name="Stv1"
+                  Placeholder="Stv1"/>
+
+            <Entry x:Name="Stv2"
+                  Placeholder="Stv2"/>
+
+            <Entry x:Name="Stv3"
+                  Placeholder="Stv3"/>
+
+            <Entry x:Name="Stv4"
+                  Placeholder="Stv4"/>
+
+            <Entry x:Name="Stv5"
+                  Placeholder="Stv5"/>
+
+            <Entry x:Name="Stv6"
+                  Placeholder="Stv6"/>
+
+            <Entry x:Name="Stv7"
+                  Placeholder="Stv7"/>
+
+            <Entry x:Name="Pia1"
+                  Placeholder="Pia1"/>
+
+            <Entry x:Name="Pia2"
+                  Placeholder="Pia2"/>
+
+            <Entry x:Name="Pia3"
+                  Placeholder="Pia3"/>
+
+            <Entry x:Name="Pia4"
+                  Placeholder="Pia4"/>
+
+            <Entry x:Name="Pia5"
+                  Placeholder="Pia5"/>
+
+            <Entry x:Name="Pia6"
+                  Placeholder="Pia6"/>
+
+            <Entry x:Name="Pia7"
+                  Placeholder="Pia7"/>
+ 
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

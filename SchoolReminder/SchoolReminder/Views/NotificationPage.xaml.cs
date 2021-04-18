@@ -18,15 +18,39 @@ namespace SchoolReminder.Views
             InitializeComponent();
         }
       
-
+         
         public void Button_Clicked(object sender, EventArgs e)
         {
             string a;
             a = nadpis.Text;
                 string b;
             b = obsah.Text;
-            CrossLocalNotifications.Current.Show(a,b, 5);
+            string c;
+            c = dni.Text;
+            double k;
+            k = double.Parse(c) * 3600 * 24;
 
+            string d;
+            d = hodiny.Text;
+            double h;
+            h = double.Parse(d) * 3600;
+
+
+
+            string f;
+            f = minuty.Text;
+            double i;
+            i = double.Parse(f) * 60;
+
+
+
+            string g;
+            g = sekundy.Text;
+            double j;
+            j = double.Parse(g);
+
+
+            CrossLocalNotifications.Current.Show(a, b, 5, DateTime.Now.AddSeconds(h+i+j+k));
         }
 
         protected override bool OnBackButtonPressed()

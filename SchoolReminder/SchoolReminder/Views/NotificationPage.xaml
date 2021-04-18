@@ -8,6 +8,15 @@
             <Entry x:Name="nadpis"/>
                 <Label x:Name="obsahntf" Text="Obsah Notifikácie"></Label>
                <Entry x:Name="obsah"/>
+            <Label x:Name="casikntf" Text="Upozornenie o:"/>
+            <Label x:Name="dnintf" Text="O koľko dní?"/>
+            <Entry x:Name="dni" />
+            <Label x:Name="hodinyntf" Text="O koľko hodín?"/>
+            <Entry x:Name="hodiny" />
+            <Label x:Name="minutyntf" Text="O koľko minút?"/>
+            <Entry x:Name="minuty" />
+            <Label x:Name="sekundyntf" Text="O koľko sekúnd?"/>
+            <Entry x:Name="sekundy" />
             <Button x:Name="notifiCreate" Text="Vytvor Notifikáciu" Clicked="Button_Clicked" ></Button>
         </StackLayout>
     </ContentPage.Content>

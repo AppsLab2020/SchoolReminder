@@ -4,6 +4,8 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using SchoolReminder.ViewModels;
 using SchoolReminder.Views;
+using System.IO;
+    using SQLite;
 
 namespace SchoolReminder.Views
 {
@@ -12,6 +14,10 @@ namespace SchoolReminder.Views
         public TimeTablePage()
         {
             InitializeComponent();
+        ///    using var conn = new SQLiteConnection(Path.Combine(App.FilePath, "rozvrh_db.db3"));
+           /// var enteries = conn.Table<Entries>().ToList();
+         ///   Pondelok1.Text = enteries[0].Pon1;
+
         }
 
 
