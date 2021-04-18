@@ -66,13 +66,13 @@
         <ShellContent Route="TimeTablePage" ContentTemplate="{DataTemplate local:TimeTablePage}" />
     </FlyoutItem>
     <FlyoutItem Title="Kalendár" Icon="icon_calendar.png">
-        <ShellContent Route="ItemsPage" ContentTemplate="{DataTemplate local:ItemsPage}" />
+        <ShellContent Route="CalendarPage" ContentTemplate="{DataTemplate local:CalendarPage}" />
     </FlyoutItem>
     <FlyoutItem Title="Notifikácie" Icon="icon_notification.png">
         <ShellContent Route="NotificationPage" ContentTemplate="{DataTemplate local:NotificationPage}" />
     </FlyoutItem>
     <FlyoutItem Title="Poznámky" Icon="icon_notes.png">
-        <ShellContent Route="NotesPage" ContentTemplate="{DataTemplate local:NotesPage}" />
+        <ShellContent Route="NotesListPage" ContentTemplate="{DataTemplate local:NotesListPage}" />
     </FlyoutItem>
 
     <MenuItem>

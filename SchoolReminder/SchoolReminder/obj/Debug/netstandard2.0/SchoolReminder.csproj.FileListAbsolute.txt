@@ -17,6 +17,9 @@ C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Deb
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\TimeTablePage.xaml.g.cs
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\NotificationPage.xaml.g.cs
 C:\Users\micha\source\repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
-C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\NotesPage.xaml.g.cs
 C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
-C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\NoteEntryPage.xaml.g.cs
+C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\NoteListPage.xaml.g.cs
+C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\NotePage.xaml.g.cs
+C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\NoteTextPage.xaml.g.cs
+C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\CalendarPage.xaml.g.cs
+C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.0\Views\ListPage.xaml.g.cs

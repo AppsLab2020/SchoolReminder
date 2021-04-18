@@ -3,4 +3,9 @@
   <PropertyGroup>
     <HasHotReloadOverlayBeenDismissed>true</HasHotReloadOverlayBeenDismissed>
   </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Views\CalendarPage.xaml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>

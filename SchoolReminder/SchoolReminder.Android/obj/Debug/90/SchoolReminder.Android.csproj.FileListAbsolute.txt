@@ -513,3 +513,5 @@ C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder.Android
 C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder.Android\obj\Debug\90\android\assets\System.Buffers.dll
 C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder.Android\obj\Debug\90\android\assets\System.Memory.dll
 C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder.Android\obj\Debug\90\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder.Android\obj\Debug\90\res\drawable\del.png
+C:\Users\micha\Source\Repos\SchoolReminder\SchoolReminder\SchoolReminder.Android\obj\Debug\90\res\drawable\edit.png
