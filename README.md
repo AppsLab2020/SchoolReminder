@@ -82,3 +82,11 @@
   pridať ďalšie. Pridať by sme chceli nastavenia, zlepšiť notifikácie, pridať k notifikáciam databázu. Tak isto chceme pridať viac možností rozvrhu...
   </section
  </p>
+ 
+ <h1>Beta 2.0</h1>
+ <p>Tak ako som aj sľúbil, dorobil som kalendár a prerobil som komplet poznámky + sme spravili notifikácie a pomaly a iste robíme timetable entry page.<p><br>
+ <p>tu máme pár fotiek</p>
+ <img src="https://github.com/AppsLab2020/SchoolReminder/blob/main/images/175077931_296832815163880_619319171642773564_n.jpg"></img>
+ <img src="https://github.com/AppsLab2020/SchoolReminder/blob/main/images/175000515_777053262996326_4865915400576809960_n.jpg"></img>
+ <img src="https://github.com/AppsLab2020/SchoolReminder/blob/main/images/175546439_445582426745999_5387780271877212742_n.jpg.jpg"></img>
+ <img src="https://github.com/AppsLab2020/SchoolReminder/blob/main/images/174834492_660213678090825_4993367608004682360_n.jpg"></img>
