@@ -5356,70 +5356,2014 @@ namespace SchoolReminder.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingEnd = global::SchoolReminder.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingStart = global::SchoolReminder.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_theme = global::SchoolReminder.Droid.Resource.Styleable.View_theme;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_fade_in = global::SchoolReminder.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_fade_out = global::SchoolReminder.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_grow_fade_in_from_bottom = global::SchoolReminder.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_popup_enter = global::SchoolReminder.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_popup_exit = global::SchoolReminder.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_shrink_fade_out_from_bottom = global::SchoolReminder.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_in_bottom = global::SchoolReminder.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_in_top = global::SchoolReminder.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_out_bottom = global::SchoolReminder.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_out_top = global::SchoolReminder.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_bottom_sheet_slide_in = global::SchoolReminder.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_bottom_sheet_slide_out = global::SchoolReminder.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_snackbar_in = global::SchoolReminder.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_snackbar_out = global::SchoolReminder.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.design_appbar_state_list_animator = global::SchoolReminder.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarDivider = global::SchoolReminder.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarItemBackground = global::SchoolReminder.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarPopupTheme = global::SchoolReminder.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarSize = global::SchoolReminder.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarSplitStyle = global::SchoolReminder.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarStyle = global::SchoolReminder.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTabBarStyle = global::SchoolReminder.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTabStyle = global::SchoolReminder.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTabTextStyle = global::SchoolReminder.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTheme = global::SchoolReminder.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarWidgetTheme = global::SchoolReminder.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionButtonStyle = global::SchoolReminder.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionDropDownStyle = global::SchoolReminder.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionLayout = global::SchoolReminder.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionMenuTextAppearance = global::SchoolReminder.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionMenuTextColor = global::SchoolReminder.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeBackground = global::SchoolReminder.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCloseButtonStyle = global::SchoolReminder.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCloseDrawable = global::SchoolReminder.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCopyDrawable = global::SchoolReminder.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCutDrawable = global::SchoolReminder.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeFindDrawable = global::SchoolReminder.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModePasteDrawable = global::SchoolReminder.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModePopupWindowStyle = global::SchoolReminder.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeSelectAllDrawable = global::SchoolReminder.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeShareDrawable = global::SchoolReminder.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeSplitBackground = global::SchoolReminder.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeStyle = global::SchoolReminder.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeWebSearchDrawable = global::SchoolReminder.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionOverflowButtonStyle = global::SchoolReminder.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionOverflowMenuStyle = global::SchoolReminder.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionProviderClass = global::SchoolReminder.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionViewClass = global::SchoolReminder.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.activityChooserViewStyle = global::SchoolReminder.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogButtonGroupStyle = global::SchoolReminder.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogCenterButtons = global::SchoolReminder.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogStyle = global::SchoolReminder.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogTheme = global::SchoolReminder.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.allowStacking = global::SchoolReminder.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alpha = global::SchoolReminder.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alphabeticModifiers = global::SchoolReminder.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.arrowHeadLength = global::SchoolReminder.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.arrowShaftLength = global::SchoolReminder.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoCompleteTextViewStyle = global::SchoolReminder.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeMaxTextSize = global::SchoolReminder.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeMinTextSize = global::SchoolReminder.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizePresetSizes = global::SchoolReminder.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeStepGranularity = global::SchoolReminder.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeTextType = global::SchoolReminder.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.background = global::SchoolReminder.Droid.Resource.Attribute.background;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundSplit = global::SchoolReminder.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundStacked = global::SchoolReminder.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundTint = global::SchoolReminder.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundTintMode = global::SchoolReminder.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.barLength = global::SchoolReminder.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_autoHide = global::SchoolReminder.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_hideable = global::SchoolReminder.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_overlapTop = global::SchoolReminder.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_peekHeight = global::SchoolReminder.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_skipCollapsed = global::SchoolReminder.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.borderlessButtonStyle = global::SchoolReminder.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.borderWidth = global::SchoolReminder.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomSheetDialogTheme = global::SchoolReminder.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomSheetStyle = global::SchoolReminder.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarButtonStyle = global::SchoolReminder.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarNegativeButtonStyle = global::SchoolReminder.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarNeutralButtonStyle = global::SchoolReminder.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarPositiveButtonStyle = global::SchoolReminder.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarStyle = global::SchoolReminder.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonGravity = global::SchoolReminder.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonPanelSideLayout = global::SchoolReminder.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonStyle = global::SchoolReminder.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonStyleSmall = global::SchoolReminder.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonTint = global::SchoolReminder.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonTintMode = global::SchoolReminder.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardBackgroundColor = global::SchoolReminder.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardCornerRadius = global::SchoolReminder.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardElevation = global::SchoolReminder.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardMaxElevation = global::SchoolReminder.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardPreventCornerOverlap = global::SchoolReminder.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardUseCompatPadding = global::SchoolReminder.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkboxStyle = global::SchoolReminder.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedTextViewStyle = global::SchoolReminder.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIcon = global::SchoolReminder.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeItemLayout = global::SchoolReminder.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapseContentDescription = global::SchoolReminder.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapsedTitleGravity = global::SchoolReminder.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapsedTitleTextAppearance = global::SchoolReminder.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapseIcon = global::SchoolReminder.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.color = global::SchoolReminder.Droid.Resource.Attribute.color;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorAccent = global::SchoolReminder.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorBackgroundFloating = global::SchoolReminder.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorButtonNormal = global::SchoolReminder.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorControlActivated = global::SchoolReminder.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorControlHighlight = global::SchoolReminder.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorControlNormal = global::SchoolReminder.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorError = global::SchoolReminder.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorPrimary = global::SchoolReminder.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorPrimaryDark = global::SchoolReminder.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorSwitchThumbNormal = global::SchoolReminder.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.commitIcon = global::SchoolReminder.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentDescription = global::SchoolReminder.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetEnd = global::SchoolReminder.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetEndWithActions = global::SchoolReminder.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetLeft = global::SchoolReminder.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetRight = global::SchoolReminder.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetStart = global::SchoolReminder.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetStartWithNavigation = global::SchoolReminder.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPadding = global::SchoolReminder.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingBottom = global::SchoolReminder.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingLeft = global::SchoolReminder.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingRight = global::SchoolReminder.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingTop = global::SchoolReminder.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentScrim = global::SchoolReminder.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.controlBackground = global::SchoolReminder.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterEnabled = global::SchoolReminder.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterMaxLength = global::SchoolReminder.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterOverflowTextAppearance = global::SchoolReminder.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterTextAppearance = global::SchoolReminder.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.customNavigationLayout = global::SchoolReminder.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.defaultQueryHint = global::SchoolReminder.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dialogPreferredPadding = global::SchoolReminder.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dialogTheme = global::SchoolReminder.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.displayOptions = global::SchoolReminder.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.divider = global::SchoolReminder.Droid.Resource.Attribute.divider;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dividerHorizontal = global::SchoolReminder.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dividerPadding = global::SchoolReminder.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dividerVertical = global::SchoolReminder.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableSize = global::SchoolReminder.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawerArrowStyle = global::SchoolReminder.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dropdownListPreferredItemHeight = global::SchoolReminder.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dropDownListViewStyle = global::SchoolReminder.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.editTextBackground = global::SchoolReminder.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.editTextColor = global::SchoolReminder.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.editTextStyle = global::SchoolReminder.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.elevation = global::SchoolReminder.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.errorEnabled = global::SchoolReminder.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.errorTextAppearance = global::SchoolReminder.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandActivityOverflowButtonDrawable = global::SchoolReminder.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expanded = global::SchoolReminder.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleGravity = global::SchoolReminder.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMargin = global::SchoolReminder.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginBottom = global::SchoolReminder.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginEnd = global::SchoolReminder.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginStart = global::SchoolReminder.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginTop = global::SchoolReminder.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleTextAppearance = global::SchoolReminder.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabSize = global::SchoolReminder.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollEnabled = global::SchoolReminder.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::SchoolReminder.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::SchoolReminder.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollVerticalThumbDrawable = global::SchoolReminder.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollVerticalTrackDrawable = global::SchoolReminder.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.font = global::SchoolReminder.Droid.Resource.Attribute.font;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontFamily = global::SchoolReminder.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderAuthority = global::SchoolReminder.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderCerts = global::SchoolReminder.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderFetchStrategy = global::SchoolReminder.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderFetchTimeout = global::SchoolReminder.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderPackage = global::SchoolReminder.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderQuery = global::SchoolReminder.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontStyle = global::SchoolReminder.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontWeight = global::SchoolReminder.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.foregroundInsidePadding = global::SchoolReminder.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.gapBetweenBars = global::SchoolReminder.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.goIcon = global::SchoolReminder.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.headerLayout = global::SchoolReminder.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.height = global::SchoolReminder.Droid.Resource.Attribute.height;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hideOnContentScroll = global::SchoolReminder.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hintAnimationEnabled = global::SchoolReminder.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hintEnabled = global::SchoolReminder.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hintTextAppearance = global::SchoolReminder.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.homeAsUpIndicator = global::SchoolReminder.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.homeLayout = global::SchoolReminder.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.icon = global::SchoolReminder.Droid.Resource.Attribute.icon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconifiedByDefault = global::SchoolReminder.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconTint = global::SchoolReminder.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconTintMode = global::SchoolReminder.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.imageButtonStyle = global::SchoolReminder.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.indeterminateProgressStyle = global::SchoolReminder.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.initialActivityCount = global::SchoolReminder.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.insetForeground = global::SchoolReminder.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.isLightTheme = global::SchoolReminder.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemBackground = global::SchoolReminder.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemIconTint = global::SchoolReminder.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemPadding = global::SchoolReminder.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextAppearance = global::SchoolReminder.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextColor = global::SchoolReminder.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.keylines = global::SchoolReminder.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout = global::SchoolReminder.Droid.Resource.Attribute.layout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layoutManager = global::SchoolReminder.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_anchor = global::SchoolReminder.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_anchorGravity = global::SchoolReminder.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_behavior = global::SchoolReminder.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_collapseMode = global::SchoolReminder.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_collapseParallaxMultiplier = global::SchoolReminder.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_dodgeInsetEdges = global::SchoolReminder.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_insetEdge = global::SchoolReminder.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_keyline = global::SchoolReminder.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_scrollFlags = global::SchoolReminder.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_scrollInterpolator = global::SchoolReminder.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listChoiceBackgroundIndicator = global::SchoolReminder.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listDividerAlertDialog = global::SchoolReminder.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listItemLayout = global::SchoolReminder.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listLayout = global::SchoolReminder.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listMenuViewStyle = global::SchoolReminder.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPopupWindowStyle = global::SchoolReminder.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemHeight = global::SchoolReminder.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemHeightLarge = global::SchoolReminder.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemHeightSmall = global::SchoolReminder.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingLeft = global::SchoolReminder.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingRight = global::SchoolReminder.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.logo = global::SchoolReminder.Droid.Resource.Attribute.logo;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.logoDescription = global::SchoolReminder.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.maxActionInlineWidth = global::SchoolReminder.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.maxButtonHeight = global::SchoolReminder.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.measureWithLargestChild = global::SchoolReminder.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.menu = global::SchoolReminder.Droid.Resource.Attribute.menu;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.multiChoiceItemLayout = global::SchoolReminder.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationContentDescription = global::SchoolReminder.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationIcon = global::SchoolReminder.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationMode = global::SchoolReminder.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.numericModifiers = global::SchoolReminder.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.overlapAnchor = global::SchoolReminder.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingBottomNoButtons = global::SchoolReminder.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingEnd = global::SchoolReminder.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingStart = global::SchoolReminder.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingTopNoTitle = global::SchoolReminder.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.panelBackground = global::SchoolReminder.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.panelMenuListTheme = global::SchoolReminder.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.panelMenuListWidth = global::SchoolReminder.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleContentDescription = global::SchoolReminder.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleDrawable = global::SchoolReminder.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleEnabled = global::SchoolReminder.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleTint = global::SchoolReminder.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleTintMode = global::SchoolReminder.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.popupMenuStyle = global::SchoolReminder.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.popupTheme = global::SchoolReminder.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.popupWindowStyle = global::SchoolReminder.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.preserveIconSpacing = global::SchoolReminder.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.pressedTranslationZ = global::SchoolReminder.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.progressBarPadding = global::SchoolReminder.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.progressBarStyle = global::SchoolReminder.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.queryBackground = global::SchoolReminder.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.queryHint = global::SchoolReminder.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.radioButtonStyle = global::SchoolReminder.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ratingBarStyle = global::SchoolReminder.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ratingBarStyleIndicator = global::SchoolReminder.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ratingBarStyleSmall = global::SchoolReminder.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.reverseLayout = global::SchoolReminder.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.rippleColor = global::SchoolReminder.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrimAnimationDuration = global::SchoolReminder.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrimVisibleHeightTrigger = global::SchoolReminder.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.searchHintIcon = global::SchoolReminder.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.searchIcon = global::SchoolReminder.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.searchViewStyle = global::SchoolReminder.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.seekBarStyle = global::SchoolReminder.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.selectableItemBackground = global::SchoolReminder.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.selectableItemBackgroundBorderless = global::SchoolReminder.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showAsAction = global::SchoolReminder.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showDividers = global::SchoolReminder.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showText = global::SchoolReminder.Droid.Resource.Attribute.showText;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showTitle = global::SchoolReminder.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.singleChoiceItemLayout = global::SchoolReminder.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spanCount = global::SchoolReminder.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spinBars = global::SchoolReminder.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spinnerDropDownItemStyle = global::SchoolReminder.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spinnerStyle = global::SchoolReminder.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.splitTrack = global::SchoolReminder.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.srcCompat = global::SchoolReminder.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.stackFromEnd = global::SchoolReminder.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_above_anchor = global::SchoolReminder.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_collapsed = global::SchoolReminder.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_collapsible = global::SchoolReminder.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.statusBarBackground = global::SchoolReminder.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.statusBarScrim = global::SchoolReminder.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subMenuArrow = global::SchoolReminder.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.submitBackground = global::SchoolReminder.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitle = global::SchoolReminder.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitleTextAppearance = global::SchoolReminder.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitleTextColor = global::SchoolReminder.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitleTextStyle = global::SchoolReminder.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.suggestionRowLayout = global::SchoolReminder.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchMinWidth = global::SchoolReminder.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchPadding = global::SchoolReminder.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchStyle = global::SchoolReminder.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchTextAppearance = global::SchoolReminder.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabBackground = global::SchoolReminder.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabContentStart = global::SchoolReminder.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabGravity = global::SchoolReminder.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorColor = global::SchoolReminder.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorHeight = global::SchoolReminder.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabMaxWidth = global::SchoolReminder.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabMinWidth = global::SchoolReminder.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabMode = global::SchoolReminder.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPadding = global::SchoolReminder.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingBottom = global::SchoolReminder.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingEnd = global::SchoolReminder.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingStart = global::SchoolReminder.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingTop = global::SchoolReminder.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabSelectedTextColor = global::SchoolReminder.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabTextAppearance = global::SchoolReminder.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabTextColor = global::SchoolReminder.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAllCaps = global::SchoolReminder.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceLargePopupMenu = global::SchoolReminder.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceListItem = global::SchoolReminder.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceListItemSecondary = global::SchoolReminder.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceListItemSmall = global::SchoolReminder.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearancePopupMenuHeader = global::SchoolReminder.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSearchResultSubtitle = global::SchoolReminder.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSearchResultTitle = global::SchoolReminder.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSmallPopupMenu = global::SchoolReminder.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textColorAlertDialogListItem = global::SchoolReminder.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textColorSearchUrl = global::SchoolReminder.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.theme = global::SchoolReminder.Droid.Resource.Attribute.theme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thickness = global::SchoolReminder.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thumbTextPadding = global::SchoolReminder.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thumbTint = global::SchoolReminder.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thumbTintMode = global::SchoolReminder.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tickMark = global::SchoolReminder.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tickMarkTint = global::SchoolReminder.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tickMarkTintMode = global::SchoolReminder.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tint = global::SchoolReminder.Droid.Resource.Attribute.tint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tintMode = global::SchoolReminder.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.title = global::SchoolReminder.Droid.Resource.Attribute.title;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleEnabled = global::SchoolReminder.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMargin = global::SchoolReminder.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginBottom = global::SchoolReminder.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginEnd = global::SchoolReminder.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMargins = global::SchoolReminder.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginStart = global::SchoolReminder.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginTop = global::SchoolReminder.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleTextAppearance = global::SchoolReminder.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleTextColor = global::SchoolReminder.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleTextStyle = global::SchoolReminder.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.toolbarId = global::SchoolReminder.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.toolbarNavigationButtonStyle = global::SchoolReminder.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.toolbarStyle = global::SchoolReminder.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tooltipForegroundColor = global::SchoolReminder.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tooltipFrameBackground = global::SchoolReminder.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tooltipText = global::SchoolReminder.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.track = global::SchoolReminder.Droid.Resource.Attribute.track;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.trackTint = global::SchoolReminder.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.trackTintMode = global::SchoolReminder.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.useCompatPadding = global::SchoolReminder.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.voiceIcon = global::SchoolReminder.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowActionBar = global::SchoolReminder.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowActionBarOverlay = global::SchoolReminder.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowActionModeOverlay = global::SchoolReminder.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedHeightMajor = global::SchoolReminder.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedHeightMinor = global::SchoolReminder.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedWidthMajor = global::SchoolReminder.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedWidthMinor = global::SchoolReminder.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowMinWidthMajor = global::SchoolReminder.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowMinWidthMinor = global::SchoolReminder.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowNoTitle = global::SchoolReminder.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Boolean.abc_action_bar_embed_tabs = global::SchoolReminder.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Plugin.Calendar.Resource.Boolean.abc_allow_stacked_button_bar = global::SchoolReminder.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::SchoolReminder.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_background_cache_hint_selector_material_dark = global::SchoolReminder.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_background_cache_hint_selector_material_light = global::SchoolReminder.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_btn_colored_borderless_text_material = global::SchoolReminder.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_btn_colored_text_material = global::SchoolReminder.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_color_highlight_material = global::SchoolReminder.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_hint_foreground_material_dark = global::SchoolReminder.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_hint_foreground_material_light = global::SchoolReminder.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_input_method_navigation_guard = global::SchoolReminder.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_disable_only_material_dark = global::SchoolReminder.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_disable_only_material_light = global::SchoolReminder.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_material_dark = global::SchoolReminder.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_material_light = global::SchoolReminder.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text = global::SchoolReminder.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text_normal = global::SchoolReminder.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text_pressed = global::SchoolReminder.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text_selected = global::SchoolReminder.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_secondary_text_material_dark = global::SchoolReminder.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_secondary_text_material_light = global::SchoolReminder.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_btn_checkable = global::SchoolReminder.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_default = global::SchoolReminder.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_edittext = global::SchoolReminder.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_seek_thumb = global::SchoolReminder.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_spinner = global::SchoolReminder.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_switch_track = global::SchoolReminder.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.Plugin.Calendar.Resource.Color.accent_material_dark = global::SchoolReminder.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.accent_material_light = global::SchoolReminder.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_floating_material_dark = global::SchoolReminder.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_floating_material_light = global::SchoolReminder.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_material_dark = global::SchoolReminder.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_material_light = global::SchoolReminder.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_disabled_material_dark = global::SchoolReminder.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_disabled_material_light = global::SchoolReminder.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_inverse_material_dark = global::SchoolReminder.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_inverse_material_light = global::SchoolReminder.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_material_dark = global::SchoolReminder.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_material_light = global::SchoolReminder.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.button_material_dark = global::SchoolReminder.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.button_material_light = global::SchoolReminder.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_dark_background = global::SchoolReminder.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_light_background = global::SchoolReminder.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_shadow_end_color = global::SchoolReminder.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_shadow_start_color = global::SchoolReminder.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_bottom_navigation_shadow_color = global::SchoolReminder.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_error = global::SchoolReminder.Droid.Resource.Color.design_error;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_shadow_end_color = global::SchoolReminder.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_shadow_mid_color = global::SchoolReminder.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_shadow_start_color = global::SchoolReminder.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_end_inner_color = global::SchoolReminder.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_end_outer_color = global::SchoolReminder.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_top_inner_color = global::SchoolReminder.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_top_outer_color = global::SchoolReminder.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_snackbar_background_color = global::SchoolReminder.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_tint_password_toggle = global::SchoolReminder.Droid.Resource.Color.design_tint_password_toggle;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_disabled_material_dark = global::SchoolReminder.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_disabled_material_light = global::SchoolReminder.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_material_dark = global::SchoolReminder.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_material_light = global::SchoolReminder.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.foreground_material_dark = global::SchoolReminder.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.foreground_material_light = global::SchoolReminder.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.highlighted_text_material_dark = global::SchoolReminder.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.highlighted_text_material_light = global::SchoolReminder.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_blue_grey_800 = global::SchoolReminder.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_blue_grey_900 = global::SchoolReminder.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_blue_grey_950 = global::SchoolReminder.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_deep_teal_200 = global::SchoolReminder.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_deep_teal_500 = global::SchoolReminder.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_100 = global::SchoolReminder.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_300 = global::SchoolReminder.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_50 = global::SchoolReminder.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_600 = global::SchoolReminder.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_800 = global::SchoolReminder.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_850 = global::SchoolReminder.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_900 = global::SchoolReminder.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Plugin.Calendar.Resource.Color.notification_action_color_filter = global::SchoolReminder.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Plugin.Calendar.Resource.Color.notification_icon_bg_color = global::SchoolReminder.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.notification_material_background_media_default_color = global::SchoolReminder.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_dark_material_dark = global::SchoolReminder.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_dark_material_light = global::SchoolReminder.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_material_dark = global::SchoolReminder.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_material_light = global::SchoolReminder.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_default_material_dark = global::SchoolReminder.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_default_material_light = global::SchoolReminder.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_disabled_material_dark = global::SchoolReminder.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_disabled_material_light = global::SchoolReminder.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.ripple_material_dark = global::SchoolReminder.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.ripple_material_light = global::SchoolReminder.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_default_material_dark = global::SchoolReminder.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_default_material_light = global::SchoolReminder.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_disabled_material_dark = global::SchoolReminder.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_disabled_material_light = global::SchoolReminder.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_disabled_material_dark = global::SchoolReminder.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_disabled_material_light = global::SchoolReminder.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_material_dark = global::SchoolReminder.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_material_light = global::SchoolReminder.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_normal_material_dark = global::SchoolReminder.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_normal_material_light = global::SchoolReminder.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.tooltip_background_dark = global::SchoolReminder.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.tooltip_background_light = global::SchoolReminder.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_content_inset_material = global::SchoolReminder.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::SchoolReminder.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_default_height_material = global::SchoolReminder.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_default_padding_end_material = global::SchoolReminder.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_default_padding_start_material = global::SchoolReminder.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_elevation_material = global::SchoolReminder.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::SchoolReminder.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::SchoolReminder.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::SchoolReminder.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_stacked_max_height = global::SchoolReminder.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::SchoolReminder.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::SchoolReminder.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::SchoolReminder.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_button_min_height_material = global::SchoolReminder.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_button_min_width_material = global::SchoolReminder.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_button_min_width_overflow_material = global::SchoolReminder.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_alert_dialog_button_bar_height = global::SchoolReminder.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_inset_horizontal_material = global::SchoolReminder.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_inset_vertical_material = global::SchoolReminder.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_padding_horizontal_material = global::SchoolReminder.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_padding_vertical_material = global::SchoolReminder.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::SchoolReminder.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_config_prefDialogWidth = global::SchoolReminder.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_control_corner_material = global::SchoolReminder.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_control_inset_material = global::SchoolReminder.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_control_padding_material = global::SchoolReminder.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_height_major = global::SchoolReminder.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_height_minor = global::SchoolReminder.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_width_major = global::SchoolReminder.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_width_minor = global::SchoolReminder.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::SchoolReminder.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::SchoolReminder.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_min_width_major = global::SchoolReminder.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_min_width_minor = global::SchoolReminder.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_padding_material = global::SchoolReminder.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_padding_top_material = global::SchoolReminder.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_title_divider_material = global::SchoolReminder.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_disabled_alpha_material_dark = global::SchoolReminder.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_disabled_alpha_material_light = global::SchoolReminder.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dropdownitem_icon_width = global::SchoolReminder.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dropdownitem_text_padding_left = global::SchoolReminder.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dropdownitem_text_padding_right = global::SchoolReminder.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_edit_text_inset_bottom_material = global::SchoolReminder.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::SchoolReminder.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_edit_text_inset_top_material = global::SchoolReminder.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_floating_window_z = global::SchoolReminder.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_list_item_padding_horizontal_material = global::SchoolReminder.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_panel_menu_list_width = global::SchoolReminder.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_progress_bar_height_material = global::SchoolReminder.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_search_view_preferred_height = global::SchoolReminder.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_search_view_preferred_width = global::SchoolReminder.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_seekbar_track_background_height_material = global::SchoolReminder.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_seekbar_track_progress_height_material = global::SchoolReminder.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_select_dialog_padding_start_material = global::SchoolReminder.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_switch_padding = global::SchoolReminder.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_body_1_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_body_2_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_button_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_caption_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_1_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_2_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_3_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_4_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_headline_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_large_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_medium_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_menu_header_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_menu_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_small_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_subhead_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_title_material = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_title_material_toolbar = global::SchoolReminder.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.cardview_compat_inset_shadow = global::SchoolReminder.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.cardview_default_elevation = global::SchoolReminder.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.cardview_default_radius = global::SchoolReminder.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_inset_horizontal_material = global::SchoolReminder.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_inset_vertical_material = global::SchoolReminder.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_padding_horizontal_material = global::SchoolReminder.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_padding_vertical_material = global::SchoolReminder.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_control_corner_material = global::SchoolReminder.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_appbar_elevation = global::SchoolReminder.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::SchoolReminder.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_active_text_size = global::SchoolReminder.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_elevation = global::SchoolReminder.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_height = global::SchoolReminder.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_item_max_width = global::SchoolReminder.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_item_min_width = global::SchoolReminder.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_margin = global::SchoolReminder.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_shadow_height = global::SchoolReminder.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_text_size = global::SchoolReminder.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_sheet_modal_elevation = global::SchoolReminder.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_sheet_peek_height_min = global::SchoolReminder.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_border_width = global::SchoolReminder.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_elevation = global::SchoolReminder.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_image_size = global::SchoolReminder.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_size_mini = global::SchoolReminder.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_size_normal = global::SchoolReminder.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_translation_z_pressed = global::SchoolReminder.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_elevation = global::SchoolReminder.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_icon_padding = global::SchoolReminder.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_icon_size = global::SchoolReminder.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_max_width = global::SchoolReminder.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_padding_bottom = global::SchoolReminder.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_separator_vertical_padding = global::SchoolReminder.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_action_inline_max_width = global::SchoolReminder.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_background_corner_radius = global::SchoolReminder.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_elevation = global::SchoolReminder.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::SchoolReminder.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_max_width = global::SchoolReminder.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_min_width = global::SchoolReminder.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_padding_horizontal = global::SchoolReminder.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_padding_vertical = global::SchoolReminder.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::SchoolReminder.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_text_size = global::SchoolReminder.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_max_width = global::SchoolReminder.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_scrollable_min_width = global::SchoolReminder.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_text_size = global::SchoolReminder.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_text_size_2line = global::SchoolReminder.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.disabled_alpha_material_dark = global::SchoolReminder.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.disabled_alpha_material_light = global::SchoolReminder.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.fastscroll_default_thickness = global::SchoolReminder.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.fastscroll_margin = global::SchoolReminder.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.fastscroll_minimum_range = global::SchoolReminder.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.highlight_alpha_material_colored = global::SchoolReminder.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.highlight_alpha_material_dark = global::SchoolReminder.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.highlight_alpha_material_light = global::SchoolReminder.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_alpha_material_dark = global::SchoolReminder.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_alpha_material_light = global::SchoolReminder.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_pressed_alpha_material_dark = global::SchoolReminder.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_pressed_alpha_material_light = global::SchoolReminder.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::SchoolReminder.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::SchoolReminder.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::SchoolReminder.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_action_icon_size = global::SchoolReminder.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_action_text_size = global::SchoolReminder.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_big_circle_margin = global::SchoolReminder.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_content_margin_start = global::SchoolReminder.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_large_icon_height = global::SchoolReminder.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_large_icon_width = global::SchoolReminder.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_main_column_padding_top = global::SchoolReminder.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_media_narrow_margin = global::SchoolReminder.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_right_icon_size = global::SchoolReminder.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_right_side_padding_top = global::SchoolReminder.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_small_icon_background_padding = global::SchoolReminder.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_small_icon_size_as_large = global::SchoolReminder.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_subtext_size = global::SchoolReminder.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_top_pad = global::SchoolReminder.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_top_pad_large_text = global::SchoolReminder.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_corner_radius = global::SchoolReminder.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_horizontal_padding = global::SchoolReminder.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_margin = global::SchoolReminder.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::SchoolReminder.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_precise_anchor_threshold = global::SchoolReminder.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_vertical_padding = global::SchoolReminder.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_y_offset_non_touch = global::SchoolReminder.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_y_offset_touch = global::SchoolReminder.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_action_bar_item_background_material = global::SchoolReminder.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_borderless_material = global::SchoolReminder.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_material = global::SchoolReminder.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::SchoolReminder.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::SchoolReminder.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_colored_material = global::SchoolReminder.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_default_mtrl_shape = global::SchoolReminder.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_material = global::SchoolReminder.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::SchoolReminder.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::SchoolReminder.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::SchoolReminder.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::SchoolReminder.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_cab_background_internal_bg = global::SchoolReminder.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_cab_background_top_material = global::SchoolReminder.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_control_background_material = global::SchoolReminder.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_dialog_material_background = global::SchoolReminder.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_edit_text_material = global::SchoolReminder.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_ab_back_material = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_clear_material = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_go_search_api_material = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_overflow_material = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_search_api_material = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_star_black_16dp = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_star_black_36dp = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_star_black_48dp = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_star_half_black_16dp = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_star_half_black_36dp = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_star_half_black_48dp = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_voice_search_api_material = global::SchoolReminder.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_item_background_holo_dark = global::SchoolReminder.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_item_background_holo_light = global::SchoolReminder.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_divider_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_focused_holo = global::SchoolReminder.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_longpressed_holo = global::SchoolReminder.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_pressed_holo_dark = global::SchoolReminder.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_pressed_holo_light = global::SchoolReminder.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::SchoolReminder.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::SchoolReminder.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::SchoolReminder.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_disabled_holo_light = global::SchoolReminder.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_holo_dark = global::SchoolReminder.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_holo_light = global::SchoolReminder.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::SchoolReminder.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_popup_background_mtrl_mult = global::SchoolReminder.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ratingbar_indicator_material = global::SchoolReminder.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ratingbar_material = global::SchoolReminder.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ratingbar_small_material = global::SchoolReminder.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::SchoolReminder.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::SchoolReminder.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_seekbar_thumb_material = global::SchoolReminder.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_seekbar_tick_mark_material = global::SchoolReminder.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_seekbar_track_material = global::SchoolReminder.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_spinner_textfield_background_material = global::SchoolReminder.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_switch_thumb_material = global::SchoolReminder.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_switch_track_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_tab_indicator_material = global::SchoolReminder.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::SchoolReminder.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_search_material = global::SchoolReminder.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_cursor_material = global::SchoolReminder.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::SchoolReminder.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::SchoolReminder.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::SchoolReminder.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::SchoolReminder.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::SchoolReminder.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::SchoolReminder.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_vector_test = global::SchoolReminder.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.avd_hide_password = global::SchoolReminder.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.avd_show_password = global::SchoolReminder.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_bottom_navigation_item_background = global::SchoolReminder.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_fab_background = global::SchoolReminder.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_ic_visibility = global::SchoolReminder.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_ic_visibility_off = global::SchoolReminder.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_password_eye = global::SchoolReminder.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_snackbar_background = global::SchoolReminder.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.navigation_empty_icon = global::SchoolReminder.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_action_background = global::SchoolReminder.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg = global::SchoolReminder.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_low = global::SchoolReminder.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_low_normal = global::SchoolReminder.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_low_pressed = global::SchoolReminder.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_normal = global::SchoolReminder.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_normal_pressed = global::SchoolReminder.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_icon_background = global::SchoolReminder.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_template_icon_bg = global::SchoolReminder.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_template_icon_low_bg = global::SchoolReminder.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_tile_bg = global::SchoolReminder.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notify_panel_notification_icon_bg = global::SchoolReminder.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.tooltip_frame_dark = global::SchoolReminder.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.tooltip_frame_light = global::SchoolReminder.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action0 = global::SchoolReminder.Droid.Resource.Id.action0;
+			global::Xamarin.Plugin.Calendar.Resource.Id.actions = global::SchoolReminder.Droid.Resource.Id.actions;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar = global::SchoolReminder.Droid.Resource.Id.action_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_activity_content = global::SchoolReminder.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_container = global::SchoolReminder.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_root = global::SchoolReminder.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_spinner = global::SchoolReminder.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_subtitle = global::SchoolReminder.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_title = global::SchoolReminder.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_container = global::SchoolReminder.Droid.Resource.Id.action_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_context_bar = global::SchoolReminder.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_divider = global::SchoolReminder.Droid.Resource.Id.action_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_image = global::SchoolReminder.Droid.Resource.Id.action_image;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_menu_divider = global::SchoolReminder.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_menu_presenter = global::SchoolReminder.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_mode_bar = global::SchoolReminder.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_mode_bar_stub = global::SchoolReminder.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_mode_close_button = global::SchoolReminder.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_text = global::SchoolReminder.Droid.Resource.Id.action_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.activity_chooser_view_content = global::SchoolReminder.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.add = global::SchoolReminder.Droid.Resource.Id.add;
+			global::Xamarin.Plugin.Calendar.Resource.Id.alertTitle = global::SchoolReminder.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.all = global::SchoolReminder.Droid.Resource.Id.all;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ALT = global::SchoolReminder.Droid.Resource.Id.ALT;
+			global::Xamarin.Plugin.Calendar.Resource.Id.always = global::SchoolReminder.Droid.Resource.Id.always;
+			global::Xamarin.Plugin.Calendar.Resource.Id.async = global::SchoolReminder.Droid.Resource.Id.async;
+			global::Xamarin.Plugin.Calendar.Resource.Id.auto = global::SchoolReminder.Droid.Resource.Id.auto;
+			global::Xamarin.Plugin.Calendar.Resource.Id.beginning = global::SchoolReminder.Droid.Resource.Id.beginning;
+			global::Xamarin.Plugin.Calendar.Resource.Id.blocking = global::SchoolReminder.Droid.Resource.Id.blocking;
+			global::Xamarin.Plugin.Calendar.Resource.Id.bottom = global::SchoolReminder.Droid.Resource.Id.bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.buttonPanel = global::SchoolReminder.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.cancel_action = global::SchoolReminder.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Plugin.Calendar.Resource.Id.center = global::SchoolReminder.Droid.Resource.Id.center;
+			global::Xamarin.Plugin.Calendar.Resource.Id.center_horizontal = global::SchoolReminder.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.center_vertical = global::SchoolReminder.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Id.checkbox = global::SchoolReminder.Droid.Resource.Id.checkbox;
+			global::Xamarin.Plugin.Calendar.Resource.Id.chronometer = global::SchoolReminder.Droid.Resource.Id.chronometer;
+			global::Xamarin.Plugin.Calendar.Resource.Id.clip_horizontal = global::SchoolReminder.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.clip_vertical = global::SchoolReminder.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Id.collapseActionView = global::SchoolReminder.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Plugin.Calendar.Resource.Id.container = global::SchoolReminder.Droid.Resource.Id.container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.contentPanel = global::SchoolReminder.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.coordinator = global::SchoolReminder.Droid.Resource.Id.coordinator;
+			global::Xamarin.Plugin.Calendar.Resource.Id.CTRL = global::SchoolReminder.Droid.Resource.Id.CTRL;
+			global::Xamarin.Plugin.Calendar.Resource.Id.custom = global::SchoolReminder.Droid.Resource.Id.custom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.customPanel = global::SchoolReminder.Droid.Resource.Id.customPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.decor_content_parent = global::SchoolReminder.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Plugin.Calendar.Resource.Id.default_activity_button = global::SchoolReminder.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_bottom_sheet = global::SchoolReminder.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_menu_item_action_area = global::SchoolReminder.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_menu_item_action_area_stub = global::SchoolReminder.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_menu_item_text = global::SchoolReminder.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_navigation_view = global::SchoolReminder.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.disableHome = global::SchoolReminder.Droid.Resource.Id.disableHome;
+			global::Xamarin.Plugin.Calendar.Resource.Id.edit_query = global::SchoolReminder.Droid.Resource.Id.edit_query;
+			global::Xamarin.Plugin.Calendar.Resource.Id.end = global::SchoolReminder.Droid.Resource.Id.end;
+			global::Xamarin.Plugin.Calendar.Resource.Id.end_padder = global::SchoolReminder.Droid.Resource.Id.end_padder;
+			global::Xamarin.Plugin.Calendar.Resource.Id.enterAlways = global::SchoolReminder.Droid.Resource.Id.enterAlways;
+			global::Xamarin.Plugin.Calendar.Resource.Id.enterAlwaysCollapsed = global::SchoolReminder.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Id.exitUntilCollapsed = global::SchoolReminder.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Id.expanded_menu = global::SchoolReminder.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Id.expand_activities_button = global::SchoolReminder.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.fill = global::SchoolReminder.Droid.Resource.Id.fill;
+			global::Xamarin.Plugin.Calendar.Resource.Id.fill_horizontal = global::SchoolReminder.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.fill_vertical = global::SchoolReminder.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Id.@fixed = global::SchoolReminder.Droid.Resource.Id.@fixed;
+			global::Xamarin.Plugin.Calendar.Resource.Id.forever = global::SchoolReminder.Droid.Resource.Id.forever;
+			global::Xamarin.Plugin.Calendar.Resource.Id.FUNCTION = global::SchoolReminder.Droid.Resource.Id.FUNCTION;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ghost_view = global::SchoolReminder.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.home = global::SchoolReminder.Droid.Resource.Id.home;
+			global::Xamarin.Plugin.Calendar.Resource.Id.homeAsUp = global::SchoolReminder.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.Plugin.Calendar.Resource.Id.icon = global::SchoolReminder.Droid.Resource.Id.icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.icon_group = global::SchoolReminder.Droid.Resource.Id.icon_group;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ifRoom = global::SchoolReminder.Droid.Resource.Id.ifRoom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.image = global::SchoolReminder.Droid.Resource.Id.image;
+			global::Xamarin.Plugin.Calendar.Resource.Id.info = global::SchoolReminder.Droid.Resource.Id.info;
+			global::Xamarin.Plugin.Calendar.Resource.Id.italic = global::SchoolReminder.Droid.Resource.Id.italic;
+			global::Xamarin.Plugin.Calendar.Resource.Id.item_touch_helper_previous_elevation = global::SchoolReminder.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Id.largeLabel = global::SchoolReminder.Droid.Resource.Id.largeLabel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.left = global::SchoolReminder.Droid.Resource.Id.left;
+			global::Xamarin.Plugin.Calendar.Resource.Id.line1 = global::SchoolReminder.Droid.Resource.Id.line1;
+			global::Xamarin.Plugin.Calendar.Resource.Id.line3 = global::SchoolReminder.Droid.Resource.Id.line3;
+			global::Xamarin.Plugin.Calendar.Resource.Id.listMode = global::SchoolReminder.Droid.Resource.Id.listMode;
+			global::Xamarin.Plugin.Calendar.Resource.Id.list_item = global::SchoolReminder.Droid.Resource.Id.list_item;
+			global::Xamarin.Plugin.Calendar.Resource.Id.masked = global::SchoolReminder.Droid.Resource.Id.masked;
+			global::Xamarin.Plugin.Calendar.Resource.Id.media_actions = global::SchoolReminder.Droid.Resource.Id.media_actions;
+			global::Xamarin.Plugin.Calendar.Resource.Id.message = global::SchoolReminder.Droid.Resource.Id.message;
+			global::Xamarin.Plugin.Calendar.Resource.Id.META = global::SchoolReminder.Droid.Resource.Id.META;
+			global::Xamarin.Plugin.Calendar.Resource.Id.middle = global::SchoolReminder.Droid.Resource.Id.middle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.mini = global::SchoolReminder.Droid.Resource.Id.mini;
+			global::Xamarin.Plugin.Calendar.Resource.Id.multiply = global::SchoolReminder.Droid.Resource.Id.multiply;
+			global::Xamarin.Plugin.Calendar.Resource.Id.navigation_header_container = global::SchoolReminder.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.never = global::SchoolReminder.Droid.Resource.Id.never;
+			global::Xamarin.Plugin.Calendar.Resource.Id.none = global::SchoolReminder.Droid.Resource.Id.none;
+			global::Xamarin.Plugin.Calendar.Resource.Id.normal = global::SchoolReminder.Droid.Resource.Id.normal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.notification_background = global::SchoolReminder.Droid.Resource.Id.notification_background;
+			global::Xamarin.Plugin.Calendar.Resource.Id.notification_main_column = global::SchoolReminder.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Plugin.Calendar.Resource.Id.notification_main_column_container = global::SchoolReminder.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.parallax = global::SchoolReminder.Droid.Resource.Id.parallax;
+			global::Xamarin.Plugin.Calendar.Resource.Id.parentPanel = global::SchoolReminder.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.parent_matrix = global::SchoolReminder.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Plugin.Calendar.Resource.Id.pin = global::SchoolReminder.Droid.Resource.Id.pin;
+			global::Xamarin.Plugin.Calendar.Resource.Id.progress_circular = global::SchoolReminder.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Plugin.Calendar.Resource.Id.progress_horizontal = global::SchoolReminder.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.radio = global::SchoolReminder.Droid.Resource.Id.radio;
+			global::Xamarin.Plugin.Calendar.Resource.Id.right = global::SchoolReminder.Droid.Resource.Id.right;
+			global::Xamarin.Plugin.Calendar.Resource.Id.right_icon = global::SchoolReminder.Droid.Resource.Id.right_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.right_side = global::SchoolReminder.Droid.Resource.Id.right_side;
+			global::Xamarin.Plugin.Calendar.Resource.Id.save_image_matrix = global::SchoolReminder.Droid.Resource.Id.save_image_matrix;
+			global::Xamarin.Plugin.Calendar.Resource.Id.save_non_transition_alpha = global::SchoolReminder.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Id.save_scale_type = global::SchoolReminder.Droid.Resource.Id.save_scale_type;
+			global::Xamarin.Plugin.Calendar.Resource.Id.screen = global::SchoolReminder.Droid.Resource.Id.screen;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scroll = global::SchoolReminder.Droid.Resource.Id.scroll;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollable = global::SchoolReminder.Droid.Resource.Id.scrollable;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollIndicatorDown = global::SchoolReminder.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollIndicatorUp = global::SchoolReminder.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollView = global::SchoolReminder.Droid.Resource.Id.scrollView;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_badge = global::SchoolReminder.Droid.Resource.Id.search_badge;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_bar = global::SchoolReminder.Droid.Resource.Id.search_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_button = global::SchoolReminder.Droid.Resource.Id.search_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_close_btn = global::SchoolReminder.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_edit_frame = global::SchoolReminder.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_go_btn = global::SchoolReminder.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_mag_icon = global::SchoolReminder.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_plate = global::SchoolReminder.Droid.Resource.Id.search_plate;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_src_text = global::SchoolReminder.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_voice_btn = global::SchoolReminder.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Plugin.Calendar.Resource.Id.select_dialog_listview = global::SchoolReminder.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Plugin.Calendar.Resource.Id.SHIFT = global::SchoolReminder.Droid.Resource.Id.SHIFT;
+			global::Xamarin.Plugin.Calendar.Resource.Id.shortcut = global::SchoolReminder.Droid.Resource.Id.shortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Id.showCustom = global::SchoolReminder.Droid.Resource.Id.showCustom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.showHome = global::SchoolReminder.Droid.Resource.Id.showHome;
+			global::Xamarin.Plugin.Calendar.Resource.Id.showTitle = global::SchoolReminder.Droid.Resource.Id.showTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.smallLabel = global::SchoolReminder.Droid.Resource.Id.smallLabel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snackbar_action = global::SchoolReminder.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snackbar_text = global::SchoolReminder.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snap = global::SchoolReminder.Droid.Resource.Id.snap;
+			global::Xamarin.Plugin.Calendar.Resource.Id.spacer = global::SchoolReminder.Droid.Resource.Id.spacer;
+			global::Xamarin.Plugin.Calendar.Resource.Id.split_action_bar = global::SchoolReminder.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.src_atop = global::SchoolReminder.Droid.Resource.Id.src_atop;
+			global::Xamarin.Plugin.Calendar.Resource.Id.src_in = global::SchoolReminder.Droid.Resource.Id.src_in;
+			global::Xamarin.Plugin.Calendar.Resource.Id.src_over = global::SchoolReminder.Droid.Resource.Id.src_over;
+			global::Xamarin.Plugin.Calendar.Resource.Id.start = global::SchoolReminder.Droid.Resource.Id.start;
+			global::Xamarin.Plugin.Calendar.Resource.Id.status_bar_latest_event_content = global::SchoolReminder.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.submenuarrow = global::SchoolReminder.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.Plugin.Calendar.Resource.Id.submit_area = global::SchoolReminder.Droid.Resource.Id.submit_area;
+			global::Xamarin.Plugin.Calendar.Resource.Id.SYM = global::SchoolReminder.Droid.Resource.Id.SYM;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tabMode = global::SchoolReminder.Droid.Resource.Id.tabMode;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_transition_group = global::SchoolReminder.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Plugin.Calendar.Resource.Id.text = global::SchoolReminder.Droid.Resource.Id.text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.text2 = global::SchoolReminder.Droid.Resource.Id.text2;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textinput_counter = global::SchoolReminder.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textinput_error = global::SchoolReminder.Droid.Resource.Id.textinput_error;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textSpacerNoButtons = global::SchoolReminder.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textSpacerNoTitle = global::SchoolReminder.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.text_input_password_toggle = global::SchoolReminder.Droid.Resource.Id.text_input_password_toggle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.time = global::SchoolReminder.Droid.Resource.Id.time;
+			global::Xamarin.Plugin.Calendar.Resource.Id.title = global::SchoolReminder.Droid.Resource.Id.title;
+			global::Xamarin.Plugin.Calendar.Resource.Id.titleDividerNoCustom = global::SchoolReminder.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.title_template = global::SchoolReminder.Droid.Resource.Id.title_template;
+			global::Xamarin.Plugin.Calendar.Resource.Id.top = global::SchoolReminder.Droid.Resource.Id.top;
+			global::Xamarin.Plugin.Calendar.Resource.Id.topPanel = global::SchoolReminder.Droid.Resource.Id.topPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.touch_outside = global::SchoolReminder.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_current_scene = global::SchoolReminder.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_layout_save = global::SchoolReminder.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_position = global::SchoolReminder.Droid.Resource.Id.transition_position;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_scene_layoutid_cache = global::SchoolReminder.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_transform = global::SchoolReminder.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Plugin.Calendar.Resource.Id.uniform = global::SchoolReminder.Droid.Resource.Id.uniform;
+			global::Xamarin.Plugin.Calendar.Resource.Id.up = global::SchoolReminder.Droid.Resource.Id.up;
+			global::Xamarin.Plugin.Calendar.Resource.Id.useLogo = global::SchoolReminder.Droid.Resource.Id.useLogo;
+			global::Xamarin.Plugin.Calendar.Resource.Id.view_offset_helper = global::SchoolReminder.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Plugin.Calendar.Resource.Id.visible = global::SchoolReminder.Droid.Resource.Id.visible;
+			global::Xamarin.Plugin.Calendar.Resource.Id.withText = global::SchoolReminder.Droid.Resource.Id.withText;
+			global::Xamarin.Plugin.Calendar.Resource.Id.wrap_content = global::SchoolReminder.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.abc_config_activityDefaultDur = global::SchoolReminder.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.abc_config_activityShortDur = global::SchoolReminder.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.app_bar_elevation_anim_duration = global::SchoolReminder.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.bottom_sheet_slide_duration = global::SchoolReminder.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.cancel_button_image_alpha = global::SchoolReminder.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.config_tooltipAnimTime = global::SchoolReminder.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.design_snackbar_text_max_lines = global::SchoolReminder.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.hide_password_duration = global::SchoolReminder.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.show_password_duration = global::SchoolReminder.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.status_bar_notification_info_maxnum = global::SchoolReminder.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_bar_title_item = global::SchoolReminder.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_bar_up_container = global::SchoolReminder.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_menu_item_layout = global::SchoolReminder.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_menu_layout = global::SchoolReminder.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_mode_bar = global::SchoolReminder.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_mode_close_item_material = global::SchoolReminder.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_activity_chooser_view = global::SchoolReminder.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_activity_chooser_view_list_item = global::SchoolReminder.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_alert_dialog_button_bar_material = global::SchoolReminder.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_alert_dialog_material = global::SchoolReminder.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_alert_dialog_title_material = global::SchoolReminder.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_dialog_title_material = global::SchoolReminder.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_expanded_menu_layout = global::SchoolReminder.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_checkbox = global::SchoolReminder.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_icon = global::SchoolReminder.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_layout = global::SchoolReminder.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_radio = global::SchoolReminder.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_popup_menu_header_item_layout = global::SchoolReminder.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_popup_menu_item_layout = global::SchoolReminder.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_content_include = global::SchoolReminder.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_simple = global::SchoolReminder.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_simple_overlay_action_mode = global::SchoolReminder.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_toolbar = global::SchoolReminder.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_search_dropdown_item_icons_2line = global::SchoolReminder.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_search_view = global::SchoolReminder.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_select_dialog_material = global::SchoolReminder.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_bottom_navigation_item = global::SchoolReminder.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_bottom_sheet_dialog = global::SchoolReminder.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_snackbar = global::SchoolReminder.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_snackbar_include = global::SchoolReminder.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_tab_icon = global::SchoolReminder.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_tab_text = global::SchoolReminder.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_menu_item_action_area = global::SchoolReminder.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item = global::SchoolReminder.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item_header = global::SchoolReminder.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item_separator = global::SchoolReminder.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item_subheader = global::SchoolReminder.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_menu = global::SchoolReminder.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_menu_item = global::SchoolReminder.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_text_input_password_icon = global::SchoolReminder.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_action = global::SchoolReminder.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_action_tombstone = global::SchoolReminder.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_media_action = global::SchoolReminder.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_media_cancel_action = global::SchoolReminder.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media = global::SchoolReminder.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media_custom = global::SchoolReminder.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media_narrow = global::SchoolReminder.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media_narrow_custom = global::SchoolReminder.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_custom_big = global::SchoolReminder.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_icon_group = global::SchoolReminder.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_lines_media = global::SchoolReminder.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_media = global::SchoolReminder.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_media_custom = global::SchoolReminder.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_part_chronometer = global::SchoolReminder.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_part_time = global::SchoolReminder.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.select_dialog_item_material = global::SchoolReminder.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.select_dialog_multichoice_material = global::SchoolReminder.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.select_dialog_singlechoice_material = global::SchoolReminder.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.support_simple_spinner_dropdown_item = global::SchoolReminder.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_bar_home_description = global::SchoolReminder.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_bar_up_description = global::SchoolReminder.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_menu_overflow_description = global::SchoolReminder.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_mode_done = global::SchoolReminder.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_activitychooserview_choose_application = global::SchoolReminder.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_activity_chooser_view_see_all = global::SchoolReminder.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_capital_off = global::SchoolReminder.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_capital_on = global::SchoolReminder.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_font_family_body_1_material = global::SchoolReminder.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_font_family_body_2_material = global::SchoolReminder.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_font_family_button_material = global::SchoolReminder.Droid.Resource.String.abc_font_family_button_material;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_font_family_caption_material = global::SchoolReminder.Droid.Resource.String.abc_font_family_caption_material;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_font_family_display_1_material = global::SchoolReminder.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_font_family_display_2_material = global::SchoolReminder.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_font_family_display_3_material = global::SchoolReminder.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_font_family_display_4_material = global::SchoolReminder.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_font_family_headline_material = global::SchoolReminder.Droid.Resource.String.abc_font_family_headline_material;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_font_family_menu_material = global::SchoolReminder.Droid.Resource.String.abc_font_family_menu_material;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_font_family_subhead_material = global::SchoolReminder.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_font_family_title_material = global::SchoolReminder.Droid.Resource.String.abc_font_family_title_material;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_clear = global::SchoolReminder.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_query = global::SchoolReminder.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_search = global::SchoolReminder.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_submit = global::SchoolReminder.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_voice = global::SchoolReminder.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_search_hint = global::SchoolReminder.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_shareactionprovider_share_with = global::SchoolReminder.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_shareactionprovider_share_with_application = global::SchoolReminder.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_toolbar_collapse_description = global::SchoolReminder.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.appbar_scrolling_view_behavior = global::SchoolReminder.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.bottom_sheet_behavior = global::SchoolReminder.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.character_counter_pattern = global::SchoolReminder.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Plugin.Calendar.Resource.String.password_toggle_content_description = global::SchoolReminder.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_eye = global::SchoolReminder.Droid.Resource.String.path_password_eye;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_eye_mask_strike_through = global::SchoolReminder.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_eye_mask_visible = global::SchoolReminder.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_strike_through = global::SchoolReminder.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.Plugin.Calendar.Resource.String.search_menu_title = global::SchoolReminder.Droid.Resource.String.search_menu_title;
+			global::Xamarin.Plugin.Calendar.Resource.String.status_bar_notification_info_overflow = global::SchoolReminder.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.AlertDialog_AppCompat = global::SchoolReminder.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.AlertDialog_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_AppCompat_Dialog = global::SchoolReminder.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_AppCompat_DropDownUp = global::SchoolReminder.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_AppCompat_Tooltip = global::SchoolReminder.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_Design_BottomSheetDialog = global::SchoolReminder.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_AlertDialog_AppCompat = global::SchoolReminder.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_AlertDialog_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Animation_AppCompat_Dialog = global::SchoolReminder.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::SchoolReminder.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Animation_AppCompat_Tooltip = global::SchoolReminder.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_CardView = global::SchoolReminder.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::SchoolReminder.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_DialogWindowTitle_AppCompat = global::SchoolReminder.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Button = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Large = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Small = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Title = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::SchoolReminder.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat = global::SchoolReminder.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::SchoolReminder.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::SchoolReminder.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::SchoolReminder.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::SchoolReminder.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::SchoolReminder.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::SchoolReminder.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::SchoolReminder.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat = global::SchoolReminder.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::SchoolReminder.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::SchoolReminder.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V22_Theme_AppCompat = global::SchoolReminder.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V22_Theme_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V23_Theme_AppCompat = global::SchoolReminder.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V23_Theme_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V26_Theme_AppCompat = global::SchoolReminder.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V26_Theme_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::SchoolReminder.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::SchoolReminder.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat = global::SchoolReminder.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::SchoolReminder.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::SchoolReminder.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::SchoolReminder.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::SchoolReminder.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::SchoolReminder.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionButton = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionMode = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Small = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_EditText = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ImageButton = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListView = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_RatingBar = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SearchView = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SeekBar = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Spinner = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Toolbar = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::SchoolReminder.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_Design_TabLayout = global::SchoolReminder.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.CardView = global::SchoolReminder.Droid.Resource.Style.CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.CardView_Dark = global::SchoolReminder.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.CardView_Light = global::SchoolReminder.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_AppCompat = global::SchoolReminder.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_ThemeOverlay_AppCompat = global::SchoolReminder.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::SchoolReminder.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V21_AppCompat = global::SchoolReminder.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V21_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V25_AppCompat = global::SchoolReminder.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V25_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_Widget_AppCompat_Spinner = global::SchoolReminder.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::SchoolReminder.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::SchoolReminder.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::SchoolReminder.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::SchoolReminder.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::SchoolReminder.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::SchoolReminder.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::SchoolReminder.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::SchoolReminder.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::SchoolReminder.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::SchoolReminder.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::SchoolReminder.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::SchoolReminder.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::SchoolReminder.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::SchoolReminder.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Body1 = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Body2 = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Button = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Caption = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display1 = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display2 = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display3 = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display4 = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Headline = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Inverse = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Large = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Medium = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Menu = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Small = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Subhead = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Title = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Tooltip = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SchoolReminder.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Info = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Media = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Time = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Title = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Counter = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Counter_Overflow = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Error = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Hint = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Snackbar_Message = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Tab = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::SchoolReminder.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat = global::SchoolReminder.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::SchoolReminder.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dark = global::SchoolReminder.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::SchoolReminder.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::SchoolReminder.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::SchoolReminder.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_CompactMenu = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Dialog = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Dialog_Alert = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_Dialog = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_NoActionBar = global::SchoolReminder.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design = global::SchoolReminder.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_BottomSheetDialog = global::SchoolReminder.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_Light = global::SchoolReminder.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::SchoolReminder.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_Light_NoActionBar = global::SchoolReminder.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_NoActionBar = global::SchoolReminder.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionButton = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionMode = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActivityChooserView = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ButtonBar = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Borderless = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Colored = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Small = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_EditText = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ImageButton = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionButton = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_SearchView = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListMenuView = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListPopupWindow = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListView = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListView_DropDown = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListView_Menu = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_PopupMenu = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_PopupWindow = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ProgressBar = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_RatingBar = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_RatingBar_Small = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SearchView = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SeekBar = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Toolbar = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::SchoolReminder.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Compat_NotificationActionContainer = global::SchoolReminder.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Compat_NotificationActionText = global::SchoolReminder.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_AppBarLayout = global::SchoolReminder.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_BottomNavigationView = global::SchoolReminder.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_BottomSheet_Modal = global::SchoolReminder.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_CollapsingToolbar = global::SchoolReminder.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_FloatingActionButton = global::SchoolReminder.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_NavigationView = global::SchoolReminder.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::SchoolReminder.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_Snackbar = global::SchoolReminder.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_TabLayout = global::SchoolReminder.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_TextInputLayout = global::SchoolReminder.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar = global::SchoolReminder.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBarLayout = global::SchoolReminder.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::SchoolReminder.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_background = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_backgroundSplit = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_backgroundStacked = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetEnd = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetLeft = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetRight = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetStart = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_customNavigationLayout = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_displayOptions = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_divider = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_elevation = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_height = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_hideOnContentScroll = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_homeAsUpIndicator = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_homeLayout = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_icon = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_itemPadding = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_logo = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_navigationMode = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_popupTheme = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_progressBarPadding = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_progressBarStyle = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_subtitle = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_subtitleTextStyle = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_title = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_titleTextStyle = global::SchoolReminder.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMenuItemView = global::SchoolReminder.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMenuItemView_android_minWidth = global::SchoolReminder.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMenuView = global::SchoolReminder.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode = global::SchoolReminder.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_background = global::SchoolReminder.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_backgroundSplit = global::SchoolReminder.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_closeItemLayout = global::SchoolReminder.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_height = global::SchoolReminder.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_subtitleTextStyle = global::SchoolReminder.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_titleTextStyle = global::SchoolReminder.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActivityChooserView = global::SchoolReminder.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::SchoolReminder.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActivityChooserView_initialActivityCount = global::SchoolReminder.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog = global::SchoolReminder.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_android_layout = global::SchoolReminder.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::SchoolReminder.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_listItemLayout = global::SchoolReminder.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_listLayout = global::SchoolReminder.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::SchoolReminder.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_showTitle = global::SchoolReminder.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::SchoolReminder.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout = global::SchoolReminder.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates = global::SchoolReminder.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::SchoolReminder.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::SchoolReminder.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_android_background = global::SchoolReminder.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::SchoolReminder.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::SchoolReminder.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_elevation = global::SchoolReminder.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_expanded = global::SchoolReminder.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_Layout = global::SchoolReminder.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::SchoolReminder.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::SchoolReminder.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView = global::SchoolReminder.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_android_src = global::SchoolReminder.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_srcCompat = global::SchoolReminder.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_tint = global::SchoolReminder.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_tintMode = global::SchoolReminder.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar = global::SchoolReminder.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_android_thumb = global::SchoolReminder.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_tickMark = global::SchoolReminder.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::SchoolReminder.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::SchoolReminder.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_android_textAppearance = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_fontFamily = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_textAllCaps = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarDivider = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarSize = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTheme = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeBackground = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_checkboxStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorAccent = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorControlActivated = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorControlNormal = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorError = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorPrimary = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_controlBackground = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dialogTheme = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dividerVertical = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_editTextBackground = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_editTextColor = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_editTextStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_panelBackground = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_searchViewStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_seekBarStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_spinnerStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_switchStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_toolbarStyle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowActionBar = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowNoTitle = global::SchoolReminder.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView = global::SchoolReminder.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_elevation = global::SchoolReminder.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_itemBackground = global::SchoolReminder.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_itemIconTint = global::SchoolReminder.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_itemTextColor = global::SchoolReminder.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_menu = global::SchoolReminder.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout = global::SchoolReminder.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::SchoolReminder.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::SchoolReminder.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::SchoolReminder.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ButtonBarLayout = global::SchoolReminder.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ButtonBarLayout_allowStacking = global::SchoolReminder.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView = global::SchoolReminder.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_android_minHeight = global::SchoolReminder.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_android_minWidth = global::SchoolReminder.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardBackgroundColor = global::SchoolReminder.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardCornerRadius = global::SchoolReminder.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardElevation = global::SchoolReminder.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardMaxElevation = global::SchoolReminder.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardPreventCornerOverlap = global::SchoolReminder.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardUseCompatPadding = global::SchoolReminder.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPadding = global::SchoolReminder.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingBottom = global::SchoolReminder.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingLeft = global::SchoolReminder.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingRight = global::SchoolReminder.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingTop = global::SchoolReminder.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_Layout = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_title = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::SchoolReminder.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem = global::SchoolReminder.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem_alpha = global::SchoolReminder.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem_android_alpha = global::SchoolReminder.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem_android_color = global::SchoolReminder.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton = global::SchoolReminder.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_android_button = global::SchoolReminder.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_buttonTint = global::SchoolReminder.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_buttonTintMode = global::SchoolReminder.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout = global::SchoolReminder.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_keylines = global::SchoolReminder.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout = global::SchoolReminder.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::SchoolReminder.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::SchoolReminder.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::SchoolReminder.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::SchoolReminder.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::SchoolReminder.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::SchoolReminder.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::SchoolReminder.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::SchoolReminder.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DesignTheme = global::SchoolReminder.Droid.Resource.Styleable.DesignTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::SchoolReminder.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DesignTheme_bottomSheetStyle = global::SchoolReminder.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle = global::SchoolReminder.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::SchoolReminder.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::SchoolReminder.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_barLength = global::SchoolReminder.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_color = global::SchoolReminder.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_drawableSize = global::SchoolReminder.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::SchoolReminder.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_spinBars = global::SchoolReminder.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_thickness = global::SchoolReminder.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton = global::SchoolReminder.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_backgroundTint = global::SchoolReminder.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::SchoolReminder.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::SchoolReminder.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::SchoolReminder.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_borderWidth = global::SchoolReminder.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_elevation = global::SchoolReminder.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_fabSize = global::SchoolReminder.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::SchoolReminder.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_rippleColor = global::SchoolReminder.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_useCompatPadding = global::SchoolReminder.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily = global::SchoolReminder.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont = global::SchoolReminder.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_font = global::SchoolReminder.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_fontStyle = global::SchoolReminder.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_fontWeight = global::SchoolReminder.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_font = global::SchoolReminder.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_fontStyle = global::SchoolReminder.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_fontWeight = global::SchoolReminder.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderAuthority = global::SchoolReminder.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderCerts = global::SchoolReminder.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::SchoolReminder.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::SchoolReminder.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderPackage = global::SchoolReminder.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderQuery = global::SchoolReminder.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout = global::SchoolReminder.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::SchoolReminder.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::SchoolReminder.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::SchoolReminder.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_gravity = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_orientation = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_divider = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_showDividers = global::SchoolReminder.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ListPopupWindow = global::SchoolReminder.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::SchoolReminder.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::SchoolReminder.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup = global::SchoolReminder.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_checkableBehavior = global::SchoolReminder.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_enabled = global::SchoolReminder.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_id = global::SchoolReminder.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_menuCategory = global::SchoolReminder.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_orderInCategory = global::SchoolReminder.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_visible = global::SchoolReminder.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem = global::SchoolReminder.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_actionLayout = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_actionProviderClass = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_actionViewClass = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_alphabeticModifiers = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_checkable = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_checked = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_enabled = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_icon = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_id = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_menuCategory = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_numericShortcut = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_onClick = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_orderInCategory = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_title = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_titleCondensed = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_visible = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_contentDescription = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_iconTint = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_iconTintMode = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_numericModifiers = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_showAsAction = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_tooltipText = global::SchoolReminder.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView = global::SchoolReminder.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_headerBackground = global::SchoolReminder.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_horizontalDivider = global::SchoolReminder.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_itemBackground = global::SchoolReminder.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::SchoolReminder.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_itemTextAppearance = global::SchoolReminder.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_verticalDivider = global::SchoolReminder.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_windowAnimationStyle = global::SchoolReminder.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_preserveIconSpacing = global::SchoolReminder.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_subMenuArrow = global::SchoolReminder.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView = global::SchoolReminder.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_android_background = global::SchoolReminder.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::SchoolReminder.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_android_maxWidth = global::SchoolReminder.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_elevation = global::SchoolReminder.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_headerLayout = global::SchoolReminder.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemBackground = global::SchoolReminder.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemIconTint = global::SchoolReminder.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemTextAppearance = global::SchoolReminder.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemTextColor = global::SchoolReminder.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_menu = global::SchoolReminder.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow = global::SchoolReminder.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindowBackgroundState = global::SchoolReminder.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::SchoolReminder.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::SchoolReminder.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow_android_popupBackground = global::SchoolReminder.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow_overlapAnchor = global::SchoolReminder.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecycleListView = global::SchoolReminder.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::SchoolReminder.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::SchoolReminder.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView = global::SchoolReminder.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_android_descendantFocusability = global::SchoolReminder.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_android_orientation = global::SchoolReminder.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollEnabled = global::SchoolReminder.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::SchoolReminder.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::SchoolReminder.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::SchoolReminder.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::SchoolReminder.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_layoutManager = global::SchoolReminder.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_reverseLayout = global::SchoolReminder.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_spanCount = global::SchoolReminder.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_stackFromEnd = global::SchoolReminder.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrimInsetsFrameLayout = global::SchoolReminder.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::SchoolReminder.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollingViewBehavior_Layout = global::SchoolReminder.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::SchoolReminder.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView = global::SchoolReminder.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_focusable = global::SchoolReminder.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_imeOptions = global::SchoolReminder.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_inputType = global::SchoolReminder.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_maxWidth = global::SchoolReminder.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_closeIcon = global::SchoolReminder.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_commitIcon = global::SchoolReminder.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_defaultQueryHint = global::SchoolReminder.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_goIcon = global::SchoolReminder.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_iconifiedByDefault = global::SchoolReminder.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_layout = global::SchoolReminder.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_queryBackground = global::SchoolReminder.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_queryHint = global::SchoolReminder.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_searchHintIcon = global::SchoolReminder.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_searchIcon = global::SchoolReminder.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_submitBackground = global::SchoolReminder.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_suggestionRowLayout = global::SchoolReminder.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_voiceIcon = global::SchoolReminder.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout = global::SchoolReminder.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout_android_maxWidth = global::SchoolReminder.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout_elevation = global::SchoolReminder.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::SchoolReminder.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner = global::SchoolReminder.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_dropDownWidth = global::SchoolReminder.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_entries = global::SchoolReminder.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_popupBackground = global::SchoolReminder.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_prompt = global::SchoolReminder.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_popupTheme = global::SchoolReminder.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_android_textOff = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_android_textOn = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_android_thumb = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_showText = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_splitTrack = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_switchMinWidth = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_switchPadding = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_switchTextAppearance = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_thumbTextPadding = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_thumbTint = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_thumbTintMode = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_track = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_trackTint = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_trackTintMode = global::SchoolReminder.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem = global::SchoolReminder.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem_android_icon = global::SchoolReminder.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem_android_layout = global::SchoolReminder.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem_android_text = global::SchoolReminder.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout = global::SchoolReminder.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabBackground = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabContentStart = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabGravity = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorColor = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorHeight = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabMaxWidth = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabMinWidth = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabMode = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPadding = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingBottom = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingEnd = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingStart = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingTop = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabSelectedTextColor = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabTextAppearance = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabTextColor = global::SchoolReminder.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_fontFamily = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowColor = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowDx = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowDy = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowRadius = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textColor = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textColorHint = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textColorLink = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textSize = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textStyle = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_typeface = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_fontFamily = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_textAllCaps = global::SchoolReminder.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_android_hint = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_android_textColorHint = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterEnabled = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterMaxLength = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterTextAppearance = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_errorEnabled = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_errorTextAppearance = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_hintEnabled = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_hintTextAppearance = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleTint = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::SchoolReminder.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar = global::SchoolReminder.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_android_gravity = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_android_minHeight = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_buttonGravity = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_collapseContentDescription = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_collapseIcon = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetEnd = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetLeft = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetRight = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetStart = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_logo = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_logoDescription = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_maxButtonHeight = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_navigationContentDescription = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_navigationIcon = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_popupTheme = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_subtitle = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_subtitleTextAppearance = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_subtitleTextColor = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_title = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMargin = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginBottom = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginEnd = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMargins = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginStart = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginTop = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleTextAppearance = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleTextColor = global::SchoolReminder.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View = global::SchoolReminder.Droid.Resource.Styleable.View;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper = global::SchoolReminder.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper_android_background = global::SchoolReminder.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::SchoolReminder.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::SchoolReminder.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat = global::SchoolReminder.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat_android_id = global::SchoolReminder.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat_android_inflatedId = global::SchoolReminder.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat_android_layout = global::SchoolReminder.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_android_focusable = global::SchoolReminder.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_android_theme = global::SchoolReminder.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_paddingEnd = global::SchoolReminder.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_paddingStart = global::SchoolReminder.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_theme = global::SchoolReminder.Droid.Resource.Styleable.View_theme;
 		}
 		
 		public partial class Animation
 		{
 			
-			// aapt resource value: 0x7F010004
-			public const int abc_fade_in = 2130771972;
-			
-			// aapt resource value: 0x7F010005
-			public const int abc_fade_out = 2130771973;
-			
-			// aapt resource value: 0x7F010006
-			public const int abc_grow_fade_in_from_bottom = 2130771974;
-			
-			// aapt resource value: 0x7F010007
-			public const int abc_popup_enter = 2130771975;
-			
-			// aapt resource value: 0x7F010008
-			public const int abc_popup_exit = 2130771976;
-			
-			// aapt resource value: 0x7F010009
-			public const int abc_shrink_fade_out_from_bottom = 2130771977;
-			
-			// aapt resource value: 0x7F01000A
-			public const int abc_slide_in_bottom = 2130771978;
-			
-			// aapt resource value: 0x7F01000B
-			public const int abc_slide_in_top = 2130771979;
-			
-			// aapt resource value: 0x7F01000C
-			public const int abc_slide_out_bottom = 2130771980;
-			
-			// aapt resource value: 0x7F01000D
-			public const int abc_slide_out_top = 2130771981;
-			
-			// aapt resource value: 0x7F01000E
-			public const int abc_tooltip_enter = 2130771982;
-			
-			// aapt resource value: 0x7F01000F
-			public const int abc_tooltip_exit = 2130771983;
-			
-			// aapt resource value: 0x7F010010
-			public const int design_bottom_sheet_slide_in = 2130771984;
-			
-			// aapt resource value: 0x7F010011
-			public const int design_bottom_sheet_slide_out = 2130771985;
-			
-			// aapt resource value: 0x7F010012
-			public const int design_snackbar_in = 2130771986;
-			
-			// aapt resource value: 0x7F010013
-			public const int design_snackbar_out = 2130771987;
-			
 			// aapt resource value: 0x7F010000
-			public const int EnterFromLeft = 2130771968;
+			public const int abc_fade_in = 2130771968;
 			
 			// aapt resource value: 0x7F010001
-			public const int EnterFromRight = 2130771969;
+			public const int abc_fade_out = 2130771969;
 			
 			// aapt resource value: 0x7F010002
-			public const int ExitToLeft = 2130771970;
+			public const int abc_grow_fade_in_from_bottom = 2130771970;
 			
 			// aapt resource value: 0x7F010003
-			public const int ExitToRight = 2130771971;
+			public const int abc_popup_enter = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int abc_popup_exit = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int abc_shrink_fade_out_from_bottom = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int abc_slide_in_bottom = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int abc_slide_in_top = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int abc_slide_out_bottom = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int abc_slide_out_top = 2130771977;
+			
+			// aapt resource value: 0x7F01000A
+			public const int abc_tooltip_enter = 2130771978;
+			
+			// aapt resource value: 0x7F01000B
+			public const int abc_tooltip_exit = 2130771979;
+			
+			// aapt resource value: 0x7F01000C
+			public const int design_bottom_sheet_slide_in = 2130771980;
+			
+			// aapt resource value: 0x7F01000D
+			public const int design_bottom_sheet_slide_out = 2130771981;
+			
+			// aapt resource value: 0x7F01000E
+			public const int design_snackbar_in = 2130771982;
+			
+			// aapt resource value: 0x7F01000F
+			public const int design_snackbar_out = 2130771983;
+			
+			// aapt resource value: 0x7F010010
+			public const int EnterFromLeft = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int EnterFromRight = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int ExitToLeft = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int ExitToRight = 2130771987;
 			
 			static Animation()
 			{
@@ -8052,380 +9996,389 @@ namespace SchoolReminder.Droid
 		public partial class Drawable
 		{
 			
-			// aapt resource value: 0x7F070000
-			public const int abc_ab_share_pack_mtrl_alpha = 2131165184;
-			
-			// aapt resource value: 0x7F070001
-			public const int abc_action_bar_item_background_material = 2131165185;
-			
-			// aapt resource value: 0x7F070002
-			public const int abc_btn_borderless_material = 2131165186;
-			
-			// aapt resource value: 0x7F070003
-			public const int abc_btn_check_material = 2131165187;
-			
-			// aapt resource value: 0x7F070004
-			public const int abc_btn_check_to_on_mtrl_000 = 2131165188;
-			
-			// aapt resource value: 0x7F070005
-			public const int abc_btn_check_to_on_mtrl_015 = 2131165189;
-			
 			// aapt resource value: 0x7F070006
-			public const int abc_btn_colored_material = 2131165190;
+			public const int abc_ab_share_pack_mtrl_alpha = 2131165190;
 			
 			// aapt resource value: 0x7F070007
-			public const int abc_btn_default_mtrl_shape = 2131165191;
+			public const int abc_action_bar_item_background_material = 2131165191;
 			
 			// aapt resource value: 0x7F070008
-			public const int abc_btn_radio_material = 2131165192;
+			public const int abc_btn_borderless_material = 2131165192;
 			
 			// aapt resource value: 0x7F070009
-			public const int abc_btn_radio_to_on_mtrl_000 = 2131165193;
+			public const int abc_btn_check_material = 2131165193;
 			
 			// aapt resource value: 0x7F07000A
-			public const int abc_btn_radio_to_on_mtrl_015 = 2131165194;
+			public const int abc_btn_check_to_on_mtrl_000 = 2131165194;
 			
 			// aapt resource value: 0x7F07000B
-			public const int abc_btn_switch_to_on_mtrl_00001 = 2131165195;
+			public const int abc_btn_check_to_on_mtrl_015 = 2131165195;
 			
 			// aapt resource value: 0x7F07000C
-			public const int abc_btn_switch_to_on_mtrl_00012 = 2131165196;
+			public const int abc_btn_colored_material = 2131165196;
 			
 			// aapt resource value: 0x7F07000D
-			public const int abc_cab_background_internal_bg = 2131165197;
+			public const int abc_btn_default_mtrl_shape = 2131165197;
 			
 			// aapt resource value: 0x7F07000E
-			public const int abc_cab_background_top_material = 2131165198;
+			public const int abc_btn_radio_material = 2131165198;
 			
 			// aapt resource value: 0x7F07000F
-			public const int abc_cab_background_top_mtrl_alpha = 2131165199;
+			public const int abc_btn_radio_to_on_mtrl_000 = 2131165199;
 			
 			// aapt resource value: 0x7F070010
-			public const int abc_control_background_material = 2131165200;
+			public const int abc_btn_radio_to_on_mtrl_015 = 2131165200;
 			
 			// aapt resource value: 0x7F070011
-			public const int abc_dialog_material_background = 2131165201;
+			public const int abc_btn_switch_to_on_mtrl_00001 = 2131165201;
 			
 			// aapt resource value: 0x7F070012
-			public const int abc_edit_text_material = 2131165202;
+			public const int abc_btn_switch_to_on_mtrl_00012 = 2131165202;
 			
 			// aapt resource value: 0x7F070013
-			public const int abc_ic_ab_back_material = 2131165203;
+			public const int abc_cab_background_internal_bg = 2131165203;
 			
 			// aapt resource value: 0x7F070014
-			public const int abc_ic_arrow_drop_right_black_24dp = 2131165204;
+			public const int abc_cab_background_top_material = 2131165204;
 			
 			// aapt resource value: 0x7F070015
-			public const int abc_ic_clear_material = 2131165205;
+			public const int abc_cab_background_top_mtrl_alpha = 2131165205;
 			
 			// aapt resource value: 0x7F070016
-			public const int abc_ic_commit_search_api_mtrl_alpha = 2131165206;
+			public const int abc_control_background_material = 2131165206;
 			
 			// aapt resource value: 0x7F070017
-			public const int abc_ic_go_search_api_material = 2131165207;
+			public const int abc_dialog_material_background = 2131165207;
 			
 			// aapt resource value: 0x7F070018
-			public const int abc_ic_menu_copy_mtrl_am_alpha = 2131165208;
+			public const int abc_edit_text_material = 2131165208;
 			
 			// aapt resource value: 0x7F070019
-			public const int abc_ic_menu_cut_mtrl_alpha = 2131165209;
+			public const int abc_ic_ab_back_material = 2131165209;
 			
 			// aapt resource value: 0x7F07001A
-			public const int abc_ic_menu_overflow_material = 2131165210;
+			public const int abc_ic_arrow_drop_right_black_24dp = 2131165210;
 			
 			// aapt resource value: 0x7F07001B
-			public const int abc_ic_menu_paste_mtrl_am_alpha = 2131165211;
+			public const int abc_ic_clear_material = 2131165211;
 			
 			// aapt resource value: 0x7F07001C
-			public const int abc_ic_menu_selectall_mtrl_alpha = 2131165212;
+			public const int abc_ic_commit_search_api_mtrl_alpha = 2131165212;
 			
 			// aapt resource value: 0x7F07001D
-			public const int abc_ic_menu_share_mtrl_alpha = 2131165213;
+			public const int abc_ic_go_search_api_material = 2131165213;
 			
 			// aapt resource value: 0x7F07001E
-			public const int abc_ic_search_api_material = 2131165214;
+			public const int abc_ic_menu_copy_mtrl_am_alpha = 2131165214;
 			
 			// aapt resource value: 0x7F07001F
-			public const int abc_ic_star_black_16dp = 2131165215;
+			public const int abc_ic_menu_cut_mtrl_alpha = 2131165215;
 			
 			// aapt resource value: 0x7F070020
-			public const int abc_ic_star_black_36dp = 2131165216;
+			public const int abc_ic_menu_overflow_material = 2131165216;
 			
 			// aapt resource value: 0x7F070021
-			public const int abc_ic_star_black_48dp = 2131165217;
+			public const int abc_ic_menu_paste_mtrl_am_alpha = 2131165217;
 			
 			// aapt resource value: 0x7F070022
-			public const int abc_ic_star_half_black_16dp = 2131165218;
+			public const int abc_ic_menu_selectall_mtrl_alpha = 2131165218;
 			
 			// aapt resource value: 0x7F070023
-			public const int abc_ic_star_half_black_36dp = 2131165219;
+			public const int abc_ic_menu_share_mtrl_alpha = 2131165219;
 			
 			// aapt resource value: 0x7F070024
-			public const int abc_ic_star_half_black_48dp = 2131165220;
+			public const int abc_ic_search_api_material = 2131165220;
 			
 			// aapt resource value: 0x7F070025
-			public const int abc_ic_voice_search_api_material = 2131165221;
+			public const int abc_ic_star_black_16dp = 2131165221;
 			
 			// aapt resource value: 0x7F070026
-			public const int abc_item_background_holo_dark = 2131165222;
+			public const int abc_ic_star_black_36dp = 2131165222;
 			
 			// aapt resource value: 0x7F070027
-			public const int abc_item_background_holo_light = 2131165223;
+			public const int abc_ic_star_black_48dp = 2131165223;
 			
 			// aapt resource value: 0x7F070028
-			public const int abc_list_divider_material = 2131165224;
+			public const int abc_ic_star_half_black_16dp = 2131165224;
 			
 			// aapt resource value: 0x7F070029
-			public const int abc_list_divider_mtrl_alpha = 2131165225;
+			public const int abc_ic_star_half_black_36dp = 2131165225;
 			
 			// aapt resource value: 0x7F07002A
-			public const int abc_list_focused_holo = 2131165226;
+			public const int abc_ic_star_half_black_48dp = 2131165226;
 			
 			// aapt resource value: 0x7F07002B
-			public const int abc_list_longpressed_holo = 2131165227;
+			public const int abc_ic_voice_search_api_material = 2131165227;
 			
 			// aapt resource value: 0x7F07002C
-			public const int abc_list_pressed_holo_dark = 2131165228;
+			public const int abc_item_background_holo_dark = 2131165228;
 			
 			// aapt resource value: 0x7F07002D
-			public const int abc_list_pressed_holo_light = 2131165229;
+			public const int abc_item_background_holo_light = 2131165229;
 			
 			// aapt resource value: 0x7F07002E
-			public const int abc_list_selector_background_transition_holo_dark = 2131165230;
+			public const int abc_list_divider_material = 2131165230;
 			
 			// aapt resource value: 0x7F07002F
-			public const int abc_list_selector_background_transition_holo_light = 2131165231;
+			public const int abc_list_divider_mtrl_alpha = 2131165231;
 			
 			// aapt resource value: 0x7F070030
-			public const int abc_list_selector_disabled_holo_dark = 2131165232;
+			public const int abc_list_focused_holo = 2131165232;
 			
 			// aapt resource value: 0x7F070031
-			public const int abc_list_selector_disabled_holo_light = 2131165233;
+			public const int abc_list_longpressed_holo = 2131165233;
 			
 			// aapt resource value: 0x7F070032
-			public const int abc_list_selector_holo_dark = 2131165234;
+			public const int abc_list_pressed_holo_dark = 2131165234;
 			
 			// aapt resource value: 0x7F070033
-			public const int abc_list_selector_holo_light = 2131165235;
+			public const int abc_list_pressed_holo_light = 2131165235;
 			
 			// aapt resource value: 0x7F070034
-			public const int abc_menu_hardkey_panel_mtrl_mult = 2131165236;
+			public const int abc_list_selector_background_transition_holo_dark = 2131165236;
 			
 			// aapt resource value: 0x7F070035
-			public const int abc_popup_background_mtrl_mult = 2131165237;
+			public const int abc_list_selector_background_transition_holo_light = 2131165237;
 			
 			// aapt resource value: 0x7F070036
-			public const int abc_ratingbar_indicator_material = 2131165238;
+			public const int abc_list_selector_disabled_holo_dark = 2131165238;
 			
 			// aapt resource value: 0x7F070037
-			public const int abc_ratingbar_material = 2131165239;
+			public const int abc_list_selector_disabled_holo_light = 2131165239;
 			
 			// aapt resource value: 0x7F070038
-			public const int abc_ratingbar_small_material = 2131165240;
+			public const int abc_list_selector_holo_dark = 2131165240;
 			
 			// aapt resource value: 0x7F070039
-			public const int abc_scrubber_control_off_mtrl_alpha = 2131165241;
+			public const int abc_list_selector_holo_light = 2131165241;
 			
 			// aapt resource value: 0x7F07003A
-			public const int abc_scrubber_control_to_pressed_mtrl_000 = 2131165242;
+			public const int abc_menu_hardkey_panel_mtrl_mult = 2131165242;
 			
 			// aapt resource value: 0x7F07003B
-			public const int abc_scrubber_control_to_pressed_mtrl_005 = 2131165243;
+			public const int abc_popup_background_mtrl_mult = 2131165243;
 			
 			// aapt resource value: 0x7F07003C
-			public const int abc_scrubber_primary_mtrl_alpha = 2131165244;
+			public const int abc_ratingbar_indicator_material = 2131165244;
 			
 			// aapt resource value: 0x7F07003D
-			public const int abc_scrubber_track_mtrl_alpha = 2131165245;
+			public const int abc_ratingbar_material = 2131165245;
 			
 			// aapt resource value: 0x7F07003E
-			public const int abc_seekbar_thumb_material = 2131165246;
+			public const int abc_ratingbar_small_material = 2131165246;
 			
 			// aapt resource value: 0x7F07003F
-			public const int abc_seekbar_tick_mark_material = 2131165247;
+			public const int abc_scrubber_control_off_mtrl_alpha = 2131165247;
 			
 			// aapt resource value: 0x7F070040
-			public const int abc_seekbar_track_material = 2131165248;
+			public const int abc_scrubber_control_to_pressed_mtrl_000 = 2131165248;
 			
 			// aapt resource value: 0x7F070041
-			public const int abc_spinner_mtrl_am_alpha = 2131165249;
+			public const int abc_scrubber_control_to_pressed_mtrl_005 = 2131165249;
 			
 			// aapt resource value: 0x7F070042
-			public const int abc_spinner_textfield_background_material = 2131165250;
+			public const int abc_scrubber_primary_mtrl_alpha = 2131165250;
 			
 			// aapt resource value: 0x7F070043
-			public const int abc_switch_thumb_material = 2131165251;
+			public const int abc_scrubber_track_mtrl_alpha = 2131165251;
 			
 			// aapt resource value: 0x7F070044
-			public const int abc_switch_track_mtrl_alpha = 2131165252;
+			public const int abc_seekbar_thumb_material = 2131165252;
 			
 			// aapt resource value: 0x7F070045
-			public const int abc_tab_indicator_material = 2131165253;
+			public const int abc_seekbar_tick_mark_material = 2131165253;
 			
 			// aapt resource value: 0x7F070046
-			public const int abc_tab_indicator_mtrl_alpha = 2131165254;
-			
-			// aapt resource value: 0x7F07004E
-			public const int abc_textfield_activated_mtrl_alpha = 2131165262;
-			
-			// aapt resource value: 0x7F07004F
-			public const int abc_textfield_default_mtrl_alpha = 2131165263;
-			
-			// aapt resource value: 0x7F070050
-			public const int abc_textfield_search_activated_mtrl_alpha = 2131165264;
-			
-			// aapt resource value: 0x7F070051
-			public const int abc_textfield_search_default_mtrl_alpha = 2131165265;
-			
-			// aapt resource value: 0x7F070052
-			public const int abc_textfield_search_material = 2131165266;
+			public const int abc_seekbar_track_material = 2131165254;
 			
 			// aapt resource value: 0x7F070047
-			public const int abc_text_cursor_material = 2131165255;
+			public const int abc_spinner_mtrl_am_alpha = 2131165255;
 			
 			// aapt resource value: 0x7F070048
-			public const int abc_text_select_handle_left_mtrl_dark = 2131165256;
+			public const int abc_spinner_textfield_background_material = 2131165256;
 			
 			// aapt resource value: 0x7F070049
-			public const int abc_text_select_handle_left_mtrl_light = 2131165257;
+			public const int abc_switch_thumb_material = 2131165257;
 			
 			// aapt resource value: 0x7F07004A
-			public const int abc_text_select_handle_middle_mtrl_dark = 2131165258;
+			public const int abc_switch_track_mtrl_alpha = 2131165258;
 			
 			// aapt resource value: 0x7F07004B
-			public const int abc_text_select_handle_middle_mtrl_light = 2131165259;
+			public const int abc_tab_indicator_material = 2131165259;
 			
 			// aapt resource value: 0x7F07004C
-			public const int abc_text_select_handle_right_mtrl_dark = 2131165260;
-			
-			// aapt resource value: 0x7F07004D
-			public const int abc_text_select_handle_right_mtrl_light = 2131165261;
-			
-			// aapt resource value: 0x7F070053
-			public const int abc_vector_test = 2131165267;
+			public const int abc_tab_indicator_mtrl_alpha = 2131165260;
 			
 			// aapt resource value: 0x7F070054
-			public const int avd_hide_password = 2131165268;
+			public const int abc_textfield_activated_mtrl_alpha = 2131165268;
 			
 			// aapt resource value: 0x7F070055
-			public const int avd_show_password = 2131165269;
+			public const int abc_textfield_default_mtrl_alpha = 2131165269;
 			
 			// aapt resource value: 0x7F070056
-			public const int del = 2131165270;
+			public const int abc_textfield_search_activated_mtrl_alpha = 2131165270;
 			
 			// aapt resource value: 0x7F070057
-			public const int design_bottom_navigation_item_background = 2131165271;
+			public const int abc_textfield_search_default_mtrl_alpha = 2131165271;
 			
 			// aapt resource value: 0x7F070058
-			public const int design_fab_background = 2131165272;
+			public const int abc_textfield_search_material = 2131165272;
+			
+			// aapt resource value: 0x7F07004D
+			public const int abc_text_cursor_material = 2131165261;
+			
+			// aapt resource value: 0x7F07004E
+			public const int abc_text_select_handle_left_mtrl_dark = 2131165262;
+			
+			// aapt resource value: 0x7F07004F
+			public const int abc_text_select_handle_left_mtrl_light = 2131165263;
+			
+			// aapt resource value: 0x7F070050
+			public const int abc_text_select_handle_middle_mtrl_dark = 2131165264;
+			
+			// aapt resource value: 0x7F070051
+			public const int abc_text_select_handle_middle_mtrl_light = 2131165265;
+			
+			// aapt resource value: 0x7F070052
+			public const int abc_text_select_handle_right_mtrl_dark = 2131165266;
+			
+			// aapt resource value: 0x7F070053
+			public const int abc_text_select_handle_right_mtrl_light = 2131165267;
 			
 			// aapt resource value: 0x7F070059
-			public const int design_ic_visibility = 2131165273;
+			public const int abc_vector_test = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int design_ic_visibility_off = 2131165274;
+			public const int avd_hide_password = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int design_password_eye = 2131165275;
+			public const int avd_show_password = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int design_snackbar_background = 2131165276;
+			public const int background = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int edit = 2131165277;
-			
-			// aapt resource value: 0x7F070061
-			public const int icon_about = 2131165281;
-			
-			// aapt resource value: 0x7F070062
-			public const int icon_app = 2131165282;
-			
-			// aapt resource value: 0x7F070063
-			public const int icon_appv = 2131165283;
-			
-			// aapt resource value: 0x7F070064
-			public const int icon_calendar = 2131165284;
-			
-			// aapt resource value: 0x7F070065
-			public const int icon_feed = 2131165285;
-			
-			// aapt resource value: 0x7F070066
-			public const int icon_notes = 2131165286;
-			
-			// aapt resource value: 0x7F070067
-			public const int icon_notification = 2131165287;
-			
-			// aapt resource value: 0x7F070068
-			public const int icon_rozvrh = 2131165288;
+			public const int del = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int ic_mtrl_chip_checked_black = 2131165278;
+			public const int design_bottom_navigation_item_background = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int ic_mtrl_chip_checked_circle = 2131165279;
+			public const int design_fab_background = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int ic_mtrl_chip_close_circle = 2131165280;
+			public const int design_ic_visibility = 2131165280;
+			
+			// aapt resource value: 0x7F070061
+			public const int design_ic_visibility_off = 2131165281;
+			
+			// aapt resource value: 0x7F070062
+			public const int design_password_eye = 2131165282;
+			
+			// aapt resource value: 0x7F070063
+			public const int design_snackbar_background = 2131165283;
+			
+			// aapt resource value: 0x7F070064
+			public const int edit = 2131165284;
+			
+			// aapt resource value: 0x7F070065
+			public const int help = 2131165285;
 			
 			// aapt resource value: 0x7F070069
-			public const int mtrl_snackbar_background = 2131165289;
+			public const int icon_about = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int mtrl_tabs_default_indicator = 2131165290;
+			public const int icon_app = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int navigation_empty_icon = 2131165291;
+			public const int icon_appv = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int notification_action_background = 2131165292;
+			public const int icon_calendar = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int notification_bg = 2131165293;
+			public const int icon_feed = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int notification_bg_low = 2131165294;
+			public const int icon_notes = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int notification_bg_low_normal = 2131165295;
+			public const int icon_notification = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int notification_bg_low_pressed = 2131165296;
+			public const int icon_rozvrh = 2131165296;
+			
+			// aapt resource value: 0x7F070066
+			public const int ic_mtrl_chip_checked_black = 2131165286;
+			
+			// aapt resource value: 0x7F070067
+			public const int ic_mtrl_chip_checked_circle = 2131165287;
+			
+			// aapt resource value: 0x7F070068
+			public const int ic_mtrl_chip_close_circle = 2131165288;
 			
 			// aapt resource value: 0x7F070071
-			public const int notification_bg_normal = 2131165297;
+			public const int info = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int notification_bg_normal_pressed = 2131165298;
+			public const int mtrl_snackbar_background = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notification_icon_background = 2131165299;
+			public const int mtrl_tabs_default_indicator = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int notification_template_icon_bg = 2131165300;
+			public const int navigation_empty_icon = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int notification_template_icon_low_bg = 2131165301;
+			public const int notification_action_background = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int notification_tile_bg = 2131165302;
+			public const int notification_bg = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int notify_panel_notification_icon_bg = 2131165303;
+			public const int notification_bg_low = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int plugin_lc_smallicon = 2131165304;
+			public const int notification_bg_low_normal = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int splash_screen = 2131165305;
+			public const int notification_bg_low_pressed = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int tooltip_frame_dark = 2131165306;
+			public const int notification_bg_normal = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int tooltip_frame_light = 2131165307;
+			public const int notification_bg_normal_pressed = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int xamarin_logo = 2131165308;
+			public const int notification_icon_background = 2131165308;
+			
+			// aapt resource value: 0x7F07007D
+			public const int notification_template_icon_bg = 2131165309;
+			
+			// aapt resource value: 0x7F07007E
+			public const int notification_template_icon_low_bg = 2131165310;
+			
+			// aapt resource value: 0x7F07007F
+			public const int notification_tile_bg = 2131165311;
+			
+			// aapt resource value: 0x7F070080
+			public const int notify_panel_notification_icon_bg = 2131165312;
+			
+			// aapt resource value: 0x7F070081
+			public const int plugin_lc_smallicon = 2131165313;
+			
+			// aapt resource value: 0x7F070082
+			public const int tooltip_frame_dark = 2131165314;
+			
+			// aapt resource value: 0x7F070083
+			public const int tooltip_frame_light = 2131165315;
+			
+			// aapt resource value: 0x7F070084
+			public const int userimage = 2131165316;
+			
+			// aapt resource value: 0x7F070085
+			public const int xamarin_logo = 2131165317;
 			
 			static Drawable()
 			{
@@ -8440,659 +10393,626 @@ namespace SchoolReminder.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F080007
-			public const int action0 = 2131230727;
-			
-			// aapt resource value: 0x7F080019
-			public const int actions = 2131230745;
-			
-			// aapt resource value: 0x7F080008
-			public const int action_bar = 2131230728;
-			
-			// aapt resource value: 0x7F080009
-			public const int action_bar_activity_content = 2131230729;
-			
-			// aapt resource value: 0x7F08000A
-			public const int action_bar_container = 2131230730;
-			
-			// aapt resource value: 0x7F08000B
-			public const int action_bar_root = 2131230731;
-			
-			// aapt resource value: 0x7F08000C
-			public const int action_bar_spinner = 2131230732;
-			
-			// aapt resource value: 0x7F08000D
-			public const int action_bar_subtitle = 2131230733;
-			
-			// aapt resource value: 0x7F08000E
-			public const int action_bar_title = 2131230734;
-			
-			// aapt resource value: 0x7F08000F
-			public const int action_container = 2131230735;
-			
-			// aapt resource value: 0x7F080010
-			public const int action_context_bar = 2131230736;
-			
-			// aapt resource value: 0x7F080011
-			public const int action_divider = 2131230737;
-			
-			// aapt resource value: 0x7F080012
-			public const int action_image = 2131230738;
-			
-			// aapt resource value: 0x7F080013
-			public const int action_menu_divider = 2131230739;
-			
-			// aapt resource value: 0x7F080014
-			public const int action_menu_presenter = 2131230740;
-			
-			// aapt resource value: 0x7F080015
-			public const int action_mode_bar = 2131230741;
-			
-			// aapt resource value: 0x7F080016
-			public const int action_mode_bar_stub = 2131230742;
-			
-			// aapt resource value: 0x7F080017
-			public const int action_mode_close_button = 2131230743;
+			// aapt resource value: 0x7F080006
+			public const int action0 = 2131230726;
 			
 			// aapt resource value: 0x7F080018
-			public const int action_text = 2131230744;
+			public const int actions = 2131230744;
+			
+			// aapt resource value: 0x7F080007
+			public const int action_bar = 2131230727;
+			
+			// aapt resource value: 0x7F080008
+			public const int action_bar_activity_content = 2131230728;
+			
+			// aapt resource value: 0x7F080009
+			public const int action_bar_container = 2131230729;
+			
+			// aapt resource value: 0x7F08000A
+			public const int action_bar_root = 2131230730;
+			
+			// aapt resource value: 0x7F08000B
+			public const int action_bar_spinner = 2131230731;
+			
+			// aapt resource value: 0x7F08000C
+			public const int action_bar_subtitle = 2131230732;
+			
+			// aapt resource value: 0x7F08000D
+			public const int action_bar_title = 2131230733;
+			
+			// aapt resource value: 0x7F08000E
+			public const int action_container = 2131230734;
+			
+			// aapt resource value: 0x7F08000F
+			public const int action_context_bar = 2131230735;
+			
+			// aapt resource value: 0x7F080010
+			public const int action_divider = 2131230736;
+			
+			// aapt resource value: 0x7F080011
+			public const int action_image = 2131230737;
+			
+			// aapt resource value: 0x7F080012
+			public const int action_menu_divider = 2131230738;
+			
+			// aapt resource value: 0x7F080013
+			public const int action_menu_presenter = 2131230739;
+			
+			// aapt resource value: 0x7F080014
+			public const int action_mode_bar = 2131230740;
+			
+			// aapt resource value: 0x7F080015
+			public const int action_mode_bar_stub = 2131230741;
+			
+			// aapt resource value: 0x7F080016
+			public const int action_mode_close_button = 2131230742;
+			
+			// aapt resource value: 0x7F080017
+			public const int action_text = 2131230743;
+			
+			// aapt resource value: 0x7F080019
+			public const int activity_chooser_view_content = 2131230745;
 			
 			// aapt resource value: 0x7F08001A
-			public const int activity_chooser_view_content = 2131230746;
+			public const int add = 2131230746;
 			
 			// aapt resource value: 0x7F08001B
-			public const int add = 2131230747;
+			public const int alertTitle = 2131230747;
 			
 			// aapt resource value: 0x7F08001C
-			public const int alertTitle = 2131230748;
-			
-			// aapt resource value: 0x7F08001D
-			public const int all = 2131230749;
+			public const int all = 2131230748;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
+			// aapt resource value: 0x7F08001D
+			public const int always = 2131230749;
+			
 			// aapt resource value: 0x7F08001E
-			public const int always = 2131230750;
+			public const int async = 2131230750;
 			
 			// aapt resource value: 0x7F08001F
-			public const int application_name = 2131230751;
-			
-			// aapt resource value: 0x7F080001
-			public const int APPLICATION_NAME = 2131230721;
+			public const int auto = 2131230751;
 			
 			// aapt resource value: 0x7F080020
-			public const int async = 2131230752;
+			public const int beginning = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int auto = 2131230753;
+			public const int blocking = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int background = 2131230754;
+			public const int bottom = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int beginning = 2131230755;
+			public const int bottomtab_navarea = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int blocking = 2131230756;
+			public const int bottomtab_tabbar = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int bottom = 2131230757;
-			
-			// aapt resource value: 0x7F080026
-			public const int bottomtab_navarea = 2131230758;
-			
-			// aapt resource value: 0x7F080027
-			public const int bottomtab_tabbar = 2131230759;
+			public const int browser_actions_header_text = 2131230757;
 			
 			// aapt resource value: 0x7F080028
-			public const int browser_actions_header_text = 2131230760;
+			public const int browser_actions_menu_items = 2131230760;
 			
-			// aapt resource value: 0x7F08002B
-			public const int browser_actions_menu_items = 2131230763;
+			// aapt resource value: 0x7F080026
+			public const int browser_actions_menu_item_icon = 2131230758;
+			
+			// aapt resource value: 0x7F080027
+			public const int browser_actions_menu_item_text = 2131230759;
 			
 			// aapt resource value: 0x7F080029
-			public const int browser_actions_menu_item_icon = 2131230761;
+			public const int browser_actions_menu_view = 2131230761;
 			
 			// aapt resource value: 0x7F08002A
-			public const int browser_actions_menu_item_text = 2131230762;
+			public const int buttonPanel = 2131230762;
+			
+			// aapt resource value: 0x7F08002B
+			public const int cancel_action = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int browser_actions_menu_view = 2131230764;
+			public const int center = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int button1 = 2131230765;
+			public const int center_horizontal = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int button2 = 2131230766;
+			public const int center_vertical = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int button3 = 2131230767;
+			public const int checkbox = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int buttonPanel = 2131230768;
+			public const int chronometer = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int cancel_action = 2131230769;
+			public const int clip_horizontal = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int center = 2131230770;
+			public const int clip_vertical = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int center_horizontal = 2131230771;
+			public const int collapseActionView = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int center_vertical = 2131230772;
+			public const int container = 2131230772;
 			
 			// aapt resource value: 0x7F080035
-			public const int checkbox = 2131230773;
+			public const int content = 2131230773;
 			
 			// aapt resource value: 0x7F080036
-			public const int chronometer = 2131230774;
+			public const int contentPanel = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int clip_horizontal = 2131230775;
+			public const int coordinator = 2131230775;
+			
+			// aapt resource value: 0x7F080001
+			public const int CTRL = 2131230721;
 			
 			// aapt resource value: 0x7F080038
-			public const int clip_vertical = 2131230776;
+			public const int custom = 2131230776;
 			
 			// aapt resource value: 0x7F080039
-			public const int collapseActionView = 2131230777;
+			public const int customPanel = 2131230777;
 			
 			// aapt resource value: 0x7F08003A
-			public const int container = 2131230778;
+			public const int decor_content_parent = 2131230778;
 			
 			// aapt resource value: 0x7F08003B
-			public const int content = 2131230779;
+			public const int default_activity_button = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int contentPanel = 2131230780;
+			public const int design_bottom_sheet = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int coordinator = 2131230781;
-			
-			// aapt resource value: 0x7F080002
-			public const int CTRL = 2131230722;
+			public const int design_menu_item_action_area = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int custom = 2131230782;
+			public const int design_menu_item_action_area_stub = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int customPanel = 2131230783;
+			public const int design_menu_item_text = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int decor_content_parent = 2131230784;
+			public const int design_navigation_view = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int default_activity_button = 2131230785;
+			public const int disableHome = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int design_bottom_sheet = 2131230786;
+			public const int edit_query = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int design_menu_item_action_area = 2131230787;
+			public const int end = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int design_menu_item_action_area_stub = 2131230788;
+			public const int end_padder = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int design_menu_item_text = 2131230789;
+			public const int enterAlways = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int design_navigation_view = 2131230790;
+			public const int enterAlwaysCollapsed = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int disableHome = 2131230791;
-			
-			// aapt resource value: 0x7F080048
-			public const int edit_query = 2131230792;
+			public const int exitUntilCollapsed = 2131230791;
 			
 			// aapt resource value: 0x7F080049
-			public const int end = 2131230793;
+			public const int expanded_menu = 2131230793;
+			
+			// aapt resource value: 0x7F080048
+			public const int expand_activities_button = 2131230792;
 			
 			// aapt resource value: 0x7F08004A
-			public const int end_padder = 2131230794;
-			
-			// aapt resource value: 0x7F08004B
-			public const int enterAlways = 2131230795;
-			
-			// aapt resource value: 0x7F08004C
-			public const int enterAlwaysCollapsed = 2131230796;
+			public const int fill = 2131230794;
 			
 			// aapt resource value: 0x7F08004D
-			public const int exitUntilCollapsed = 2131230797;
+			public const int filled = 2131230797;
 			
-			// aapt resource value: 0x7F08004F
-			public const int expanded_menu = 2131230799;
+			// aapt resource value: 0x7F08004B
+			public const int fill_horizontal = 2131230795;
+			
+			// aapt resource value: 0x7F08004C
+			public const int fill_vertical = 2131230796;
 			
 			// aapt resource value: 0x7F08004E
-			public const int expand_activities_button = 2131230798;
+			public const int @fixed = 2131230798;
+			
+			// aapt resource value: 0x7F08004F
+			public const int flyoutcontent_appbar = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int fill = 2131230800;
-			
-			// aapt resource value: 0x7F080053
-			public const int filled = 2131230803;
+			public const int flyoutcontent_recycler = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int fill_horizontal = 2131230801;
+			public const int forever = 2131230801;
+			
+			// aapt resource value: 0x7F080002
+			public const int FUNCTION = 2131230722;
 			
 			// aapt resource value: 0x7F080052
-			public const int fill_vertical = 2131230802;
+			public const int ghost_view = 2131230802;
+			
+			// aapt resource value: 0x7F080053
+			public const int group_divider = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int @fixed = 2131230804;
+			public const int home = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int flyoutcontent_appbar = 2131230805;
+			public const int homeAsUp = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int flyoutcontent_recycler = 2131230806;
+			public const int icon = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int forever = 2131230807;
-			
-			// aapt resource value: 0x7F080003
-			public const int FUNCTION = 2131230723;
+			public const int icon_group = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int ghost_view = 2131230808;
+			public const int ifRoom = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int group_divider = 2131230809;
+			public const int image = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int home = 2131230810;
+			public const int info = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int homeAsUp = 2131230811;
+			public const int italic = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int icon = 2131230812;
+			public const int item_touch_helper_previous_elevation = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int icon1 = 2131230813;
+			public const int labeled = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int icon_group = 2131230814;
+			public const int largeLabel = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int ifRoom = 2131230815;
+			public const int left = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int image = 2131230816;
+			public const int line1 = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int info = 2131230817;
+			public const int line3 = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int italic = 2131230818;
+			public const int listMode = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int item_touch_helper_previous_elevation = 2131230819;
+			public const int list_item = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int labeled = 2131230820;
+			public const int main_appbar = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int largeLabel = 2131230821;
+			public const int main_tablayout = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int left = 2131230822;
+			public const int main_toolbar = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int line1 = 2131230823;
+			public const int main_viewpager = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int line3 = 2131230824;
+			public const int masked = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int listMode = 2131230825;
+			public const int media_actions = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int list_item = 2131230826;
+			public const int message = 2131230826;
+			
+			// aapt resource value: 0x7F080003
+			public const int META = 2131230723;
 			
 			// aapt resource value: 0x7F08006B
-			public const int main_appbar = 2131230827;
+			public const int middle = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int main_tablayout = 2131230828;
+			public const int mini = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int main_toolbar = 2131230829;
+			public const int mtrl_child_content_container = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int main_viewpager = 2131230830;
+			public const int mtrl_internal_children_alpha_tag = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int mask = 2131230831;
+			public const int multiply = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int masked = 2131230832;
+			public const int navigation_header_container = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int media_actions = 2131230833;
+			public const int never = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int message = 2131230834;
-			
-			// aapt resource value: 0x7F080004
-			public const int META = 2131230724;
+			public const int none = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int middle = 2131230835;
+			public const int normal = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int mini = 2131230836;
+			public const int notification_background = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int mtrl_child_content_container = 2131230837;
+			public const int notification_main_column = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int mtrl_internal_children_alpha_tag = 2131230838;
+			public const int notification_main_column_container = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int multiply = 2131230839;
+			public const int outline = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int navigation_header_container = 2131230840;
+			public const int parallax = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int never = 2131230841;
+			public const int parentPanel = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int none = 2131230842;
+			public const int parent_matrix = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int normal = 2131230843;
+			public const int pin = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int notification_background = 2131230844;
+			public const int progress_circular = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int notification_main_column = 2131230845;
+			public const int progress_horizontal = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int notification_main_column_container = 2131230846;
+			public const int radio = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int outline = 2131230847;
+			public const int right = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int parallax = 2131230848;
+			public const int right_icon = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int parentPanel = 2131230849;
+			public const int right_side = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int parent_matrix = 2131230850;
+			public const int save_image_matrix = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int pin = 2131230851;
+			public const int save_non_transition_alpha = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int progress = 2131230852;
+			public const int save_scale_type = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int progress_circular = 2131230853;
+			public const int screen = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int progress_horizontal = 2131230854;
-			
-			// aapt resource value: 0x7F080087
-			public const int radio = 2131230855;
-			
-			// aapt resource value: 0x7F080088
-			public const int right = 2131230856;
-			
-			// aapt resource value: 0x7F080089
-			public const int right_icon = 2131230857;
+			public const int scroll = 2131230854;
 			
 			// aapt resource value: 0x7F08008A
-			public const int right_side = 2131230858;
+			public const int scrollable = 2131230858;
+			
+			// aapt resource value: 0x7F080087
+			public const int scrollIndicatorDown = 2131230855;
+			
+			// aapt resource value: 0x7F080088
+			public const int scrollIndicatorUp = 2131230856;
+			
+			// aapt resource value: 0x7F080089
+			public const int scrollView = 2131230857;
 			
 			// aapt resource value: 0x7F08008B
-			public const int save_image_matrix = 2131230859;
+			public const int search_badge = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int save_non_transition_alpha = 2131230860;
+			public const int search_bar = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int save_scale_type = 2131230861;
+			public const int search_button = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int screen = 2131230862;
+			public const int search_close_btn = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int scroll = 2131230863;
-			
-			// aapt resource value: 0x7F080093
-			public const int scrollable = 2131230867;
+			public const int search_edit_frame = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int scrollIndicatorDown = 2131230864;
+			public const int search_go_btn = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int scrollIndicatorUp = 2131230865;
+			public const int search_mag_icon = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int scrollView = 2131230866;
+			public const int search_plate = 2131230866;
+			
+			// aapt resource value: 0x7F080093
+			public const int search_src_text = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int search_badge = 2131230868;
-			
-			// aapt resource value: 0x7F080095
-			public const int search_bar = 2131230869;
+			public const int search_voice_btn = 2131230868;
 			
 			// aapt resource value: 0x7F080096
-			public const int search_button = 2131230870;
+			public const int selected = 2131230870;
+			
+			// aapt resource value: 0x7F080095
+			public const int select_dialog_listview = 2131230869;
 			
 			// aapt resource value: 0x7F080097
-			public const int search_close_btn = 2131230871;
+			public const int shellcontent_appbar = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int search_edit_frame = 2131230872;
+			public const int shellcontent_toolbar = 2131230872;
+			
+			// aapt resource value: 0x7F080004
+			public const int SHIFT = 2131230724;
 			
 			// aapt resource value: 0x7F080099
-			public const int search_go_btn = 2131230873;
+			public const int shortcut = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int search_mag_icon = 2131230874;
+			public const int showCustom = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int search_plate = 2131230875;
+			public const int showHome = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int search_src_text = 2131230876;
+			public const int showTitle = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int search_voice_btn = 2131230877;
+			public const int sliding_tabs = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int secondaryProgress = 2131230878;
-			
-			// aapt resource value: 0x7F0800A0
-			public const int selected = 2131230880;
+			public const int smallLabel = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int select_dialog_listview = 2131230879;
+			public const int snackbar_action = 2131230879;
+			
+			// aapt resource value: 0x7F0800A0
+			public const int snackbar_text = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int shellcontent_appbar = 2131230881;
+			public const int snap = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int shellcontent_toolbar = 2131230882;
-			
-			// aapt resource value: 0x7F080005
-			public const int SHIFT = 2131230725;
+			public const int snapMargins = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int shortcut = 2131230883;
+			public const int spacer = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int showCustom = 2131230884;
+			public const int split_action_bar = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int showHome = 2131230885;
+			public const int src_atop = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int showTitle = 2131230886;
+			public const int src_in = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int sliding_tabs = 2131230887;
+			public const int src_over = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int smallLabel = 2131230888;
+			public const int start = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int snackbar_action = 2131230889;
+			public const int status_bar_latest_event_content = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int snackbar_text = 2131230890;
+			public const int stretch = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int snap = 2131230891;
+			public const int submenuarrow = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int snapMargins = 2131230892;
+			public const int submit_area = 2131230892;
+			
+			// aapt resource value: 0x7F080005
+			public const int SYM = 2131230725;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int spacer = 2131230893;
+			public const int tabMode = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int split_action_bar = 2131230894;
+			public const int tag_transition_group = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int src_atop = 2131230895;
+			public const int tag_unhandled_key_event_manager = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int src_in = 2131230896;
+			public const int tag_unhandled_key_listeners = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int src_over = 2131230897;
+			public const int text = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int start = 2131230898;
-			
-			// aapt resource value: 0x7F0800B3
-			public const int status_bar_latest_event_content = 2131230899;
-			
-			// aapt resource value: 0x7F0800B4
-			public const int stretch = 2131230900;
-			
-			// aapt resource value: 0x7F0800B5
-			public const int submenuarrow = 2131230901;
-			
-			// aapt resource value: 0x7F0800B6
-			public const int submit_area = 2131230902;
-			
-			// aapt resource value: 0x7F080006
-			public const int SYM = 2131230726;
+			public const int text2 = 2131230898;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int tabMode = 2131230903;
+			public const int textinput_counter = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int tag_transition_group = 2131230904;
+			public const int textinput_error = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int tag_unhandled_key_event_manager = 2131230905;
+			public const int textinput_helper_text = 2131230905;
+			
+			// aapt resource value: 0x7F0800B3
+			public const int textSpacerNoButtons = 2131230899;
+			
+			// aapt resource value: 0x7F0800B4
+			public const int textSpacerNoTitle = 2131230900;
+			
+			// aapt resource value: 0x7F0800B5
+			public const int textStart = 2131230901;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int text_input_password_toggle = 2131230902;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int tag_unhandled_key_listeners = 2131230906;
+			public const int time = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int text = 2131230907;
+			public const int title = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int text1 = 2131230908;
+			public const int titleDividerNoCustom = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int text2 = 2131230909;
-			
-			// aapt resource value: 0x7F0800C2
-			public const int textinput_counter = 2131230914;
-			
-			// aapt resource value: 0x7F0800C3
-			public const int textinput_error = 2131230915;
-			
-			// aapt resource value: 0x7F0800C4
-			public const int textinput_helper_text = 2131230916;
+			public const int title_template = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int textSpacerNoButtons = 2131230910;
+			public const int toolbar = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int textSpacerNoTitle = 2131230911;
+			public const int top = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int textStart = 2131230912;
+			public const int topPanel = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int text_input_password_toggle = 2131230913;
+			public const int touch_outside = 2131230913;
+			
+			// aapt resource value: 0x7F0800C2
+			public const int transition_current_scene = 2131230914;
+			
+			// aapt resource value: 0x7F0800C3
+			public const int transition_layout_save = 2131230915;
+			
+			// aapt resource value: 0x7F0800C4
+			public const int transition_position = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int time = 2131230917;
+			public const int transition_scene_layoutid_cache = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int title = 2131230918;
+			public const int transition_transform = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int titleDividerNoCustom = 2131230919;
+			public const int uniform = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int title_template = 2131230920;
+			public const int unlabeled = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int toolbar = 2131230921;
+			public const int up = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int top = 2131230922;
+			public const int useLogo = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int topPanel = 2131230923;
+			public const int view_offset_helper = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int touch_outside = 2131230924;
+			public const int visible = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int transition_current_scene = 2131230925;
+			public const int withText = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int transition_layout_save = 2131230926;
-			
-			// aapt resource value: 0x7F0800CF
-			public const int transition_position = 2131230927;
-			
-			// aapt resource value: 0x7F0800D0
-			public const int transition_scene_layoutid_cache = 2131230928;
-			
-			// aapt resource value: 0x7F0800D1
-			public const int transition_transform = 2131230929;
-			
-			// aapt resource value: 0x7F0800D2
-			public const int uniform = 2131230930;
-			
-			// aapt resource value: 0x7F0800D3
-			public const int unlabeled = 2131230931;
-			
-			// aapt resource value: 0x7F0800D4
-			public const int up = 2131230932;
-			
-			// aapt resource value: 0x7F0800D5
-			public const int useLogo = 2131230933;
-			
-			// aapt resource value: 0x7F0800D6
-			public const int view_offset_helper = 2131230934;
-			
-			// aapt resource value: 0x7F0800D7
-			public const int visible = 2131230935;
-			
-			// aapt resource value: 0x7F0800D8
-			public const int withText = 2131230936;
-			
-			// aapt resource value: 0x7F0800D9
-			public const int wrap_content = 2131230937;
+			public const int wrap_content = 2131230926;
 			
 			static Id()
 			{
@@ -9190,218 +11110,218 @@ namespace SchoolReminder.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7F0B0006
-			public const int abc_action_bar_title_item = 2131427334;
-			
-			// aapt resource value: 0x7F0B0007
-			public const int abc_action_bar_up_container = 2131427335;
-			
-			// aapt resource value: 0x7F0B0008
-			public const int abc_action_menu_item_layout = 2131427336;
-			
-			// aapt resource value: 0x7F0B0009
-			public const int abc_action_menu_layout = 2131427337;
-			
-			// aapt resource value: 0x7F0B000A
-			public const int abc_action_mode_bar = 2131427338;
-			
-			// aapt resource value: 0x7F0B000B
-			public const int abc_action_mode_close_item_material = 2131427339;
-			
-			// aapt resource value: 0x7F0B000C
-			public const int abc_activity_chooser_view = 2131427340;
-			
-			// aapt resource value: 0x7F0B000D
-			public const int abc_activity_chooser_view_list_item = 2131427341;
-			
-			// aapt resource value: 0x7F0B000E
-			public const int abc_alert_dialog_button_bar_material = 2131427342;
-			
-			// aapt resource value: 0x7F0B000F
-			public const int abc_alert_dialog_material = 2131427343;
-			
-			// aapt resource value: 0x7F0B0010
-			public const int abc_alert_dialog_title_material = 2131427344;
-			
-			// aapt resource value: 0x7F0B0011
-			public const int abc_cascading_menu_item_layout = 2131427345;
-			
-			// aapt resource value: 0x7F0B0012
-			public const int abc_dialog_title_material = 2131427346;
-			
-			// aapt resource value: 0x7F0B0013
-			public const int abc_expanded_menu_layout = 2131427347;
-			
-			// aapt resource value: 0x7F0B0014
-			public const int abc_list_menu_item_checkbox = 2131427348;
-			
-			// aapt resource value: 0x7F0B0015
-			public const int abc_list_menu_item_icon = 2131427349;
-			
-			// aapt resource value: 0x7F0B0016
-			public const int abc_list_menu_item_layout = 2131427350;
-			
-			// aapt resource value: 0x7F0B0017
-			public const int abc_list_menu_item_radio = 2131427351;
-			
-			// aapt resource value: 0x7F0B0018
-			public const int abc_popup_menu_header_item_layout = 2131427352;
-			
-			// aapt resource value: 0x7F0B0019
-			public const int abc_popup_menu_item_layout = 2131427353;
-			
-			// aapt resource value: 0x7F0B001A
-			public const int abc_screen_content_include = 2131427354;
-			
-			// aapt resource value: 0x7F0B001B
-			public const int abc_screen_simple = 2131427355;
-			
-			// aapt resource value: 0x7F0B001C
-			public const int abc_screen_simple_overlay_action_mode = 2131427356;
-			
-			// aapt resource value: 0x7F0B001D
-			public const int abc_screen_toolbar = 2131427357;
-			
-			// aapt resource value: 0x7F0B001E
-			public const int abc_search_dropdown_item_icons_2line = 2131427358;
-			
-			// aapt resource value: 0x7F0B001F
-			public const int abc_search_view = 2131427359;
-			
-			// aapt resource value: 0x7F0B0020
-			public const int abc_select_dialog_material = 2131427360;
-			
-			// aapt resource value: 0x7F0B0021
-			public const int abc_tooltip = 2131427361;
-			
 			// aapt resource value: 0x7F0B0000
-			public const int BottomTabLayout = 2131427328;
-			
-			// aapt resource value: 0x7F0B0022
-			public const int browser_actions_context_menu_page = 2131427362;
-			
-			// aapt resource value: 0x7F0B0023
-			public const int browser_actions_context_menu_row = 2131427363;
-			
-			// aapt resource value: 0x7F0B0024
-			public const int design_bottom_navigation_item = 2131427364;
-			
-			// aapt resource value: 0x7F0B0025
-			public const int design_bottom_sheet_dialog = 2131427365;
-			
-			// aapt resource value: 0x7F0B0026
-			public const int design_layout_snackbar = 2131427366;
-			
-			// aapt resource value: 0x7F0B0027
-			public const int design_layout_snackbar_include = 2131427367;
-			
-			// aapt resource value: 0x7F0B0028
-			public const int design_layout_tab_icon = 2131427368;
-			
-			// aapt resource value: 0x7F0B0029
-			public const int design_layout_tab_text = 2131427369;
-			
-			// aapt resource value: 0x7F0B002A
-			public const int design_menu_item_action_area = 2131427370;
-			
-			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_item = 2131427371;
-			
-			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_item_header = 2131427372;
-			
-			// aapt resource value: 0x7F0B002D
-			public const int design_navigation_item_separator = 2131427373;
-			
-			// aapt resource value: 0x7F0B002E
-			public const int design_navigation_item_subheader = 2131427374;
-			
-			// aapt resource value: 0x7F0B002F
-			public const int design_navigation_menu = 2131427375;
-			
-			// aapt resource value: 0x7F0B0030
-			public const int design_navigation_menu_item = 2131427376;
-			
-			// aapt resource value: 0x7F0B0031
-			public const int design_text_input_password_icon = 2131427377;
+			public const int abc_action_bar_title_item = 2131427328;
 			
 			// aapt resource value: 0x7F0B0001
-			public const int FlyoutContent = 2131427329;
-			
-			// aapt resource value: 0x7F0B0032
-			public const int mtrl_layout_snackbar = 2131427378;
-			
-			// aapt resource value: 0x7F0B0033
-			public const int mtrl_layout_snackbar_include = 2131427379;
-			
-			// aapt resource value: 0x7F0B0034
-			public const int notification_action = 2131427380;
-			
-			// aapt resource value: 0x7F0B0035
-			public const int notification_action_tombstone = 2131427381;
-			
-			// aapt resource value: 0x7F0B0036
-			public const int notification_media_action = 2131427382;
-			
-			// aapt resource value: 0x7F0B0037
-			public const int notification_media_cancel_action = 2131427383;
-			
-			// aapt resource value: 0x7F0B0038
-			public const int notification_template_big_media = 2131427384;
-			
-			// aapt resource value: 0x7F0B0039
-			public const int notification_template_big_media_custom = 2131427385;
-			
-			// aapt resource value: 0x7F0B003A
-			public const int notification_template_big_media_narrow = 2131427386;
-			
-			// aapt resource value: 0x7F0B003B
-			public const int notification_template_big_media_narrow_custom = 2131427387;
-			
-			// aapt resource value: 0x7F0B003C
-			public const int notification_template_custom_big = 2131427388;
-			
-			// aapt resource value: 0x7F0B003D
-			public const int notification_template_icon_group = 2131427389;
-			
-			// aapt resource value: 0x7F0B003E
-			public const int notification_template_lines_media = 2131427390;
-			
-			// aapt resource value: 0x7F0B003F
-			public const int notification_template_media = 2131427391;
-			
-			// aapt resource value: 0x7F0B0040
-			public const int notification_template_media_custom = 2131427392;
-			
-			// aapt resource value: 0x7F0B0041
-			public const int notification_template_part_chronometer = 2131427393;
-			
-			// aapt resource value: 0x7F0B0042
-			public const int notification_template_part_time = 2131427394;
+			public const int abc_action_bar_up_container = 2131427329;
 			
 			// aapt resource value: 0x7F0B0002
-			public const int RootLayout = 2131427330;
-			
-			// aapt resource value: 0x7F0B0043
-			public const int select_dialog_item_material = 2131427395;
-			
-			// aapt resource value: 0x7F0B0044
-			public const int select_dialog_multichoice_material = 2131427396;
-			
-			// aapt resource value: 0x7F0B0045
-			public const int select_dialog_singlechoice_material = 2131427397;
+			public const int abc_action_menu_item_layout = 2131427330;
 			
 			// aapt resource value: 0x7F0B0003
-			public const int ShellContent = 2131427331;
-			
-			// aapt resource value: 0x7F0B0046
-			public const int support_simple_spinner_dropdown_item = 2131427398;
+			public const int abc_action_menu_layout = 2131427331;
 			
 			// aapt resource value: 0x7F0B0004
-			public const int Tabbar = 2131427332;
+			public const int abc_action_mode_bar = 2131427332;
 			
 			// aapt resource value: 0x7F0B0005
-			public const int Toolbar = 2131427333;
+			public const int abc_action_mode_close_item_material = 2131427333;
+			
+			// aapt resource value: 0x7F0B0006
+			public const int abc_activity_chooser_view = 2131427334;
+			
+			// aapt resource value: 0x7F0B0007
+			public const int abc_activity_chooser_view_list_item = 2131427335;
+			
+			// aapt resource value: 0x7F0B0008
+			public const int abc_alert_dialog_button_bar_material = 2131427336;
+			
+			// aapt resource value: 0x7F0B0009
+			public const int abc_alert_dialog_material = 2131427337;
+			
+			// aapt resource value: 0x7F0B000A
+			public const int abc_alert_dialog_title_material = 2131427338;
+			
+			// aapt resource value: 0x7F0B000B
+			public const int abc_cascading_menu_item_layout = 2131427339;
+			
+			// aapt resource value: 0x7F0B000C
+			public const int abc_dialog_title_material = 2131427340;
+			
+			// aapt resource value: 0x7F0B000D
+			public const int abc_expanded_menu_layout = 2131427341;
+			
+			// aapt resource value: 0x7F0B000E
+			public const int abc_list_menu_item_checkbox = 2131427342;
+			
+			// aapt resource value: 0x7F0B000F
+			public const int abc_list_menu_item_icon = 2131427343;
+			
+			// aapt resource value: 0x7F0B0010
+			public const int abc_list_menu_item_layout = 2131427344;
+			
+			// aapt resource value: 0x7F0B0011
+			public const int abc_list_menu_item_radio = 2131427345;
+			
+			// aapt resource value: 0x7F0B0012
+			public const int abc_popup_menu_header_item_layout = 2131427346;
+			
+			// aapt resource value: 0x7F0B0013
+			public const int abc_popup_menu_item_layout = 2131427347;
+			
+			// aapt resource value: 0x7F0B0014
+			public const int abc_screen_content_include = 2131427348;
+			
+			// aapt resource value: 0x7F0B0015
+			public const int abc_screen_simple = 2131427349;
+			
+			// aapt resource value: 0x7F0B0016
+			public const int abc_screen_simple_overlay_action_mode = 2131427350;
+			
+			// aapt resource value: 0x7F0B0017
+			public const int abc_screen_toolbar = 2131427351;
+			
+			// aapt resource value: 0x7F0B0018
+			public const int abc_search_dropdown_item_icons_2line = 2131427352;
+			
+			// aapt resource value: 0x7F0B0019
+			public const int abc_search_view = 2131427353;
+			
+			// aapt resource value: 0x7F0B001A
+			public const int abc_select_dialog_material = 2131427354;
+			
+			// aapt resource value: 0x7F0B001B
+			public const int abc_tooltip = 2131427355;
+			
+			// aapt resource value: 0x7F0B001C
+			public const int BottomTabLayout = 2131427356;
+			
+			// aapt resource value: 0x7F0B001D
+			public const int browser_actions_context_menu_page = 2131427357;
+			
+			// aapt resource value: 0x7F0B001E
+			public const int browser_actions_context_menu_row = 2131427358;
+			
+			// aapt resource value: 0x7F0B001F
+			public const int design_bottom_navigation_item = 2131427359;
+			
+			// aapt resource value: 0x7F0B0020
+			public const int design_bottom_sheet_dialog = 2131427360;
+			
+			// aapt resource value: 0x7F0B0021
+			public const int design_layout_snackbar = 2131427361;
+			
+			// aapt resource value: 0x7F0B0022
+			public const int design_layout_snackbar_include = 2131427362;
+			
+			// aapt resource value: 0x7F0B0023
+			public const int design_layout_tab_icon = 2131427363;
+			
+			// aapt resource value: 0x7F0B0024
+			public const int design_layout_tab_text = 2131427364;
+			
+			// aapt resource value: 0x7F0B0025
+			public const int design_menu_item_action_area = 2131427365;
+			
+			// aapt resource value: 0x7F0B0026
+			public const int design_navigation_item = 2131427366;
+			
+			// aapt resource value: 0x7F0B0027
+			public const int design_navigation_item_header = 2131427367;
+			
+			// aapt resource value: 0x7F0B0028
+			public const int design_navigation_item_separator = 2131427368;
+			
+			// aapt resource value: 0x7F0B0029
+			public const int design_navigation_item_subheader = 2131427369;
+			
+			// aapt resource value: 0x7F0B002A
+			public const int design_navigation_menu = 2131427370;
+			
+			// aapt resource value: 0x7F0B002B
+			public const int design_navigation_menu_item = 2131427371;
+			
+			// aapt resource value: 0x7F0B002C
+			public const int design_text_input_password_icon = 2131427372;
+			
+			// aapt resource value: 0x7F0B002D
+			public const int FlyoutContent = 2131427373;
+			
+			// aapt resource value: 0x7F0B002E
+			public const int mtrl_layout_snackbar = 2131427374;
+			
+			// aapt resource value: 0x7F0B002F
+			public const int mtrl_layout_snackbar_include = 2131427375;
+			
+			// aapt resource value: 0x7F0B0030
+			public const int notification_action = 2131427376;
+			
+			// aapt resource value: 0x7F0B0031
+			public const int notification_action_tombstone = 2131427377;
+			
+			// aapt resource value: 0x7F0B0032
+			public const int notification_media_action = 2131427378;
+			
+			// aapt resource value: 0x7F0B0033
+			public const int notification_media_cancel_action = 2131427379;
+			
+			// aapt resource value: 0x7F0B0034
+			public const int notification_template_big_media = 2131427380;
+			
+			// aapt resource value: 0x7F0B0035
+			public const int notification_template_big_media_custom = 2131427381;
+			
+			// aapt resource value: 0x7F0B0036
+			public const int notification_template_big_media_narrow = 2131427382;
+			
+			// aapt resource value: 0x7F0B0037
+			public const int notification_template_big_media_narrow_custom = 2131427383;
+			
+			// aapt resource value: 0x7F0B0038
+			public const int notification_template_custom_big = 2131427384;
+			
+			// aapt resource value: 0x7F0B0039
+			public const int notification_template_icon_group = 2131427385;
+			
+			// aapt resource value: 0x7F0B003A
+			public const int notification_template_lines_media = 2131427386;
+			
+			// aapt resource value: 0x7F0B003B
+			public const int notification_template_media = 2131427387;
+			
+			// aapt resource value: 0x7F0B003C
+			public const int notification_template_media_custom = 2131427388;
+			
+			// aapt resource value: 0x7F0B003D
+			public const int notification_template_part_chronometer = 2131427389;
+			
+			// aapt resource value: 0x7F0B003E
+			public const int notification_template_part_time = 2131427390;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int RootLayout = 2131427391;
+			
+			// aapt resource value: 0x7F0B0040
+			public const int select_dialog_item_material = 2131427392;
+			
+			// aapt resource value: 0x7F0B0041
+			public const int select_dialog_multichoice_material = 2131427393;
+			
+			// aapt resource value: 0x7F0B0042
+			public const int select_dialog_singlechoice_material = 2131427394;
+			
+			// aapt resource value: 0x7F0B0043
+			public const int ShellContent = 2131427395;
+			
+			// aapt resource value: 0x7F0B0044
+			public const int support_simple_spinner_dropdown_item = 2131427396;
+			
+			// aapt resource value: 0x7F0B0045
+			public const int Tabbar = 2131427397;
+			
+			// aapt resource value: 0x7F0B0046
+			public const int Toolbar = 2131427398;
 			
 			static Layout()
 			{
@@ -9655,11 +11575,11 @@ namespace SchoolReminder.Droid
 			// aapt resource value: 0x7F0E000C
 			public const int Base_CardView = 2131623948;
 			
-			// aapt resource value: 0x7F0E000D
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131623949;
-			
 			// aapt resource value: 0x7F0E000E
-			public const int Base_DialogWindowTitle_AppCompat = 2131623950;
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131623950;
+			
+			// aapt resource value: 0x7F0E000D
+			public const int Base_DialogWindowTitle_AppCompat = 2131623949;
 			
 			// aapt resource value: 0x7F0E000F
 			public const int Base_TextAppearance_AppCompat = 2131623951;
@@ -9805,167 +11725,167 @@ namespace SchoolReminder.Droid
 			// aapt resource value: 0x7F0E003E
 			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131623998;
 			
-			// aapt resource value: 0x7F0E003F
-			public const int Base_ThemeOverlay_AppCompat = 2131623999;
-			
-			// aapt resource value: 0x7F0E0040
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131624000;
-			
-			// aapt resource value: 0x7F0E0041
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131624001;
-			
-			// aapt resource value: 0x7F0E0042
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131624002;
-			
-			// aapt resource value: 0x7F0E0043
-			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131624003;
-			
-			// aapt resource value: 0x7F0E0044
-			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131624004;
-			
-			// aapt resource value: 0x7F0E0045
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131624005;
-			
-			// aapt resource value: 0x7F0E0046
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131624006;
-			
-			// aapt resource value: 0x7F0E0047
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624007;
-			
-			// aapt resource value: 0x7F0E0048
-			public const int Base_Theme_AppCompat = 2131624008;
-			
-			// aapt resource value: 0x7F0E0049
-			public const int Base_Theme_AppCompat_CompactMenu = 2131624009;
-			
-			// aapt resource value: 0x7F0E004A
-			public const int Base_Theme_AppCompat_Dialog = 2131624010;
-			
-			// aapt resource value: 0x7F0E004B
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131624011;
-			
-			// aapt resource value: 0x7F0E004C
-			public const int Base_Theme_AppCompat_Dialog_Alert = 2131624012;
-			
-			// aapt resource value: 0x7F0E004D
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131624013;
-			
-			// aapt resource value: 0x7F0E004E
-			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131624014;
-			
-			// aapt resource value: 0x7F0E004F
-			public const int Base_Theme_AppCompat_Light = 2131624015;
-			
-			// aapt resource value: 0x7F0E0050
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131624016;
-			
-			// aapt resource value: 0x7F0E0051
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131624017;
-			
-			// aapt resource value: 0x7F0E0052
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131624018;
-			
-			// aapt resource value: 0x7F0E0053
-			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131624019;
-			
-			// aapt resource value: 0x7F0E0054
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131624020;
-			
-			// aapt resource value: 0x7F0E0055
-			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131624021;
-			
-			// aapt resource value: 0x7F0E0056
-			public const int Base_Theme_MaterialComponents = 2131624022;
-			
-			// aapt resource value: 0x7F0E0057
-			public const int Base_Theme_MaterialComponents_Bridge = 2131624023;
-			
-			// aapt resource value: 0x7F0E0058
-			public const int Base_Theme_MaterialComponents_CompactMenu = 2131624024;
-			
-			// aapt resource value: 0x7F0E0059
-			public const int Base_Theme_MaterialComponents_Dialog = 2131624025;
-			
-			// aapt resource value: 0x7F0E005A
-			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131624026;
-			
-			// aapt resource value: 0x7F0E005B
-			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131624027;
-			
-			// aapt resource value: 0x7F0E005C
-			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131624028;
-			
-			// aapt resource value: 0x7F0E005D
-			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131624029;
-			
 			// aapt resource value: 0x7F0E005E
-			public const int Base_Theme_MaterialComponents_Light = 2131624030;
+			public const int Base_ThemeOverlay_AppCompat = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131624031;
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131624032;
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624033;
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131624034;
+			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131624035;
+			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131624036;
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131624037;
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624038;
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624038;
 			
-			// aapt resource value: 0x7F0E0067
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131624039;
+			// aapt resource value: 0x7F0E003F
+			public const int Base_Theme_AppCompat = 2131623999;
 			
-			// aapt resource value: 0x7F0E0068
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624040;
+			// aapt resource value: 0x7F0E0040
+			public const int Base_Theme_AppCompat_CompactMenu = 2131624000;
 			
-			// aapt resource value: 0x7F0E0069
-			public const int Base_V14_Theme_MaterialComponents = 2131624041;
+			// aapt resource value: 0x7F0E0041
+			public const int Base_Theme_AppCompat_Dialog = 2131624001;
 			
-			// aapt resource value: 0x7F0E006A
-			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131624042;
+			// aapt resource value: 0x7F0E0045
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131624005;
 			
-			// aapt resource value: 0x7F0E006B
-			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131624043;
+			// aapt resource value: 0x7F0E0042
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131624002;
 			
-			// aapt resource value: 0x7F0E006C
-			public const int Base_V14_Theme_MaterialComponents_Light = 2131624044;
+			// aapt resource value: 0x7F0E0043
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131624003;
 			
-			// aapt resource value: 0x7F0E006D
-			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131624045;
+			// aapt resource value: 0x7F0E0044
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131624004;
+			
+			// aapt resource value: 0x7F0E0046
+			public const int Base_Theme_AppCompat_Light = 2131624006;
+			
+			// aapt resource value: 0x7F0E0047
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131624007;
+			
+			// aapt resource value: 0x7F0E0048
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131624008;
+			
+			// aapt resource value: 0x7F0E004C
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131624012;
+			
+			// aapt resource value: 0x7F0E0049
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131624009;
+			
+			// aapt resource value: 0x7F0E004A
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131624010;
+			
+			// aapt resource value: 0x7F0E004B
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131624011;
+			
+			// aapt resource value: 0x7F0E004D
+			public const int Base_Theme_MaterialComponents = 2131624013;
+			
+			// aapt resource value: 0x7F0E004E
+			public const int Base_Theme_MaterialComponents_Bridge = 2131624014;
+			
+			// aapt resource value: 0x7F0E004F
+			public const int Base_Theme_MaterialComponents_CompactMenu = 2131624015;
+			
+			// aapt resource value: 0x7F0E0050
+			public const int Base_Theme_MaterialComponents_Dialog = 2131624016;
+			
+			// aapt resource value: 0x7F0E0054
+			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131624020;
+			
+			// aapt resource value: 0x7F0E0051
+			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131624017;
+			
+			// aapt resource value: 0x7F0E0052
+			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131624018;
+			
+			// aapt resource value: 0x7F0E0053
+			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131624019;
+			
+			// aapt resource value: 0x7F0E0055
+			public const int Base_Theme_MaterialComponents_Light = 2131624021;
+			
+			// aapt resource value: 0x7F0E0056
+			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131624022;
+			
+			// aapt resource value: 0x7F0E0057
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131624023;
+			
+			// aapt resource value: 0x7F0E0058
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624024;
+			
+			// aapt resource value: 0x7F0E0059
+			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131624025;
+			
+			// aapt resource value: 0x7F0E005D
+			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131624029;
+			
+			// aapt resource value: 0x7F0E005A
+			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131624026;
+			
+			// aapt resource value: 0x7F0E005B
+			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131624027;
+			
+			// aapt resource value: 0x7F0E005C
+			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624028;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624046;
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131624047;
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624047;
 			
-			// aapt resource value: 0x7F0E0070
-			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131624048;
+			// aapt resource value: 0x7F0E0067
+			public const int Base_V14_Theme_MaterialComponents = 2131624039;
 			
-			// aapt resource value: 0x7F0E0071
-			public const int Base_V21_Theme_AppCompat = 2131624049;
+			// aapt resource value: 0x7F0E0068
+			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131624040;
 			
-			// aapt resource value: 0x7F0E0072
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131624050;
+			// aapt resource value: 0x7F0E0069
+			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131624041;
 			
-			// aapt resource value: 0x7F0E0073
-			public const int Base_V21_Theme_AppCompat_Light = 2131624051;
+			// aapt resource value: 0x7F0E006A
+			public const int Base_V14_Theme_MaterialComponents_Light = 2131624042;
+			
+			// aapt resource value: 0x7F0E006B
+			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131624043;
+			
+			// aapt resource value: 0x7F0E006C
+			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624044;
+			
+			// aapt resource value: 0x7F0E006D
+			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131624045;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131624052;
+			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131624052;
+			
+			// aapt resource value: 0x7F0E0070
+			public const int Base_V21_Theme_AppCompat = 2131624048;
+			
+			// aapt resource value: 0x7F0E0071
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131624049;
+			
+			// aapt resource value: 0x7F0E0072
+			public const int Base_V21_Theme_AppCompat_Light = 2131624050;
+			
+			// aapt resource value: 0x7F0E0073
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131624051;
 			
 			// aapt resource value: 0x7F0E0075
 			public const int Base_V22_Theme_AppCompat = 2131624053;
@@ -9994,20 +11914,20 @@ namespace SchoolReminder.Droid
 			// aapt resource value: 0x7F0E007D
 			public const int Base_V28_Theme_AppCompat_Light = 2131624061;
 			
+			// aapt resource value: 0x7F0E0082
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131624066;
+			
 			// aapt resource value: 0x7F0E007E
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131624062;
+			public const int Base_V7_Theme_AppCompat = 2131624062;
 			
 			// aapt resource value: 0x7F0E007F
-			public const int Base_V7_Theme_AppCompat = 2131624063;
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131624063;
 			
 			// aapt resource value: 0x7F0E0080
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131624064;
+			public const int Base_V7_Theme_AppCompat_Light = 2131624064;
 			
 			// aapt resource value: 0x7F0E0081
-			public const int Base_V7_Theme_AppCompat_Light = 2131624065;
-			
-			// aapt resource value: 0x7F0E0082
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131624066;
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131624065;
 			
 			// aapt resource value: 0x7F0E0083
 			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131624067;
@@ -10054,26 +11974,26 @@ namespace SchoolReminder.Droid
 			// aapt resource value: 0x7F0E0091
 			public const int Base_Widget_AppCompat_Button = 2131624081;
 			
-			// aapt resource value: 0x7F0E0092
-			public const int Base_Widget_AppCompat_ButtonBar = 2131624082;
-			
-			// aapt resource value: 0x7F0E0093
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131624083;
-			
-			// aapt resource value: 0x7F0E0094
-			public const int Base_Widget_AppCompat_Button_Borderless = 2131624084;
-			
-			// aapt resource value: 0x7F0E0095
-			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131624085;
-			
-			// aapt resource value: 0x7F0E0096
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624086;
-			
 			// aapt resource value: 0x7F0E0097
-			public const int Base_Widget_AppCompat_Button_Colored = 2131624087;
+			public const int Base_Widget_AppCompat_ButtonBar = 2131624087;
 			
 			// aapt resource value: 0x7F0E0098
-			public const int Base_Widget_AppCompat_Button_Small = 2131624088;
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131624088;
+			
+			// aapt resource value: 0x7F0E0092
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131624082;
+			
+			// aapt resource value: 0x7F0E0093
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131624083;
+			
+			// aapt resource value: 0x7F0E0094
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624084;
+			
+			// aapt resource value: 0x7F0E0095
+			public const int Base_Widget_AppCompat_Button_Colored = 2131624085;
+			
+			// aapt resource value: 0x7F0E0096
+			public const int Base_Widget_AppCompat_Button_Small = 2131624086;
 			
 			// aapt resource value: 0x7F0E0099
 			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131624089;
@@ -10288,23 +12208,23 @@ namespace SchoolReminder.Droid
 			// aapt resource value: 0x7F0E00DE
 			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624158;
 			
+			// aapt resource value: 0x7F0E00E4
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624164;
+			
 			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624159;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624159;
 			
 			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624160;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624160;
 			
 			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624161;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624161;
 			
 			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624162;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624162;
 			
 			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624163;
-			
-			// aapt resource value: 0x7F0E00E4
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624164;
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624163;
 			
 			// aapt resource value: 0x7F0E00E5
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624165;
@@ -10570,209 +12490,209 @@ namespace SchoolReminder.Droid
 			// aapt resource value: 0x7F0E013A
 			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624250;
 			
-			// aapt resource value: 0x7F0E013B
-			public const int ThemeOverlay_AppCompat = 2131624251;
-			
-			// aapt resource value: 0x7F0E013C
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624252;
-			
-			// aapt resource value: 0x7F0E013D
-			public const int ThemeOverlay_AppCompat_Dark = 2131624253;
-			
-			// aapt resource value: 0x7F0E013E
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624254;
-			
-			// aapt resource value: 0x7F0E013F
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624255;
-			
-			// aapt resource value: 0x7F0E0140
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624256;
-			
-			// aapt resource value: 0x7F0E0141
-			public const int ThemeOverlay_AppCompat_Light = 2131624257;
-			
-			// aapt resource value: 0x7F0E0142
-			public const int ThemeOverlay_MaterialComponents = 2131624258;
-			
-			// aapt resource value: 0x7F0E0143
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624259;
-			
-			// aapt resource value: 0x7F0E0144
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624260;
-			
-			// aapt resource value: 0x7F0E0145
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624261;
-			
-			// aapt resource value: 0x7F0E0146
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624262;
-			
-			// aapt resource value: 0x7F0E0147
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624263;
-			
-			// aapt resource value: 0x7F0E0148
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624264;
-			
-			// aapt resource value: 0x7F0E0149
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624265;
-			
-			// aapt resource value: 0x7F0E014A
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624266;
-			
-			// aapt resource value: 0x7F0E014B
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624267;
-			
-			// aapt resource value: 0x7F0E014C
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624268;
-			
-			// aapt resource value: 0x7F0E014D
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624269;
-			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat = 2131624270;
-			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_CompactMenu = 2131624271;
-			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_AppCompat_DayNight = 2131624272;
-			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624273;
-			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624274;
-			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624275;
-			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624276;
-			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624277;
-			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624278;
-			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_AppCompat_Dialog = 2131624279;
-			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624280;
-			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_AppCompat_Dialog_Alert = 2131624281;
-			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624282;
-			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_AppCompat_Light = 2131624283;
-			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624284;
-			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_AppCompat_Light_Dialog = 2131624285;
-			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624286;
-			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624287;
-			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624288;
-			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624289;
-			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_AppCompat_NoActionBar = 2131624290;
-			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_Design = 2131624291;
-			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_Design_BottomSheetDialog = 2131624292;
-			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_Design_Light = 2131624293;
-			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624294;
-			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_Design_Light_NoActionBar = 2131624295;
-			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_Design_NoActionBar = 2131624296;
-			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents = 2131624297;
-			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624298;
-			
-			// aapt resource value: 0x7F0E016B
-			public const int Theme_MaterialComponents_Bridge = 2131624299;
-			
 			// aapt resource value: 0x7F0E016C
-			public const int Theme_MaterialComponents_CompactMenu = 2131624300;
+			public const int ThemeOverlay_AppCompat = 2131624300;
 			
 			// aapt resource value: 0x7F0E016D
-			public const int Theme_MaterialComponents_Dialog = 2131624301;
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624301;
 			
 			// aapt resource value: 0x7F0E016E
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624302;
+			public const int ThemeOverlay_AppCompat_Dark = 2131624302;
 			
 			// aapt resource value: 0x7F0E016F
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624303;
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624303;
 			
 			// aapt resource value: 0x7F0E0170
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624304;
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624304;
 			
 			// aapt resource value: 0x7F0E0171
-			public const int Theme_MaterialComponents_Light = 2131624305;
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624305;
 			
 			// aapt resource value: 0x7F0E0172
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624306;
+			public const int ThemeOverlay_AppCompat_Light = 2131624306;
 			
 			// aapt resource value: 0x7F0E0173
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624307;
+			public const int ThemeOverlay_MaterialComponents = 2131624307;
 			
 			// aapt resource value: 0x7F0E0174
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624308;
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624308;
 			
 			// aapt resource value: 0x7F0E0175
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624309;
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624309;
 			
 			// aapt resource value: 0x7F0E0176
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624310;
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624310;
 			
 			// aapt resource value: 0x7F0E0177
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624311;
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624311;
 			
 			// aapt resource value: 0x7F0E0178
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624312;
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624312;
 			
 			// aapt resource value: 0x7F0E0179
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624313;
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624313;
 			
 			// aapt resource value: 0x7F0E017A
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624314;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624314;
 			
 			// aapt resource value: 0x7F0E017B
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624315;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624315;
 			
 			// aapt resource value: 0x7F0E017C
-			public const int Theme_MaterialComponents_NoActionBar = 2131624316;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624316;
 			
 			// aapt resource value: 0x7F0E017D
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624317;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624317;
 			
 			// aapt resource value: 0x7F0E017E
-			public const int Theme_Splash = 2131624318;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624318;
+			
+			// aapt resource value: 0x7F0E013B
+			public const int Theme_AppCompat = 2131624251;
+			
+			// aapt resource value: 0x7F0E013C
+			public const int Theme_AppCompat_CompactMenu = 2131624252;
+			
+			// aapt resource value: 0x7F0E013D
+			public const int Theme_AppCompat_DayNight = 2131624253;
+			
+			// aapt resource value: 0x7F0E013E
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624254;
+			
+			// aapt resource value: 0x7F0E013F
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624255;
+			
+			// aapt resource value: 0x7F0E0142
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624258;
+			
+			// aapt resource value: 0x7F0E0140
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624256;
+			
+			// aapt resource value: 0x7F0E0141
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624257;
+			
+			// aapt resource value: 0x7F0E0143
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624259;
+			
+			// aapt resource value: 0x7F0E0144
+			public const int Theme_AppCompat_Dialog = 2131624260;
+			
+			// aapt resource value: 0x7F0E0147
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624263;
+			
+			// aapt resource value: 0x7F0E0145
+			public const int Theme_AppCompat_Dialog_Alert = 2131624261;
+			
+			// aapt resource value: 0x7F0E0146
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624262;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int Theme_AppCompat_Light = 2131624264;
+			
+			// aapt resource value: 0x7F0E0149
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624265;
+			
+			// aapt resource value: 0x7F0E014A
+			public const int Theme_AppCompat_Light_Dialog = 2131624266;
+			
+			// aapt resource value: 0x7F0E014D
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624269;
+			
+			// aapt resource value: 0x7F0E014B
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624267;
+			
+			// aapt resource value: 0x7F0E014C
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624268;
+			
+			// aapt resource value: 0x7F0E014E
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624270;
+			
+			// aapt resource value: 0x7F0E014F
+			public const int Theme_AppCompat_NoActionBar = 2131624271;
+			
+			// aapt resource value: 0x7F0E0150
+			public const int Theme_Design = 2131624272;
+			
+			// aapt resource value: 0x7F0E0151
+			public const int Theme_Design_BottomSheetDialog = 2131624273;
+			
+			// aapt resource value: 0x7F0E0152
+			public const int Theme_Design_Light = 2131624274;
+			
+			// aapt resource value: 0x7F0E0153
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624275;
+			
+			// aapt resource value: 0x7F0E0154
+			public const int Theme_Design_Light_NoActionBar = 2131624276;
+			
+			// aapt resource value: 0x7F0E0155
+			public const int Theme_Design_NoActionBar = 2131624277;
+			
+			// aapt resource value: 0x7F0E0156
+			public const int Theme_MaterialComponents = 2131624278;
+			
+			// aapt resource value: 0x7F0E0157
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624279;
+			
+			// aapt resource value: 0x7F0E0158
+			public const int Theme_MaterialComponents_Bridge = 2131624280;
+			
+			// aapt resource value: 0x7F0E0159
+			public const int Theme_MaterialComponents_CompactMenu = 2131624281;
+			
+			// aapt resource value: 0x7F0E015A
+			public const int Theme_MaterialComponents_Dialog = 2131624282;
+			
+			// aapt resource value: 0x7F0E015D
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624285;
+			
+			// aapt resource value: 0x7F0E015B
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131624283;
+			
+			// aapt resource value: 0x7F0E015C
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624284;
+			
+			// aapt resource value: 0x7F0E015E
+			public const int Theme_MaterialComponents_Light = 2131624286;
+			
+			// aapt resource value: 0x7F0E015F
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624287;
+			
+			// aapt resource value: 0x7F0E0160
+			public const int Theme_MaterialComponents_Light_Bridge = 2131624288;
+			
+			// aapt resource value: 0x7F0E0161
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624289;
+			
+			// aapt resource value: 0x7F0E0162
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624290;
+			
+			// aapt resource value: 0x7F0E0163
+			public const int Theme_MaterialComponents_Light_Dialog = 2131624291;
+			
+			// aapt resource value: 0x7F0E0166
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624294;
+			
+			// aapt resource value: 0x7F0E0164
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624292;
+			
+			// aapt resource value: 0x7F0E0165
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624293;
+			
+			// aapt resource value: 0x7F0E0167
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624295;
+			
+			// aapt resource value: 0x7F0E0168
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624296;
+			
+			// aapt resource value: 0x7F0E0169
+			public const int Theme_MaterialComponents_NoActionBar = 2131624297;
+			
+			// aapt resource value: 0x7F0E016A
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624298;
+			
+			// aapt resource value: 0x7F0E016B
+			public const int Theme_Splash = 2131624299;
 			
 			// aapt resource value: 0x7F0E017F
 			public const int Widget_AppCompat_ActionBar = 2131624319;
@@ -10810,26 +12730,26 @@ namespace SchoolReminder.Droid
 			// aapt resource value: 0x7F0E018A
 			public const int Widget_AppCompat_Button = 2131624330;
 			
-			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_ButtonBar = 2131624331;
-			
-			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624332;
-			
-			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_Button_Borderless = 2131624333;
-			
-			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624334;
-			
-			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624335;
-			
 			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_Button_Colored = 2131624336;
+			public const int Widget_AppCompat_ButtonBar = 2131624336;
 			
 			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_Button_Small = 2131624337;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624337;
+			
+			// aapt resource value: 0x7F0E018B
+			public const int Widget_AppCompat_Button_Borderless = 2131624331;
+			
+			// aapt resource value: 0x7F0E018C
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624332;
+			
+			// aapt resource value: 0x7F0E018D
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624333;
+			
+			// aapt resource value: 0x7F0E018E
+			public const int Widget_AppCompat_Button_Colored = 2131624334;
+			
+			// aapt resource value: 0x7F0E018F
+			public const int Widget_AppCompat_Button_Small = 2131624335;
 			
 			// aapt resource value: 0x7F0E0192
 			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624338;
@@ -11074,20 +12994,20 @@ namespace SchoolReminder.Droid
 			// aapt resource value: 0x7F0E01E2
 			public const int Widget_MaterialComponents_CardView = 2131624418;
 			
+			// aapt resource value: 0x7F0E01E7
+			public const int Widget_MaterialComponents_ChipGroup = 2131624423;
+			
 			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_ChipGroup = 2131624419;
+			public const int Widget_MaterialComponents_Chip_Action = 2131624419;
 			
 			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Chip_Action = 2131624420;
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624420;
 			
 			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624421;
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624421;
 			
 			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624422;
-			
-			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624423;
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624422;
 			
 			// aapt resource value: 0x7F0E01E8
 			public const int Widget_MaterialComponents_FloatingActionButton = 2131624424;
@@ -11283,8 +13203,9 @@ namespace SchoolReminder.Droid
 			// aapt resource value: 0
 			public const int ActionMenuItemView_android_minWidth = 0;
 			
-			// aapt resource value: {  }
-			public static int[] ActionMenuView = new int[0];
+			// aapt resource value: { 0xFFFFFFFF }
+			public static int[] ActionMenuView = new int[] {
+					-1};
 			
 			// aapt resource value: { 0x7F030031,0x7F030032,0x7F03007E,0x7F0300E0,0x7F030178,0x7F0301C7 }
 			public static int[] ActionMode = new int[] {

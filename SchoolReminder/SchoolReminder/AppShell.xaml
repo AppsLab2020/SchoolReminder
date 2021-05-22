@@ -3,10 +3,11 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:SchoolReminder.Views"
        Title="SchoolReminder"
+       FlyoutIcon="menu.png"
        x:Class="SchoolReminder.AppShell">
 
     <Shell.Resources>
-        
+
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
                 <Setter Property="Shell.BackgroundColor" Value="{StaticResource Primary}" />
@@ -21,7 +22,7 @@
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
-            
+
             <Style Class="FlyoutItemLabelStyle" TargetType="Label">
                 <Setter Property="TextColor" Value="White"></Setter>
             </Style>
@@ -62,6 +63,14 @@
         </ResourceDictionary>
     </Shell.Resources>
 
+    <Shell.FlyoutHeader>
+        <local:HeaderContentPage/>
+    </Shell.FlyoutHeader>
+
+    <Shell.FlyoutFooter> 
+        <local:FooterContentPage/>
+    </Shell.FlyoutFooter>
+
     <FlyoutItem Title="Rozvrh" Icon="icon_rozvrh.png">
         <ShellContent Route="TimeTablePage" ContentTemplate="{DataTemplate local:TimeTablePage}" />
     </FlyoutItem>
@@ -74,10 +83,14 @@
     <FlyoutItem Title="Poznámky" Icon="icon_notes.png">
         <ShellContent Route="NotesListPage" ContentTemplate="{DataTemplate local:NotesListPage}" />
     </FlyoutItem>
-
-    <MenuItem>
-    </MenuItem>
     
-    <TabBar>
-    </TabBar>
+
+    <MenuItem Text="Help"
+              IconImageSource="help.png"
+              Command="{Binding HelpCommand}"
+              CommandParameter="https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell" />
+    <MenuItem Text="About"
+              IconImageSource="info.png"
+              Command="{Binding AboutCommnad}"
+              CommandParameter="https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell" />
 </Shell>
