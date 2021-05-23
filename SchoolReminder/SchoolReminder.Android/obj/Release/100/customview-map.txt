@@ -35,6 +35,7 @@ item;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminde
 item;obj\Release\100\res\values\styles.xml
 LinearLayout;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder.Android\obj\Release\100\lp\81\jl\res\layout\bottomtablayout.xml
 paths;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder.Android\obj\Release\100\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder.Android\obj\Release\100\lp\124\jl\res\values\strings.xml
 resources;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder.Android\obj\Release\100\lp\81\jl\res\values\attrs.xml
 resources;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder.Android\obj\Release\100\lp\81\jl\res\values\strings.xml
 resources;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder.Android\obj\Release\100\lp\81\jl\res\values\styles.xml
@@ -44,6 +45,7 @@ set;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder
 set;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder.Android\obj\Release\100\lp\81\jl\res\anim\enterfromright.xml
 set;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder.Android\obj\Release\100\lp\81\jl\res\anim\exittoleft.xml
 set;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder.Android\obj\Release\100\lp\81\jl\res\anim\exittoright.xml
+string;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder.Android\obj\Release\100\lp\124\jl\res\values\strings.xml
 string;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder.Android\obj\Release\100\lp\81\jl\res\values\strings.xml
 style;C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder.Android\obj\Release\100\lp\81\jl\res\values\styles.xml
 style;obj\Release\100\res\values\styles.xml

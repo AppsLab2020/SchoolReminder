@@ -25,3 +25,5 @@ C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder\obj
 C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.1\SchoolReminder.dll
 C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.1\ref\SchoolReminder.dll
 C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.1\SchoolReminder.pdb
+C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.1\Views\LoginPage.xaml.g.cs
+C:\Users\micha\Source\Repos\SchoolReminderMine\SchoolReminder\SchoolReminder\obj\Debug\netstandard2.1\Views\RegistrationPage.xaml.g.cs

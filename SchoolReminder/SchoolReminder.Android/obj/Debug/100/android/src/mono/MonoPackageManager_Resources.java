@@ -8,6 +8,8 @@ public class MonoPackageManager_Resources {
 		"Plugin.LocalNotifications.dll",
 		"SchoolReminder.dll",
 		"SQLite-net.dll",
+		"SQLite.Net.dll",
+		"SQLite.Net.Platform.XamarinAndroid.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.core.dll",
 		"SQLitePCLRaw.lib.e_sqlite3.android.dll",

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hcOjbSRoq1BScI+E58A92VZq7H+cmNeRS9TaWsCwn/iN9j+M3sNSvviNPPzP/U+f0FBjKQXv72ZFY+kEzsKmlg==",
+  "dgSpecHash": "b0Un3IP5e8VtOa5M3SxCYaW3QPoWNOLj1C9fD+a2ym+0RTlBPXVWcwDFJk7EaWmR5cNOvjaNe7AcfFLAJIR+1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\micha\\Source\\Repos\\SchoolReminderMine\\SchoolReminder\\SchoolReminder.Android\\SchoolReminder.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.12\\microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\sqlite-net-pcl\\1.8.0-beta\\sqlite-net-pcl.1.8.0-beta.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\sqlite.net-pcl\\3.1.1\\sqlite.net-pcl.3.1.1.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\sqlite.net.core-pcl\\3.1.1\\sqlite.net.core-pcl.3.1.1.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.4\\sqlitepclraw.lib.e_sqlite3.android.2.0.4.nupkg.sha512",
