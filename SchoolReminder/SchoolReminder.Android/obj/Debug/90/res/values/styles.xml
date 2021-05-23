@@ -1,0 +1,1 @@
+<resources><style name="MainTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar"><item name="android:statusBarColor">#69369e</item></style><style name="Theme.Splash" parent="android:Theme"><item name="android:windowBackground">@drawable/icon_appv</item><item name="android:windowNoTitle">true</item></style><style name="MainTheme" parent="MainTheme.Base"></style></resources>

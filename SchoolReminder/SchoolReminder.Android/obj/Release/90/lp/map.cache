@@ -86,3 +86,4 @@ Xamarin.Essentials.dll
 Xamarin.Forms.Platform.Android.dll
 Xamarin.Forms.Platform.dll
 Xamarin.Plugin.Calendar.dll
+SQLite.Net.Platform.XamarinAndroid.dll

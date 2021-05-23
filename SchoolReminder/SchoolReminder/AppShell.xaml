@@ -67,9 +67,9 @@
         <local:HeaderContentPage/>
     </Shell.FlyoutHeader>
 
-    <Shell.FlyoutFooter> 
+    <!--<Shell.FlyoutFooter> 
         <local:FooterContentPage/>
-    </Shell.FlyoutFooter>
+    </Shell.FlyoutFooter>-->
 
     <FlyoutItem Title="Rozvrh" Icon="icon_rozvrh.png">
         <ShellContent Route="TimeTablePage" ContentTemplate="{DataTemplate local:TimeTablePage}" />
