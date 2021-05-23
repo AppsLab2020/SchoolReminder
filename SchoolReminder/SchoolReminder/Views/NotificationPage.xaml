@@ -3,20 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SchoolReminder.Views.NotificationPage">
     <ContentPage.Content>
+        
         <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Image Source="entrybckg.png" Aspect="AspectFit" />
             <Label x:Name="nadpisntf" Text="Nadpis Notifikácie"></Label>
-            <Entry x:Name="nadpis"/>
-                <Label x:Name="obsahntf" Text="Obsah Notifikácie"></Label>
-               <Entry x:Name="obsah"/>
+            <Entry x:Name="nadpis"
+                   ClearButtonVisibility="WhileEditing"
+                   ReturnType="Next"
+                   />
+            <Label x:Name="obsahntf" Text="Obsah Notifikácie"></Label>
+            <Entry x:Name="obsah"
+                      ClearButtonVisibility="WhileEditing"
+                      ReturnType="Next"/>
             <Label x:Name="casikntf" Text="Upozornenie o:"/>
             <Label x:Name="dnintf" Text="O koľko dní?"/>
-            <Entry x:Name="dni" />
+            <Entry x:Name="dni" 
+                   Keyboard="Numeric"
+                   ReturnType="Next"/>
             <Label x:Name="hodinyntf" Text="O koľko hodín?"/>
-            <Entry x:Name="hodiny" />
+            <Entry x:Name="hodiny"
+                   Keyboard="Numeric"
+                   ReturnType="Next"/>
             <Label x:Name="minutyntf" Text="O koľko minút?"/>
-            <Entry x:Name="minuty" />
+            <Entry x:Name="minuty" 
+                   Keyboard="Numeric"
+                   ReturnType="Next"/>
             <Label x:Name="sekundyntf" Text="O koľko sekúnd?"/>
-            <Entry x:Name="sekundy" />
+            <Entry x:Name="sekundy" 
+                   Keyboard="Numeric"
+                   ReturnType="Done"/>
             <Button x:Name="notifiCreate" Text="Vytvor Notifikáciu" Clicked="Button_Clicked" ></Button>
         </StackLayout>
     </ContentPage.Content>
