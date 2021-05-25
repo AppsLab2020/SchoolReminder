@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SchoolReminder.Views.NotificationPage">
     <ContentPage.Content>
-        
+        <ScrollView>
         <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
             <Image Source="entrybckg.png" Aspect="AspectFit" />
             <Label x:Name="nadpisntf" Text="Nadpis Notifikácie"></Label>
@@ -34,5 +34,6 @@
                    ReturnType="Done"/>
             <Button x:Name="notifiCreate" Text="Vytvor Notifikáciu" Clicked="Button_Clicked" ></Button>
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

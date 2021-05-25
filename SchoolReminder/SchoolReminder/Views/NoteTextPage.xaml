@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="SchoolReminder.Views.NoteTextPage">
     <ContentPage.Content>
+        <ScrollView>
         <Frame BorderColor="Gray" HasShadow="True" CornerRadius="5" Margin="8">
             <StackLayout>
                 <Label Text="Názov:" FontSize="Medium"/>
@@ -19,5 +20,6 @@
 
             </StackLayout>
         </Frame>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
