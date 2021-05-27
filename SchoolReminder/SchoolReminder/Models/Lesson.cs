@@ -6,19 +6,17 @@ namespace SchoolReminder.Models
 {
     class Lesson
     {
-        public string Zaciatok { get; set; }
-        public string Koniec { get; set; }
+        public TimeSpan Zaciatok { get; set; }
+        public TimeSpan Koniec { get; set; }
+        ///priradit predmet///
 
-        public Lesson(string zaciatok, string koniec)
+        public Lesson(TimeSpan zaciatok, TimeSpan koniec)
         {
             Zaciatok = zaciatok;
             Koniec = koniec;
+
         }
-        public Lesson()
-        {
-            Zaciatok = "-1";
-            Koniec = "-1";
-        }
+    
         public override string ToString()
         {
             return $"\nMeno:{Zaciatok}\nUcitel:{Koniec}";

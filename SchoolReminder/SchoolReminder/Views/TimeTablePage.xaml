@@ -26,7 +26,8 @@
         </Grid.ColumnDefinitions>
         <!--DNI-->
         <BoxView Color="#69369e" />
-        <Label Text="Pon"
+        <Label x:Name="NazovRozvrhu"
+            Text ="{Binding Rozvrh.Name}"
                TextColor="#191919"
                FontAttributes="Bold"
                FontSize="Large"

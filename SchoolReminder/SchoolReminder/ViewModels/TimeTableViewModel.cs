@@ -1,4 +1,7 @@
-﻿using System;
+﻿using SchoolReminder.Models;
+using System;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -7,12 +10,16 @@ namespace SchoolReminder.ViewModels
 {
     public class TimeTableViewModel : BaseViewModel
     {
+
+        public Rozvrh Rozvrh;
         public TimeTableViewModel()
         {
-            Title = "Rozvrh";
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
+            Rozvrh = new Rozvrh("prvy");
+ 
         }
+       
 
-        public ICommand OpenWebCommand { get; }
+
+
     }
 }
