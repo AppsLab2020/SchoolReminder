@@ -1,35 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace SchoolReminder.Models
 {
     public class Rozvrh
     {
-        public string Name;
+        public string Name { get; }
         private List<Den> dni;
+
         public Rozvrh(string name)
         {
             Name = name;
 
-            dni = new List<Den>();
-
-            dni.Add(new Den("pondelok"));
-            dni.Add(new Den("utorok"));
-            dni.Add(new Den("streda"));
-            dni.Add(new Den("stvrtok"));
-            dni.Add(new Den("piatok"));
+            dni = new List<Den>
+            {
+                new Den("pondelok"),
+                new Den("utorok"),
+                new Den("streda"),
+                new Den("stvrtok"),
+                new Den("piatok")
+            };
         }
 
         public override string ToString()
         {
-            string s;
-            s = Name;
-
+            string s = Name;
             foreach (var den in dni)
             {
                 s += den.ToString() + "\n";
             }
+
             return s;
         }
     }

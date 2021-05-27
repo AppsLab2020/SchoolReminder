@@ -5,6 +5,10 @@
              xmlns:vm="clr-namespace:SchoolReminder.ViewModels"
              Title="{Binding Title}">
 
+    <ContentPage.BindingContext>
+        <vm:TimeTableViewModel />
+    </ContentPage.BindingContext>
+
     <Grid RowSpacing="1"
           ColumnSpacing="1" FlowDirection="LeftToRight" HeightRequest="-1" HorizontalOptions="Fill" Margin="10,30,10,300" BackgroundColor="#330670">
         <Grid.RowDefinitions>

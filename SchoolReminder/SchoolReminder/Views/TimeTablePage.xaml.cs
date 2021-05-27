@@ -1,12 +1,4 @@
-﻿using System;
-using System.ComponentModel;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-using SchoolReminder.ViewModels;
-using SchoolReminder.Views;
-using System.IO;
-    using SQLite;
-using SchoolReminder.Models;
+﻿using Xamarin.Forms;
 
 namespace SchoolReminder.Views
 {
@@ -15,10 +7,7 @@ namespace SchoolReminder.Views
         public TimeTablePage()
         {
             InitializeComponent();
-            BindingContext = new TimeTableViewModel();
-         
         }
-
 
         protected override bool OnBackButtonPressed()
         {
